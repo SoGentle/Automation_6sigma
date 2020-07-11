@@ -1,0 +1,2494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataDefinition label="ET Constructor" version="14.34">
+<ET_Project id="57849-47826">
+<Identification>
+<Name>ModelV4</Name>
+<Enforce_Unique_Reference_Designators>Yes</Enforce_Unique_Reference_Designators>
+</Identification>
+<Location>
+<Latitude>0 degrees</Latitude>
+<Longitude>0 degrees</Longitude>
+<Altitude>0 m</Altitude>
+<Model_North>0 degrees</Model_North>
+<Show_Compass_North>No</Show_Compass_North>
+</Location>
+<Layer_Type>Chassis,PCB,Drive,Power Supply,Fan</Layer_Type>
+<Custom_Installation_Status>Installed,Planned,Planned Decommission</Custom_Installation_Status>
+<SolutionEnclosureLink/>
+<TestChamberLink/>
+<ChassisLink>
+<Chassis id="57849-47827">
+<Installed>Yes</Installed>
+<Identification>
+<Type>Server</Type>
+<Model>Chassis</Model>
+<Reference_Designator>CH1</Reference_Designator>
+</Identification>
+<Geometry>
+<Height>1000 mm</Height>
+<Width>1000 mm</Width>
+<Depth>1000 mm</Depth>
+</Geometry>
+<Placement>
+<Origin_Point>Low Corner</Origin_Point>
+<Left_Offset>0 mm</Left_Offset>
+<Front_Offset>0 mm</Front_Offset>
+<X_Location>0 mm</X_Location>
+<Y_Location>0 mm</Y_Location>
+<Z_Location>0 mm</Z_Location>
+<Orientation>
+<Rotation_Mechanism>Angle and Axis</Rotation_Mechanism>
+<X_Axis>0</X_Axis>
+<Y_Axis>1</Y_Axis>
+<Z_Axis>0</Z_Axis>
+<Angle>0 degrees</Angle>
+<Rotation_Order>YZX</Rotation_Order>
+<Angle_1>0 degrees</Angle_1>
+<Angle_2>0 degrees</Angle_2>
+<Angle_3>0 degrees</Angle_3>
+</Orientation>
+</Placement>
+<Mounting_Location>
+<Mount>Front</Mount>
+<Depth_Offset>0 mm</Depth_Offset>
+<Vertical_Mounting_Position>Bottom</Vertical_Mounting_Position>
+<Vertical_Offset>0 mm</Vertical_Offset>
+<Sideways_Mounting_Position>Centre</Sideways_Mounting_Position>
+<Sideways_Offset>0 mm</Sideways_Offset>
+<Mount_Orientation>No Rotation</Mount_Orientation>
+</Mounting_Location>
+<Resilience_Criteria>
+<Thermal_Safety_Margin>5 C</Thermal_Safety_Margin>
+</Resilience_Criteria>
+<Construction>
+<Total_Weight>62880 g</Total_Weight>
+</Construction>
+<Display_Options>
+<Colour>180,180,180</Colour>
+<EnableUseMaterialColour>No</EnableUseMaterialColour>
+<Use_This_Colour>Yes</Use_This_Colour>
+<Secondary_Colour>180,180,180</Secondary_Colour>
+<Basic_Render_Style>Solid,Wireframe,Solid Outlined,Textured,Transparent,Invisible</Basic_Render_Style>
+<Render_Style>Invisible</Render_Style>
+<Transparency>70 %</Transparency>
+<Variable>Temperature</Variable>
+<Show_Computational_Shape>No</Show_Computational_Shape>
+<Data_Type>Regions</Data_Type>
+<Plot_Type>Variation Plot Smooth</Plot_Type>
+<Show_Grid>No</Show_Grid>
+<Target_Variable>Temperature</Target_Variable>
+<Hidden>No</Hidden>
+</Display_Options>
+<Viewing_Angle>
+<Align_With_Gravity>Yes</Align_With_Gravity>
+<Viewing_Angle_2D>0 degrees</Viewing_Angle_2D>
+<Viewing_Axis_2D>Y</Viewing_Axis_2D>
+</Viewing_Angle>
+<Library_Import_Record>
+<Version>0</Version>
+</Library_Import_Record>
+<Front>
+<Chassis_Side id="57849-47828">
+<Installed>Yes</Installed>
+<Construction>
+<Thickness>2 mm</Thickness>
+<Modelling_Level>Thin</Modelling_Level>
+<MaterialLink>57849-47849 </MaterialLink>
+<Material_Alignment>XYZ</Material_Alignment>
+<Material_Normal>X</Material_Normal>
+<EnvironmentLink>57849-47857 </EnvironmentLink>
+<Calculated_Weight>15720 g</Calculated_Weight>
+</Construction>
+<Cooling>
+<Subdivide_Surfaces_For_Radiation>No</Subdivide_Surfaces_For_Radiation>
+<Surface_Subdivision_Size>10 mm</Surface_Subdivision_Size>
+</Cooling>
+<Display_Options>
+<Colour>232,229,194</Colour>
+<EnableUseMaterialColour>No</EnableUseMaterialColour>
+<Use_This_Colour>Yes</Use_This_Colour>
+<Secondary_Colour>180,180,180</Secondary_Colour>
+<Basic_Render_Style>Solid,Wireframe,Solid Outlined,Textured,Transparent,Invisible</Basic_Render_Style>
+<Render_Style>Wireframe</Render_Style>
+<Transparency>70 %</Transparency>
+<Variable>Temperature</Variable>
+<Show_Computational_Shape>No</Show_Computational_Shape>
+<Data_Type>Regions</Data_Type>
+<Plot_Type>Variation Plot Smooth</Plot_Type>
+<Show_Grid>No</Show_Grid>
+<Target_Variable>Temperature</Target_Variable>
+<Hidden>No</Hidden>
+</Display_Options>
+<Fans/>
+<Vents/>
+<Vent_Openings/>
+<Cable_Sockets/>
+<Heatsinks/>
+<PumpedSupplies/>
+<PumpedReturns/>
+<StreamPlot/>
+<Simulation_Results>
+<Heat_Fluxes>
+<ShowPolygonSides>No</ShowPolygonSides>
+<ShowCuboidSides>No</ShowCuboidSides>
+</Heat_Fluxes>
+<Heat_Flow>
+<Heat_Flow_In>0 W</Heat_Flow_In>
+<Heat_Flow_Out>0 W</Heat_Flow_Out>
+</Heat_Flow>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+<Object_Shape_Definition>
+<Thin_Shape>No</Thin_Shape>
+<With_Holes>Yes</With_Holes>
+</Object_Shape_Definition>
+<Push_Pins/>
+</Chassis_Side>
+</Front>
+<Rear>
+<Chassis_Side id="57849-47829">
+<Installed>Yes</Installed>
+<Construction>
+<Thickness>2 mm</Thickness>
+<Modelling_Level>Thin</Modelling_Level>
+<MaterialLink>57849-47849 </MaterialLink>
+<Material_Alignment>XYZ</Material_Alignment>
+<Material_Normal>X</Material_Normal>
+<EnvironmentLink>57849-47857 </EnvironmentLink>
+<Calculated_Weight>15720 g</Calculated_Weight>
+</Construction>
+<Cooling>
+<Subdivide_Surfaces_For_Radiation>No</Subdivide_Surfaces_For_Radiation>
+<Surface_Subdivision_Size>10 mm</Surface_Subdivision_Size>
+</Cooling>
+<Display_Options>
+<Colour>232,229,194</Colour>
+<EnableUseMaterialColour>No</EnableUseMaterialColour>
+<Use_This_Colour>Yes</Use_This_Colour>
+<Secondary_Colour>180,180,180</Secondary_Colour>
+<Basic_Render_Style>Solid,Wireframe,Solid Outlined,Textured,Transparent,Invisible</Basic_Render_Style>
+<Render_Style>Wireframe</Render_Style>
+<Transparency>70 %</Transparency>
+<Variable>Temperature</Variable>
+<Show_Computational_Shape>No</Show_Computational_Shape>
+<Data_Type>Regions</Data_Type>
+<Plot_Type>Variation Plot Smooth</Plot_Type>
+<Show_Grid>No</Show_Grid>
+<Target_Variable>Temperature</Target_Variable>
+<Hidden>No</Hidden>
+</Display_Options>
+<Fans/>
+<Vents/>
+<Vent_Openings/>
+<Cable_Sockets/>
+<Heatsinks/>
+<PumpedSupplies/>
+<PumpedReturns/>
+<StreamPlot/>
+<Simulation_Results>
+<Heat_Fluxes>
+<ShowPolygonSides>No</ShowPolygonSides>
+<ShowCuboidSides>No</ShowCuboidSides>
+</Heat_Fluxes>
+<Heat_Flow>
+<Heat_Flow_In>0 W</Heat_Flow_In>
+<Heat_Flow_Out>0 W</Heat_Flow_Out>
+</Heat_Flow>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+<Object_Shape_Definition>
+<Thin_Shape>No</Thin_Shape>
+<With_Holes>Yes</With_Holes>
+</Object_Shape_Definition>
+<Push_Pins/>
+</Chassis_Side>
+</Rear>
+<Left_Side>
+<Chassis_Side id="57849-47830">
+<Installed>Yes</Installed>
+<Construction>
+<Thickness>2 mm</Thickness>
+<Modelling_Level>Thin</Modelling_Level>
+<MaterialLink>57849-47849 </MaterialLink>
+<Material_Alignment>XYZ</Material_Alignment>
+<Material_Normal>X</Material_Normal>
+<EnvironmentLink>57849-47857 </EnvironmentLink>
+<Calculated_Weight>15720 g</Calculated_Weight>
+</Construction>
+<Cooling>
+<Subdivide_Surfaces_For_Radiation>No</Subdivide_Surfaces_For_Radiation>
+<Surface_Subdivision_Size>10 mm</Surface_Subdivision_Size>
+</Cooling>
+<Display_Options>
+<Colour>232,229,194</Colour>
+<EnableUseMaterialColour>No</EnableUseMaterialColour>
+<Use_This_Colour>Yes</Use_This_Colour>
+<Secondary_Colour>180,180,180</Secondary_Colour>
+<Basic_Render_Style>Solid,Wireframe,Solid Outlined,Textured,Transparent,Invisible</Basic_Render_Style>
+<Render_Style>Wireframe</Render_Style>
+<Transparency>70 %</Transparency>
+<Variable>Temperature</Variable>
+<Show_Computational_Shape>No</Show_Computational_Shape>
+<Data_Type>Regions</Data_Type>
+<Plot_Type>Variation Plot Smooth</Plot_Type>
+<Show_Grid>No</Show_Grid>
+<Target_Variable>Temperature</Target_Variable>
+<Hidden>No</Hidden>
+</Display_Options>
+<Fans/>
+<Vents/>
+<Vent_Openings/>
+<Cable_Sockets/>
+<Heatsinks/>
+<PumpedSupplies/>
+<PumpedReturns/>
+<StreamPlot/>
+<Simulation_Results>
+<Heat_Fluxes>
+<ShowPolygonSides>No</ShowPolygonSides>
+<ShowCuboidSides>No</ShowCuboidSides>
+</Heat_Fluxes>
+<Heat_Flow>
+<Heat_Flow_In>0 W</Heat_Flow_In>
+<Heat_Flow_Out>0 W</Heat_Flow_Out>
+</Heat_Flow>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+<Object_Shape_Definition>
+<Thin_Shape>No</Thin_Shape>
+<With_Holes>Yes</With_Holes>
+</Object_Shape_Definition>
+<Push_Pins/>
+</Chassis_Side>
+</Left_Side>
+<Right_Side>
+<Chassis_Side id="57849-47831">
+<Installed>Yes</Installed>
+<Construction>
+<Thickness>2 mm</Thickness>
+<Modelling_Level>Thin</Modelling_Level>
+<MaterialLink>57849-47849 </MaterialLink>
+<Material_Alignment>XYZ</Material_Alignment>
+<Material_Normal>X</Material_Normal>
+<EnvironmentLink>57849-47857 </EnvironmentLink>
+<Calculated_Weight>15720 g</Calculated_Weight>
+</Construction>
+<Cooling>
+<Subdivide_Surfaces_For_Radiation>No</Subdivide_Surfaces_For_Radiation>
+<Surface_Subdivision_Size>10 mm</Surface_Subdivision_Size>
+</Cooling>
+<Display_Options>
+<Colour>232,229,194</Colour>
+<EnableUseMaterialColour>No</EnableUseMaterialColour>
+<Use_This_Colour>Yes</Use_This_Colour>
+<Secondary_Colour>180,180,180</Secondary_Colour>
+<Basic_Render_Style>Solid,Wireframe,Solid Outlined,Textured,Transparent,Invisible</Basic_Render_Style>
+<Render_Style>Wireframe</Render_Style>
+<Transparency>70 %</Transparency>
+<Variable>Temperature</Variable>
+<Show_Computational_Shape>No</Show_Computational_Shape>
+<Data_Type>Regions</Data_Type>
+<Plot_Type>Variation Plot Smooth</Plot_Type>
+<Show_Grid>No</Show_Grid>
+<Target_Variable>Temperature</Target_Variable>
+<Hidden>No</Hidden>
+</Display_Options>
+<Fans/>
+<Vents/>
+<Vent_Openings/>
+<Cable_Sockets/>
+<Heatsinks/>
+<PumpedSupplies/>
+<PumpedReturns/>
+<StreamPlot/>
+<Simulation_Results>
+<Heat_Fluxes>
+<ShowPolygonSides>No</ShowPolygonSides>
+<ShowCuboidSides>No</ShowCuboidSides>
+</Heat_Fluxes>
+<Heat_Flow>
+<Heat_Flow_In>0 W</Heat_Flow_In>
+<Heat_Flow_Out>0 W</Heat_Flow_Out>
+</Heat_Flow>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+<Object_Shape_Definition>
+<Thin_Shape>No</Thin_Shape>
+<With_Holes>Yes</With_Holes>
+</Object_Shape_Definition>
+<Push_Pins/>
+</Chassis_Side>
+</Right_Side>
+<Top>
+<Chassis_Side id="57849-47832">
+<Installed>No</Installed>
+<Construction>
+<Thickness>2 mm</Thickness>
+<Modelling_Level>Thin</Modelling_Level>
+<MaterialLink>57849-47849 </MaterialLink>
+<Material_Alignment>XYZ</Material_Alignment>
+<Material_Normal>X</Material_Normal>
+<EnvironmentLink>57849-47857 </EnvironmentLink>
+<Calculated_Weight>0 g</Calculated_Weight>
+</Construction>
+<Cooling>
+<Subdivide_Surfaces_For_Radiation>No</Subdivide_Surfaces_For_Radiation>
+<Surface_Subdivision_Size>10 mm</Surface_Subdivision_Size>
+</Cooling>
+<Display_Options>
+<Colour>232,229,194</Colour>
+<EnableUseMaterialColour>No</EnableUseMaterialColour>
+<Use_This_Colour>Yes</Use_This_Colour>
+<Secondary_Colour>180,180,180</Secondary_Colour>
+<Basic_Render_Style>Solid,Wireframe,Solid Outlined,Textured,Transparent,Invisible</Basic_Render_Style>
+<Render_Style>Wireframe</Render_Style>
+<Transparency>70 %</Transparency>
+<Variable>Temperature</Variable>
+<Show_Computational_Shape>No</Show_Computational_Shape>
+<Data_Type>Regions</Data_Type>
+<Plot_Type>Variation Plot Smooth</Plot_Type>
+<Show_Grid>No</Show_Grid>
+<Target_Variable>Temperature</Target_Variable>
+<Hidden>No</Hidden>
+</Display_Options>
+<Fans/>
+<Vents/>
+<Vent_Openings/>
+<Cable_Sockets/>
+<Heatsinks/>
+<PumpedSupplies/>
+<PumpedReturns/>
+<StreamPlot/>
+<Simulation_Results>
+<Heat_Fluxes>
+<ShowPolygonSides>No</ShowPolygonSides>
+<ShowCuboidSides>No</ShowCuboidSides>
+</Heat_Fluxes>
+<Heat_Flow>
+<Heat_Flow_In>0 W</Heat_Flow_In>
+<Heat_Flow_Out>0 W</Heat_Flow_Out>
+</Heat_Flow>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+<Object_Shape_Definition>
+<Shape_Type>Cuboid</Shape_Type>
+<Thin_Shape>No</Thin_Shape>
+<With_Holes>Yes</With_Holes>
+</Object_Shape_Definition>
+<Push_Pins/>
+</Chassis_Side>
+</Top>
+<Bottom>
+<Chassis_Side id="57849-47833">
+<Installed>No</Installed>
+<Construction>
+<Thickness>2 mm</Thickness>
+<Modelling_Level>Thin</Modelling_Level>
+<MaterialLink>57849-47849 </MaterialLink>
+<Material_Alignment>XYZ</Material_Alignment>
+<Material_Normal>X</Material_Normal>
+<EnvironmentLink>57849-47857 </EnvironmentLink>
+<Calculated_Weight>0 g</Calculated_Weight>
+</Construction>
+<Cooling>
+<Subdivide_Surfaces_For_Radiation>No</Subdivide_Surfaces_For_Radiation>
+<Surface_Subdivision_Size>10 mm</Surface_Subdivision_Size>
+</Cooling>
+<Display_Options>
+<Colour>232,229,194</Colour>
+<EnableUseMaterialColour>No</EnableUseMaterialColour>
+<Use_This_Colour>Yes</Use_This_Colour>
+<Secondary_Colour>180,180,180</Secondary_Colour>
+<Basic_Render_Style>Solid,Wireframe,Solid Outlined,Textured,Transparent,Invisible</Basic_Render_Style>
+<Render_Style>Wireframe</Render_Style>
+<Transparency>70 %</Transparency>
+<Variable>Temperature</Variable>
+<Show_Computational_Shape>No</Show_Computational_Shape>
+<Data_Type>Regions</Data_Type>
+<Plot_Type>Variation Plot Smooth</Plot_Type>
+<Show_Grid>No</Show_Grid>
+<Target_Variable>Temperature</Target_Variable>
+<Hidden>No</Hidden>
+</Display_Options>
+<Fans/>
+<Vents/>
+<Vent_Openings/>
+<Cable_Sockets/>
+<Heatsinks/>
+<PumpedSupplies/>
+<PumpedReturns/>
+<StreamPlot/>
+<Simulation_Results>
+<Heat_Fluxes>
+<ShowPolygonSides>No</ShowPolygonSides>
+<ShowCuboidSides>No</ShowCuboidSides>
+</Heat_Fluxes>
+<Heat_Flow>
+<Heat_Flow_In>0 W</Heat_Flow_In>
+<Heat_Flow_Out>0 W</Heat_Flow_Out>
+</Heat_Flow>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+<Object_Shape_Definition>
+<Shape_Type>Cuboid</Shape_Type>
+<Thin_Shape>No</Thin_Shape>
+<With_Holes>Yes</With_Holes>
+</Object_Shape_Definition>
+<Push_Pins/>
+</Chassis_Side>
+</Bottom>
+<Subchassis/>
+<Subassemblies/>
+<PCBs/>
+<Components/>
+<Batteries/>
+<Fans/>
+<Fan_Trays/>
+<Radial_Fans/>
+<Blowers/>
+<Flow_Devices/>
+<Pumps/>
+<CoolingDucts/>
+<Heatsinks/>
+<ColdPlates/>
+<TECs/>
+<Power_Supplies/>
+<Chassis_Bays/>
+<Card_Bays/>
+<Drive_Bays/>
+<Heat_Exchangers/>
+<SimplifiedEquipment/>
+<Cables/>
+<SolidObstructions/>
+<PerforatedObstructions/>
+<PorousObstructions/>
+<GroupObstructions/>
+<Sensors/>
+<Controllers/>
+<EquipmentLink/>
+<ChassisLink/>
+<ResultVolumes/>
+<ResultFaces/>
+<Heat_Sources/>
+<Grid_Controls/>
+<Simulation_Results>
+<Heat_Flow>
+<Heat_Flow_In>0 W</Heat_Flow_In>
+<Heat_Flow_Out>0 W</Heat_Flow_Out>
+</Heat_Flow>
+</Simulation_Results>
+<Exchange_Values/>
+</Chassis>
+</ChassisLink>
+<Materials>
+<Material id="57849-47834">
+<Name>ADC12</Name>
+<Conductivity>
+<Type>Isotropic</Type>
+<Option>Constant</Option>
+<Value>92 W/(m K)</Value>
+<Conductivity_Temperature_Curve>0,0.0261, 200,0.0261 &lt;C,W/(m K)></Conductivity_Temperature_Curve>
+<Normal>1 W/(m K)</Normal>
+<Planar>1 W/(m K)</Planar>
+<K1>1 W/(m K)</K1>
+<K2>1 W/(m K)</K2>
+<K3>1 W/(m K)</K3>
+</Conductivity>
+<Density>
+<Option>Constant</Option>
+<Value>2823 kg/m^3</Value>
+</Density>
+<Specific_Heat>
+<Option>Constant</Option>
+<Value>963 J/(kg K)</Value>
+<Specific_Heat_Temperature_Curve>0,1005, 200,1005 &lt;C,J/(kg K)></Specific_Heat_Temperature_Curve>
+</Specific_Heat>
+<Heat_Radiation_Properties>
+<Transparent_To_Heat_Radiation>No</Transparent_To_Heat_Radiation>
+<Surface_Emissivity>
+<Value>0.18</Value>
+</Surface_Emissivity>
+</Heat_Radiation_Properties>
+<Solar_Radiation_Properties>
+<Solar_Reflectance>
+<Value>0</Value>
+</Solar_Reflectance>
+<Transparent_To_Solar_Radiation>No</Transparent_To_Solar_Radiation>
+<Use_Reference_Values>Yes</Use_Reference_Values>
+<Solar_Absorptance>
+<Value>0</Value>
+</Solar_Absorptance>
+<Reference_Thickness>
+<Value>1000 mm</Value>
+</Reference_Thickness>
+<Solar_Attenuation_Coefficient>
+<Value>0 1/m</Value>
+</Solar_Attenuation_Coefficient>
+</Solar_Radiation_Properties>
+<Electrical_Conductivity>
+<Option>Constant</Option>
+<Value>0 S/m</Value>
+<Electrical_Conductivity_Temperature_Curve>0,0, 100,0 &lt;C,S/m></Electrical_Conductivity_Temperature_Curve>
+<Max_Value>10000000000 S/m</Max_Value>
+</Electrical_Conductivity>
+<Display_Options>
+<Choose_Custom_Colour>No</Choose_Custom_Colour>
+<Colour>255,255,255</Colour>
+</Display_Options>
+</Material>
+<Material id="57849-47835">
+<Name>ADC12_Coated</Name>
+<Conductivity>
+<Type>Isotropic</Type>
+<Option>Constant</Option>
+<Value>92 W/(m K)</Value>
+<Conductivity_Temperature_Curve>0,0.0261, 200,0.0261 &lt;C,W/(m K)></Conductivity_Temperature_Curve>
+<Normal>1 W/(m K)</Normal>
+<Planar>1 W/(m K)</Planar>
+<K1>1 W/(m K)</K1>
+<K2>1 W/(m K)</K2>
+<K3>1 W/(m K)</K3>
+</Conductivity>
+<Density>
+<Option>Constant</Option>
+<Value>2823 kg/m^3</Value>
+</Density>
+<Specific_Heat>
+<Option>Constant</Option>
+<Value>963 J/(kg K)</Value>
+<Specific_Heat_Temperature_Curve>0,1005, 200,1005 &lt;C,J/(kg K)></Specific_Heat_Temperature_Curve>
+</Specific_Heat>
+<Heat_Radiation_Properties>
+<Transparent_To_Heat_Radiation>No</Transparent_To_Heat_Radiation>
+<Surface_Emissivity>
+<Value>0.9</Value>
+</Surface_Emissivity>
+</Heat_Radiation_Properties>
+<Solar_Radiation_Properties>
+<Solar_Reflectance>
+<Value>0</Value>
+</Solar_Reflectance>
+<Transparent_To_Solar_Radiation>No</Transparent_To_Solar_Radiation>
+<Use_Reference_Values>Yes</Use_Reference_Values>
+<Solar_Absorptance>
+<Value>0</Value>
+</Solar_Absorptance>
+<Reference_Thickness>
+<Value>1000 mm</Value>
+</Reference_Thickness>
+<Solar_Attenuation_Coefficient>
+<Value>0 1/m</Value>
+</Solar_Attenuation_Coefficient>
+</Solar_Radiation_Properties>
+<Electrical_Conductivity>
+<Option>Constant</Option>
+<Value>0 S/m</Value>
+<Electrical_Conductivity_Temperature_Curve>0,0, 100,0 &lt;C,S/m></Electrical_Conductivity_Temperature_Curve>
+<Max_Value>10000000000 S/m</Max_Value>
+</Electrical_Conductivity>
+<Display_Options>
+<Choose_Custom_Colour>No</Choose_Custom_Colour>
+<Colour>255,255,255</Colour>
+</Display_Options>
+</Material>
+<Material id="57849-47836">
+<Name>AL6061-O</Name>
+<Conductivity>
+<Type>Isotropic</Type>
+<Option>Constant</Option>
+<Value>180 W/(m K)</Value>
+<Conductivity_Temperature_Curve>0,0.0261, 200,0.0261 &lt;C,W/(m K)></Conductivity_Temperature_Curve>
+<Normal>1 W/(m K)</Normal>
+<Planar>1 W/(m K)</Planar>
+<K1>1 W/(m K)</K1>
+<K2>1 W/(m K)</K2>
+<K3>1 W/(m K)</K3>
+</Conductivity>
+<Density>
+<Option>Constant</Option>
+<Value>2700 kg/m^3</Value>
+</Density>
+<Specific_Heat>
+<Option>Constant</Option>
+<Value>896 J/(kg K)</Value>
+<Specific_Heat_Temperature_Curve>0,1005, 200,1005 &lt;C,J/(kg K)></Specific_Heat_Temperature_Curve>
+</Specific_Heat>
+<Heat_Radiation_Properties>
+<Transparent_To_Heat_Radiation>No</Transparent_To_Heat_Radiation>
+<Surface_Emissivity>
+<Value>0.1</Value>
+</Surface_Emissivity>
+</Heat_Radiation_Properties>
+<Solar_Radiation_Properties>
+<Solar_Reflectance>
+<Value>0</Value>
+</Solar_Reflectance>
+<Transparent_To_Solar_Radiation>No</Transparent_To_Solar_Radiation>
+<Use_Reference_Values>Yes</Use_Reference_Values>
+<Solar_Absorptance>
+<Value>0</Value>
+</Solar_Absorptance>
+<Reference_Thickness>
+<Value>1000 mm</Value>
+</Reference_Thickness>
+<Solar_Attenuation_Coefficient>
+<Value>0 1/m</Value>
+</Solar_Attenuation_Coefficient>
+</Solar_Radiation_Properties>
+<Electrical_Conductivity>
+<Option>Constant</Option>
+<Value>0 S/m</Value>
+<Electrical_Conductivity_Temperature_Curve>0,0, 100,0 &lt;C,S/m></Electrical_Conductivity_Temperature_Curve>
+<Max_Value>10000000000 S/m</Max_Value>
+</Electrical_Conductivity>
+<Display_Options>
+<Choose_Custom_Colour>No</Choose_Custom_Colour>
+<Colour>255,255,255</Colour>
+</Display_Options>
+</Material>
+<Material id="57849-47837">
+<Name>AL6061-O_Coated</Name>
+<Conductivity>
+<Type>Isotropic</Type>
+<Option>Constant</Option>
+<Value>180 W/(m K)</Value>
+<Conductivity_Temperature_Curve>0,0.0261, 200,0.0261 &lt;C,W/(m K)></Conductivity_Temperature_Curve>
+<Normal>1 W/(m K)</Normal>
+<Planar>1 W/(m K)</Planar>
+<K1>1 W/(m K)</K1>
+<K2>1 W/(m K)</K2>
+<K3>1 W/(m K)</K3>
+</Conductivity>
+<Density>
+<Option>Constant</Option>
+<Value>2700 kg/m^3</Value>
+</Density>
+<Specific_Heat>
+<Option>Constant</Option>
+<Value>896 J/(kg K)</Value>
+<Specific_Heat_Temperature_Curve>0,1005, 200,1005 &lt;C,J/(kg K)></Specific_Heat_Temperature_Curve>
+</Specific_Heat>
+<Heat_Radiation_Properties>
+<Transparent_To_Heat_Radiation>No</Transparent_To_Heat_Radiation>
+<Surface_Emissivity>
+<Value>0.9</Value>
+</Surface_Emissivity>
+</Heat_Radiation_Properties>
+<Solar_Radiation_Properties>
+<Solar_Reflectance>
+<Value>0</Value>
+</Solar_Reflectance>
+<Transparent_To_Solar_Radiation>No</Transparent_To_Solar_Radiation>
+<Use_Reference_Values>Yes</Use_Reference_Values>
+<Solar_Absorptance>
+<Value>0</Value>
+</Solar_Absorptance>
+<Reference_Thickness>
+<Value>1000 mm</Value>
+</Reference_Thickness>
+<Solar_Attenuation_Coefficient>
+<Value>0 1/m</Value>
+</Solar_Attenuation_Coefficient>
+</Solar_Radiation_Properties>
+<Electrical_Conductivity>
+<Option>Constant</Option>
+<Value>0 S/m</Value>
+<Electrical_Conductivity_Temperature_Curve>0,0, 100,0 &lt;C,S/m></Electrical_Conductivity_Temperature_Curve>
+<Max_Value>10000000000 S/m</Max_Value>
+</Electrical_Conductivity>
+<Display_Options>
+<Choose_Custom_Colour>No</Choose_Custom_Colour>
+<Colour>255,255,255</Colour>
+</Display_Options>
+</Material>
+<Material id="57849-47838">
+<Name>ALDC</Name>
+<Conductivity>
+<Type>Isotropic</Type>
+<Option>Constant</Option>
+<Value>109 W/(m K)</Value>
+<Conductivity_Temperature_Curve>0,0.0261, 200,0.0261 &lt;C,W/(m K)></Conductivity_Temperature_Curve>
+<Normal>1 W/(m K)</Normal>
+<Planar>1 W/(m K)</Planar>
+<K1>1 W/(m K)</K1>
+<K2>1 W/(m K)</K2>
+<K3>1 W/(m K)</K3>
+</Conductivity>
+<Density>
+<Option>Constant</Option>
+<Value>2750 kg/m^3</Value>
+</Density>
+<Specific_Heat>
+<Option>Constant</Option>
+<Value>960 J/(kg K)</Value>
+<Specific_Heat_Temperature_Curve>0,1005, 200,1005 &lt;C,J/(kg K)></Specific_Heat_Temperature_Curve>
+</Specific_Heat>
+<Heat_Radiation_Properties>
+<Transparent_To_Heat_Radiation>No</Transparent_To_Heat_Radiation>
+<Surface_Emissivity>
+<Value>0.18</Value>
+</Surface_Emissivity>
+</Heat_Radiation_Properties>
+<Solar_Radiation_Properties>
+<Solar_Reflectance>
+<Value>0</Value>
+</Solar_Reflectance>
+<Transparent_To_Solar_Radiation>No</Transparent_To_Solar_Radiation>
+<Use_Reference_Values>Yes</Use_Reference_Values>
+<Solar_Absorptance>
+<Value>0</Value>
+</Solar_Absorptance>
+<Reference_Thickness>
+<Value>1000 mm</Value>
+</Reference_Thickness>
+<Solar_Attenuation_Coefficient>
+<Value>0 1/m</Value>
+</Solar_Attenuation_Coefficient>
+</Solar_Radiation_Properties>
+<Electrical_Conductivity>
+<Option>Constant</Option>
+<Value>0 S/m</Value>
+<Electrical_Conductivity_Temperature_Curve>0,0, 100,0 &lt;C,S/m></Electrical_Conductivity_Temperature_Curve>
+<Max_Value>10000000000 S/m</Max_Value>
+</Electrical_Conductivity>
+<Display_Options>
+<Choose_Custom_Colour>No</Choose_Custom_Colour>
+<Colour>255,255,255</Colour>
+</Display_Options>
+</Material>
+<Material id="57849-47839">
+<Name>Copper, Pure</Name>
+<Conductivity>
+<Type>Isotropic</Type>
+<Option>Constant</Option>
+<Value>386 W/(m K)</Value>
+<Conductivity_Temperature_Curve>0,386, 200,386 &lt;C,W/(m K)></Conductivity_Temperature_Curve>
+<Normal>1 W/(m K)</Normal>
+<Planar>1 W/(m K)</Planar>
+<K1>1 W/(m K)</K1>
+<K2>1 W/(m K)</K2>
+<K3>1 W/(m K)</K3>
+</Conductivity>
+<Density>
+<Option>Constant</Option>
+<Value>8950 kg/m^3</Value>
+</Density>
+<Specific_Heat>
+<Option>Constant</Option>
+<Value>380 J/(kg K)</Value>
+<Specific_Heat_Temperature_Curve>0,380, 200,380 &lt;C,J/(kg K)></Specific_Heat_Temperature_Curve>
+</Specific_Heat>
+<Heat_Radiation_Properties>
+<Transparent_To_Heat_Radiation>No</Transparent_To_Heat_Radiation>
+<Surface_Emissivity>
+<Value>0.92</Value>
+</Surface_Emissivity>
+</Heat_Radiation_Properties>
+<Solar_Radiation_Properties>
+<Solar_Reflectance>
+<Value>0</Value>
+</Solar_Reflectance>
+<Transparent_To_Solar_Radiation>No</Transparent_To_Solar_Radiation>
+<Use_Reference_Values>Yes</Use_Reference_Values>
+<Solar_Absorptance>
+<Value>0</Value>
+</Solar_Absorptance>
+<Reference_Thickness>
+<Value>1000 mm</Value>
+</Reference_Thickness>
+<Solar_Attenuation_Coefficient>
+<Value>0 1/m</Value>
+</Solar_Attenuation_Coefficient>
+</Solar_Radiation_Properties>
+<Electrical_Conductivity>
+<Option>Constant</Option>
+<Value>59500000 S/m</Value>
+<Electrical_Conductivity_Temperature_Curve>0,0, 100,0 &lt;C,S/m></Electrical_Conductivity_Temperature_Curve>
+<Max_Value>10000000000 S/m</Max_Value>
+</Electrical_Conductivity>
+<Display_Options>
+<Choose_Custom_Colour>No</Choose_Custom_Colour>
+<Colour>255,255,255</Colour>
+</Display_Options>
+</Material>
+<Material id="57849-47840">
+<Name>CU</Name>
+<Conductivity>
+<Type>Isotropic</Type>
+<Option>Constant</Option>
+<Value>386 W/(m K)</Value>
+<Conductivity_Temperature_Curve>0,0.0261, 200,0.0261 &lt;C,W/(m K)></Conductivity_Temperature_Curve>
+<Normal>1 W/(m K)</Normal>
+<Planar>1 W/(m K)</Planar>
+<K1>1 W/(m K)</K1>
+<K2>1 W/(m K)</K2>
+<K3>1 W/(m K)</K3>
+</Conductivity>
+<Density>
+<Option>Constant</Option>
+<Value>8940 kg/m^3</Value>
+</Density>
+<Specific_Heat>
+<Option>Constant</Option>
+<Value>386 J/(kg K)</Value>
+<Specific_Heat_Temperature_Curve>0,1005, 200,1005 &lt;C,J/(kg K)></Specific_Heat_Temperature_Curve>
+</Specific_Heat>
+<Heat_Radiation_Properties>
+<Transparent_To_Heat_Radiation>No</Transparent_To_Heat_Radiation>
+<Surface_Emissivity>
+<Value>0.8</Value>
+</Surface_Emissivity>
+</Heat_Radiation_Properties>
+<Solar_Radiation_Properties>
+<Solar_Reflectance>
+<Value>0</Value>
+</Solar_Reflectance>
+<Transparent_To_Solar_Radiation>No</Transparent_To_Solar_Radiation>
+<Use_Reference_Values>Yes</Use_Reference_Values>
+<Solar_Absorptance>
+<Value>0</Value>
+</Solar_Absorptance>
+<Reference_Thickness>
+<Value>1000 mm</Value>
+</Reference_Thickness>
+<Solar_Attenuation_Coefficient>
+<Value>0 1/m</Value>
+</Solar_Attenuation_Coefficient>
+</Solar_Radiation_Properties>
+<Electrical_Conductivity>
+<Option>Constant</Option>
+<Value>0 S/m</Value>
+<Electrical_Conductivity_Temperature_Curve>0,0, 100,0 &lt;C,S/m></Electrical_Conductivity_Temperature_Curve>
+<Max_Value>10000000000 S/m</Max_Value>
+</Electrical_Conductivity>
+<Display_Options>
+<Choose_Custom_Colour>No</Choose_Custom_Colour>
+<Colour>255,255,255</Colour>
+</Display_Options>
+</Material>
+<Material id="57849-47841">
+<Name>EPOXY</Name>
+<Conductivity>
+<Type>Isotropic</Type>
+<Option>Constant</Option>
+<Value>1 W/(m K)</Value>
+<Conductivity_Temperature_Curve>0,0.0261, 200,0.0261 &lt;C,W/(m K)></Conductivity_Temperature_Curve>
+<Normal>1 W/(m K)</Normal>
+<Planar>1 W/(m K)</Planar>
+<K1>1 W/(m K)</K1>
+<K2>1 W/(m K)</K2>
+<K3>1 W/(m K)</K3>
+</Conductivity>
+<Density>
+<Option>Constant</Option>
+<Value>670 kg/m^3</Value>
+</Density>
+<Specific_Heat>
+<Option>Constant</Option>
+<Value>1000 J/(kg K)</Value>
+<Specific_Heat_Temperature_Curve>0,1005, 200,1005 &lt;C,J/(kg K)></Specific_Heat_Temperature_Curve>
+</Specific_Heat>
+<Heat_Radiation_Properties>
+<Transparent_To_Heat_Radiation>No</Transparent_To_Heat_Radiation>
+<Surface_Emissivity>
+<Value>0.8</Value>
+</Surface_Emissivity>
+</Heat_Radiation_Properties>
+<Solar_Radiation_Properties>
+<Solar_Reflectance>
+<Value>0</Value>
+</Solar_Reflectance>
+<Transparent_To_Solar_Radiation>No</Transparent_To_Solar_Radiation>
+<Use_Reference_Values>Yes</Use_Reference_Values>
+<Solar_Absorptance>
+<Value>0</Value>
+</Solar_Absorptance>
+<Reference_Thickness>
+<Value>1000 mm</Value>
+</Reference_Thickness>
+<Solar_Attenuation_Coefficient>
+<Value>0 1/m</Value>
+</Solar_Attenuation_Coefficient>
+</Solar_Radiation_Properties>
+<Electrical_Conductivity>
+<Option>Constant</Option>
+<Value>0 S/m</Value>
+<Electrical_Conductivity_Temperature_Curve>0,0, 100,0 &lt;C,S/m></Electrical_Conductivity_Temperature_Curve>
+<Max_Value>10000000000 S/m</Max_Value>
+</Electrical_Conductivity>
+<Display_Options>
+<Choose_Custom_Colour>No</Choose_Custom_Colour>
+<Colour>255,255,255</Colour>
+</Display_Options>
+</Material>
+<Material id="57849-47842">
+<Name>FR4</Name>
+<Conductivity>
+<Type>Isotropic</Type>
+<Option>Constant</Option>
+<Value>0.3 W/(m K)</Value>
+<Conductivity_Temperature_Curve>-17.7777777777778,0.3, 93.3333333333333,0.3 &lt;C,W/(m K)></Conductivity_Temperature_Curve>
+<Normal>1 W/(m K)</Normal>
+<Planar>1 W/(m K)</Planar>
+<K1>1 W/(m K)</K1>
+<K2>1 W/(m K)</K2>
+<K3>1 W/(m K)</K3>
+</Conductivity>
+<Density>
+<Option>Constant</Option>
+<Value>1200 kg/m^3</Value>
+</Density>
+<Specific_Heat>
+<Option>Constant</Option>
+<Value>880 J/(kg K)</Value>
+<Specific_Heat_Temperature_Curve>0,880, 200,880 &lt;C,J/(kg K)></Specific_Heat_Temperature_Curve>
+</Specific_Heat>
+<Heat_Radiation_Properties>
+<Transparent_To_Heat_Radiation>No</Transparent_To_Heat_Radiation>
+<Surface_Emissivity>
+<Value>0.92</Value>
+</Surface_Emissivity>
+</Heat_Radiation_Properties>
+<Solar_Radiation_Properties>
+<Solar_Reflectance>
+<Value>0</Value>
+</Solar_Reflectance>
+<Transparent_To_Solar_Radiation>No</Transparent_To_Solar_Radiation>
+<Use_Reference_Values>Yes</Use_Reference_Values>
+<Solar_Absorptance>
+<Value>0</Value>
+</Solar_Absorptance>
+<Reference_Thickness>
+<Value>1000 mm</Value>
+</Reference_Thickness>
+<Solar_Attenuation_Coefficient>
+<Value>0 1/m</Value>
+</Solar_Attenuation_Coefficient>
+</Solar_Radiation_Properties>
+<Electrical_Conductivity>
+<Option>Constant</Option>
+<Value>0 S/m</Value>
+<Electrical_Conductivity_Temperature_Curve>0,0, 100,0 &lt;C,S/m></Electrical_Conductivity_Temperature_Curve>
+<Max_Value>10000000000 S/m</Max_Value>
+</Electrical_Conductivity>
+<Display_Options>
+<Choose_Custom_Colour>No</Choose_Custom_Colour>
+<Colour>255,255,255</Colour>
+</Display_Options>
+</Material>
+<Material id="57849-47843">
+<Name>FR4_DB</Name>
+<Conductivity>
+<Type>Isotropic</Type>
+<Option>Constant</Option>
+<Value>0.3 W/(m K)</Value>
+<Conductivity_Temperature_Curve>0,0.0261, 200,0.0261 &lt;C,W/(m K)></Conductivity_Temperature_Curve>
+<Normal>1 W/(m K)</Normal>
+<Planar>1 W/(m K)</Planar>
+<K1>1 W/(m K)</K1>
+<K2>1 W/(m K)</K2>
+<K3>1 W/(m K)</K3>
+</Conductivity>
+<Density>
+<Option>Constant</Option>
+<Value>1250 kg/m^3</Value>
+</Density>
+<Specific_Heat>
+<Option>Constant</Option>
+<Value>1300 J/(kg K)</Value>
+<Specific_Heat_Temperature_Curve>0,1005, 200,1005 &lt;C,J/(kg K)></Specific_Heat_Temperature_Curve>
+</Specific_Heat>
+<Heat_Radiation_Properties>
+<Transparent_To_Heat_Radiation>No</Transparent_To_Heat_Radiation>
+<Surface_Emissivity>
+<Value>0.8</Value>
+</Surface_Emissivity>
+</Heat_Radiation_Properties>
+<Solar_Radiation_Properties>
+<Solar_Reflectance>
+<Value>0</Value>
+</Solar_Reflectance>
+<Transparent_To_Solar_Radiation>No</Transparent_To_Solar_Radiation>
+<Use_Reference_Values>Yes</Use_Reference_Values>
+<Solar_Absorptance>
+<Value>0</Value>
+</Solar_Absorptance>
+<Reference_Thickness>
+<Value>1000 mm</Value>
+</Reference_Thickness>
+<Solar_Attenuation_Coefficient>
+<Value>0 1/m</Value>
+</Solar_Attenuation_Coefficient>
+</Solar_Radiation_Properties>
+<Electrical_Conductivity>
+<Option>Constant</Option>
+<Value>0 S/m</Value>
+<Electrical_Conductivity_Temperature_Curve>0,0, 100,0 &lt;C,S/m></Electrical_Conductivity_Temperature_Curve>
+<Max_Value>10000000000 S/m</Max_Value>
+</Electrical_Conductivity>
+<Display_Options>
+<Choose_Custom_Colour>No</Choose_Custom_Colour>
+<Colour>255,255,255</Colour>
+</Display_Options>
+</Material>
+<Material id="57849-47844">
+<Name>PBT</Name>
+<Conductivity>
+<Type>Isotropic</Type>
+<Option>Constant</Option>
+<Value>0.18 W/(m K)</Value>
+<Conductivity_Temperature_Curve>0,0.0261, 200,0.0261 &lt;C,W/(m K)></Conductivity_Temperature_Curve>
+<Normal>1 W/(m K)</Normal>
+<Planar>1 W/(m K)</Planar>
+<K1>1 W/(m K)</K1>
+<K2>1 W/(m K)</K2>
+<K3>1 W/(m K)</K3>
+</Conductivity>
+<Density>
+<Option>Constant</Option>
+<Value>1300 kg/m^3</Value>
+</Density>
+<Specific_Heat>
+<Option>Constant</Option>
+<Value>1200 J/(kg K)</Value>
+<Specific_Heat_Temperature_Curve>0,1005, 200,1005 &lt;C,J/(kg K)></Specific_Heat_Temperature_Curve>
+</Specific_Heat>
+<Heat_Radiation_Properties>
+<Transparent_To_Heat_Radiation>No</Transparent_To_Heat_Radiation>
+<Surface_Emissivity>
+<Value>0.8</Value>
+</Surface_Emissivity>
+</Heat_Radiation_Properties>
+<Solar_Radiation_Properties>
+<Solar_Reflectance>
+<Value>0</Value>
+</Solar_Reflectance>
+<Transparent_To_Solar_Radiation>No</Transparent_To_Solar_Radiation>
+<Use_Reference_Values>Yes</Use_Reference_Values>
+<Solar_Absorptance>
+<Value>0</Value>
+</Solar_Absorptance>
+<Reference_Thickness>
+<Value>1000 mm</Value>
+</Reference_Thickness>
+<Solar_Attenuation_Coefficient>
+<Value>0 1/m</Value>
+</Solar_Attenuation_Coefficient>
+</Solar_Radiation_Properties>
+<Electrical_Conductivity>
+<Option>Constant</Option>
+<Value>0 S/m</Value>
+<Electrical_Conductivity_Temperature_Curve>0,0, 100,0 &lt;C,S/m></Electrical_Conductivity_Temperature_Curve>
+<Max_Value>10000000000 S/m</Max_Value>
+</Electrical_Conductivity>
+<Display_Options>
+<Choose_Custom_Colour>No</Choose_Custom_Colour>
+<Colour>255,255,255</Colour>
+</Display_Options>
+</Material>
+<Material id="57849-47845">
+<Name>PBT-PET-GF30</Name>
+<Conductivity>
+<Type>Isotropic</Type>
+<Option>Constant</Option>
+<Value>0.271 W/(m K)</Value>
+<Conductivity_Temperature_Curve>0,0.0261, 200,0.0261 &lt;C,W/(m K)></Conductivity_Temperature_Curve>
+<Normal>1 W/(m K)</Normal>
+<Planar>1 W/(m K)</Planar>
+<K1>1 W/(m K)</K1>
+<K2>1 W/(m K)</K2>
+<K3>1 W/(m K)</K3>
+</Conductivity>
+<Density>
+<Option>Constant</Option>
+<Value>1460 kg/m^3</Value>
+</Density>
+<Specific_Heat>
+<Option>Constant</Option>
+<Value>1200 J/(kg K)</Value>
+<Specific_Heat_Temperature_Curve>0,1005, 200,1005 &lt;C,J/(kg K)></Specific_Heat_Temperature_Curve>
+</Specific_Heat>
+<Heat_Radiation_Properties>
+<Transparent_To_Heat_Radiation>No</Transparent_To_Heat_Radiation>
+<Surface_Emissivity>
+<Value>0.8</Value>
+</Surface_Emissivity>
+</Heat_Radiation_Properties>
+<Solar_Radiation_Properties>
+<Solar_Reflectance>
+<Value>0</Value>
+</Solar_Reflectance>
+<Transparent_To_Solar_Radiation>No</Transparent_To_Solar_Radiation>
+<Use_Reference_Values>Yes</Use_Reference_Values>
+<Solar_Absorptance>
+<Value>0</Value>
+</Solar_Absorptance>
+<Reference_Thickness>
+<Value>1000 mm</Value>
+</Reference_Thickness>
+<Solar_Attenuation_Coefficient>
+<Value>0 1/m</Value>
+</Solar_Attenuation_Coefficient>
+</Solar_Radiation_Properties>
+<Electrical_Conductivity>
+<Option>Constant</Option>
+<Value>0 S/m</Value>
+<Electrical_Conductivity_Temperature_Curve>0,0, 100,0 &lt;C,S/m></Electrical_Conductivity_Temperature_Curve>
+<Max_Value>10000000000 S/m</Max_Value>
+</Electrical_Conductivity>
+<Display_Options>
+<Choose_Custom_Colour>No</Choose_Custom_Colour>
+<Colour>255,255,255</Colour>
+</Display_Options>
+</Material>
+<Material id="57849-47846">
+<Name>SECC</Name>
+<Conductivity>
+<Type>Isotropic</Type>
+<Option>Constant</Option>
+<Value>60.2 W/(m K)</Value>
+<Conductivity_Temperature_Curve>0,0.0261, 200,0.0261 &lt;C,W/(m K)></Conductivity_Temperature_Curve>
+<Normal>1 W/(m K)</Normal>
+<Planar>1 W/(m K)</Planar>
+<K1>1 W/(m K)</K1>
+<K2>1 W/(m K)</K2>
+<K3>1 W/(m K)</K3>
+</Conductivity>
+<Density>
+<Option>Constant</Option>
+<Value>7872 kg/m^3</Value>
+</Density>
+<Specific_Heat>
+<Option>Constant</Option>
+<Value>519 J/(kg K)</Value>
+<Specific_Heat_Temperature_Curve>0,1005, 200,1005 &lt;C,J/(kg K)></Specific_Heat_Temperature_Curve>
+</Specific_Heat>
+<Heat_Radiation_Properties>
+<Transparent_To_Heat_Radiation>No</Transparent_To_Heat_Radiation>
+<Surface_Emissivity>
+<Value>0.28</Value>
+</Surface_Emissivity>
+</Heat_Radiation_Properties>
+<Solar_Radiation_Properties>
+<Solar_Reflectance>
+<Value>0</Value>
+</Solar_Reflectance>
+<Transparent_To_Solar_Radiation>No</Transparent_To_Solar_Radiation>
+<Use_Reference_Values>Yes</Use_Reference_Values>
+<Solar_Absorptance>
+<Value>0</Value>
+</Solar_Absorptance>
+<Reference_Thickness>
+<Value>1000 mm</Value>
+</Reference_Thickness>
+<Solar_Attenuation_Coefficient>
+<Value>0 1/m</Value>
+</Solar_Attenuation_Coefficient>
+</Solar_Radiation_Properties>
+<Electrical_Conductivity>
+<Option>Constant</Option>
+<Value>0 S/m</Value>
+<Electrical_Conductivity_Temperature_Curve>0,0, 100,0 &lt;C,S/m></Electrical_Conductivity_Temperature_Curve>
+<Max_Value>10000000000 S/m</Max_Value>
+</Electrical_Conductivity>
+<Display_Options>
+<Choose_Custom_Colour>No</Choose_Custom_Colour>
+<Colour>255,255,255</Colour>
+</Display_Options>
+</Material>
+<Material id="57849-47847">
+<Name>SECC_Coated</Name>
+<Conductivity>
+<Type>Isotropic</Type>
+<Option>Constant</Option>
+<Value>60.2 W/(m K)</Value>
+<Conductivity_Temperature_Curve>0,0.0261, 200,0.0261 &lt;C,W/(m K)></Conductivity_Temperature_Curve>
+<Normal>1 W/(m K)</Normal>
+<Planar>1 W/(m K)</Planar>
+<K1>1 W/(m K)</K1>
+<K2>1 W/(m K)</K2>
+<K3>1 W/(m K)</K3>
+</Conductivity>
+<Density>
+<Option>Constant</Option>
+<Value>7872 kg/m^3</Value>
+</Density>
+<Specific_Heat>
+<Option>Constant</Option>
+<Value>519 J/(kg K)</Value>
+<Specific_Heat_Temperature_Curve>0,1005, 200,1005 &lt;C,J/(kg K)></Specific_Heat_Temperature_Curve>
+</Specific_Heat>
+<Heat_Radiation_Properties>
+<Transparent_To_Heat_Radiation>No</Transparent_To_Heat_Radiation>
+<Surface_Emissivity>
+<Value>0.9</Value>
+</Surface_Emissivity>
+</Heat_Radiation_Properties>
+<Solar_Radiation_Properties>
+<Solar_Reflectance>
+<Value>0</Value>
+</Solar_Reflectance>
+<Transparent_To_Solar_Radiation>No</Transparent_To_Solar_Radiation>
+<Use_Reference_Values>Yes</Use_Reference_Values>
+<Solar_Absorptance>
+<Value>0</Value>
+</Solar_Absorptance>
+<Reference_Thickness>
+<Value>1000 mm</Value>
+</Reference_Thickness>
+<Solar_Attenuation_Coefficient>
+<Value>0 1/m</Value>
+</Solar_Attenuation_Coefficient>
+</Solar_Radiation_Properties>
+<Electrical_Conductivity>
+<Option>Constant</Option>
+<Value>0 S/m</Value>
+<Electrical_Conductivity_Temperature_Curve>0,0, 100,0 &lt;C,S/m></Electrical_Conductivity_Temperature_Curve>
+<Max_Value>10000000000 S/m</Max_Value>
+</Electrical_Conductivity>
+<Display_Options>
+<Choose_Custom_Colour>No</Choose_Custom_Colour>
+<Colour>255,255,255</Colour>
+</Display_Options>
+</Material>
+<Material id="57849-47848">
+<Name>Si(Silicon)</Name>
+<Conductivity>
+<Type>Isotropic</Type>
+<Option>Constant</Option>
+<Value>124 W/(m K)</Value>
+<Conductivity_Temperature_Curve>0,0.0261, 200,0.0261 &lt;C,W/(m K)></Conductivity_Temperature_Curve>
+<Normal>1 W/(m K)</Normal>
+<Planar>1 W/(m K)</Planar>
+<K1>1 W/(m K)</K1>
+<K2>1 W/(m K)</K2>
+<K3>1 W/(m K)</K3>
+</Conductivity>
+<Density>
+<Option>Constant</Option>
+<Value>2329 kg/m^3</Value>
+</Density>
+<Specific_Heat>
+<Option>Constant</Option>
+<Value>702 J/(kg K)</Value>
+<Specific_Heat_Temperature_Curve>0,1005, 200,1005 &lt;C,J/(kg K)></Specific_Heat_Temperature_Curve>
+</Specific_Heat>
+<Heat_Radiation_Properties>
+<Transparent_To_Heat_Radiation>No</Transparent_To_Heat_Radiation>
+<Surface_Emissivity>
+<Value>0.8</Value>
+</Surface_Emissivity>
+</Heat_Radiation_Properties>
+<Solar_Radiation_Properties>
+<Solar_Reflectance>
+<Value>0</Value>
+</Solar_Reflectance>
+<Transparent_To_Solar_Radiation>No</Transparent_To_Solar_Radiation>
+<Use_Reference_Values>Yes</Use_Reference_Values>
+<Solar_Absorptance>
+<Value>0</Value>
+</Solar_Absorptance>
+<Reference_Thickness>
+<Value>1000 mm</Value>
+</Reference_Thickness>
+<Solar_Attenuation_Coefficient>
+<Value>0 1/m</Value>
+</Solar_Attenuation_Coefficient>
+</Solar_Radiation_Properties>
+<Electrical_Conductivity>
+<Option>Constant</Option>
+<Value>0 S/m</Value>
+<Electrical_Conductivity_Temperature_Curve>0,0, 100,0 &lt;C,S/m></Electrical_Conductivity_Temperature_Curve>
+<Max_Value>10000000000 S/m</Max_Value>
+</Electrical_Conductivity>
+<Display_Options>
+<Choose_Custom_Colour>No</Choose_Custom_Colour>
+<Colour>255,255,255</Colour>
+</Display_Options>
+</Material>
+<Material id="57849-47849">
+<Name>Steel, Mild</Name>
+<Conductivity>
+<Type>Isotropic</Type>
+<Option>Constant</Option>
+<Value>63 W/(m K)</Value>
+<Conductivity_Temperature_Curve>0,63, 200,63 &lt;C,W/(m K)></Conductivity_Temperature_Curve>
+<Normal>1 W/(m K)</Normal>
+<Planar>1 W/(m K)</Planar>
+<K1>1 W/(m K)</K1>
+<K2>1 W/(m K)</K2>
+<K3>1 W/(m K)</K3>
+</Conductivity>
+<Density>
+<Option>Constant</Option>
+<Value>7860 kg/m^3</Value>
+</Density>
+<Specific_Heat>
+<Option>Constant</Option>
+<Value>420 J/(kg K)</Value>
+<Specific_Heat_Temperature_Curve>0,420, 200,420 &lt;C,J/(kg K)></Specific_Heat_Temperature_Curve>
+</Specific_Heat>
+<Heat_Radiation_Properties>
+<Transparent_To_Heat_Radiation>No</Transparent_To_Heat_Radiation>
+<Surface_Emissivity>
+<Value>0.92</Value>
+</Surface_Emissivity>
+</Heat_Radiation_Properties>
+<Solar_Radiation_Properties>
+<Solar_Reflectance>
+<Value>0</Value>
+</Solar_Reflectance>
+<Transparent_To_Solar_Radiation>No</Transparent_To_Solar_Radiation>
+<Use_Reference_Values>Yes</Use_Reference_Values>
+<Solar_Absorptance>
+<Value>0</Value>
+</Solar_Absorptance>
+<Reference_Thickness>
+<Value>1 m</Value>
+</Reference_Thickness>
+<Solar_Attenuation_Coefficient>
+<Value>0 1/m</Value>
+</Solar_Attenuation_Coefficient>
+</Solar_Radiation_Properties>
+<Electrical_Conductivity>
+<Option>Constant</Option>
+<Value>5560000 S/m</Value>
+<Electrical_Conductivity_Temperature_Curve>0,0, 100,0 &lt;C,S/m></Electrical_Conductivity_Temperature_Curve>
+<Max_Value>10000000000 S/m</Max_Value>
+</Electrical_Conductivity>
+<Display_Options>
+<Choose_Custom_Colour>No</Choose_Custom_Colour>
+<Colour>255,255,255</Colour>
+</Display_Options>
+</Material>
+<Material id="57849-47850">
+<Name>Thermal-Pad</Name>
+<Conductivity>
+<Type>Isotropic</Type>
+<Option>Constant</Option>
+<Value>1.5 W/(m K)</Value>
+<Conductivity_Temperature_Curve>0,0.0261, 200,0.0261 &lt;C,W/(m K)></Conductivity_Temperature_Curve>
+<Normal>1 W/(m K)</Normal>
+<Planar>1 W/(m K)</Planar>
+<K1>1 W/(m K)</K1>
+<K2>1 W/(m K)</K2>
+<K3>1 W/(m K)</K3>
+</Conductivity>
+<Density>
+<Option>Constant</Option>
+<Value>2100 kg/m^3</Value>
+</Density>
+<Specific_Heat>
+<Option>Constant</Option>
+<Value>1000 J/(kg K)</Value>
+<Specific_Heat_Temperature_Curve>0,1005, 200,1005 &lt;C,J/(kg K)></Specific_Heat_Temperature_Curve>
+</Specific_Heat>
+<Heat_Radiation_Properties>
+<Transparent_To_Heat_Radiation>No</Transparent_To_Heat_Radiation>
+<Surface_Emissivity>
+<Value>0.8</Value>
+</Surface_Emissivity>
+</Heat_Radiation_Properties>
+<Solar_Radiation_Properties>
+<Solar_Reflectance>
+<Value>0</Value>
+</Solar_Reflectance>
+<Transparent_To_Solar_Radiation>No</Transparent_To_Solar_Radiation>
+<Use_Reference_Values>Yes</Use_Reference_Values>
+<Solar_Absorptance>
+<Value>0</Value>
+</Solar_Absorptance>
+<Reference_Thickness>
+<Value>1000 mm</Value>
+</Reference_Thickness>
+<Solar_Attenuation_Coefficient>
+<Value>0 1/m</Value>
+</Solar_Attenuation_Coefficient>
+</Solar_Radiation_Properties>
+<Electrical_Conductivity>
+<Option>Constant</Option>
+<Value>0 S/m</Value>
+<Electrical_Conductivity_Temperature_Curve>0,0, 100,0 &lt;C,S/m></Electrical_Conductivity_Temperature_Curve>
+<Max_Value>10000000000 S/m</Max_Value>
+</Electrical_Conductivity>
+<Display_Options>
+<Choose_Custom_Colour>No</Choose_Custom_Colour>
+<Colour>255,255,255</Colour>
+</Display_Options>
+</Material>
+</Materials>
+<Fluids/>
+<Contaminants/>
+<Generic_Scalars/>
+<SuppressedErrors/>
+<ShortcutCameras/>
+<Created_in>6SigmaET</Created_in>
+<Last_Modified_in>6SigmaET</Last_Modified_in>
+<Continuous_Error_Checking>Yes</Continuous_Error_Checking>
+<Model_Store_Record>
+<Revision_Number>0</Revision_Number>
+<Upload_Date>00/00/0000</Upload_Date>
+<Upload_Time>09:00:00</Upload_Time>
+<Download_Date>00/00/0000</Download_Date>
+<Download_Time>09:00:00</Download_Time>
+<Last_Saved_Date>00/00/0000</Last_Saved_Date>
+<Last_Saved_Time>09:00:00</Last_Saved_Time>
+</Model_Store_Record>
+<PACDataList/>
+<LegendBounds>
+<LegendBound id="57849-47851">
+<Name>Radiation Surface Heat Flux</Name>
+<Bound_Type>Full</Bound_Type>
+<Upper_Bound>1</Upper_Bound>
+<Lower_Bound>0</Lower_Bound>
+</LegendBound>
+<LegendBound id="57849-47852">
+<Name>Temperature</Name>
+<Bound_Type>Full</Bound_Type>
+<Upper_Bound>1</Upper_Bound>
+<Lower_Bound>0</Lower_Bound>
+</LegendBound>
+<LegendBound id="57849-47853">
+<Name>Surface Radiation</Name>
+<Bound_Type>Full</Bound_Type>
+<Upper_Bound>1</Upper_Bound>
+<Lower_Bound>0</Lower_Bound>
+</LegendBound>
+<LegendBound id="57849-47854">
+<Name>X Heat Flux</Name>
+<Bound_Type>Full</Bound_Type>
+<Upper_Bound>1</Upper_Bound>
+<Lower_Bound>0</Lower_Bound>
+</LegendBound>
+</LegendBounds>
+<LegendScalings/>
+<SurfaceTempOptionsLink>
+<Surface_Temperature_Options id="57849-47855">
+<Surface_Temperature_Outlined>Yes</Surface_Temperature_Outlined>
+<Surface_Temperature_Edge_Threshold>10 degrees</Surface_Temperature_Edge_Threshold>
+<Surface_Temperature_Refinement_Factor>4</Surface_Temperature_Refinement_Factor>
+<Caching_Surface_Temperature>No</Caching_Surface_Temperature>
+</Surface_Temperature_Options>
+</SurfaceTempOptionsLink>
+<Activate_Cooling_Module>Yes</Activate_Cooling_Module>
+<Project_Fluid>
+<Fluid id="57849-47856">
+<Name>Air</Name>
+<Density>
+<Altitude_Based>No</Altitude_Based>
+<Option>Ideal Gas</Option>
+<Value>1.19 kg/m^3</Value>
+<Pressure_Altitude_Curve>-250,104365, 0,101325, 250,98357.6, 500,95461.2, 750,92634.6, 1000,89876.2, 1500,84559.6, 2000,79501.4, 2500,74691.7, 3000,70121.1, 3500,65780.3, 4000,61660.4, 5000,54048.2, 6000,47217.6, 7000,41105.2, 8000,35651.6, 9000,30800.7, 10000,26499.9 &lt;m,Pa></Pressure_Altitude_Curve>
+<Density_Reference_Temperature>23 C</Density_Reference_Temperature>
+<Calculated_Density>0 kg/m^3</Calculated_Density>
+</Density>
+<Laminar_Viscosity>
+<Option>Constant</Option>
+<Value>0.0000184 kg/ms</Value>
+<Laminar_Viscosity_Temperature_Curve>0,1.84e-05, 200,1.84e-05 &lt;C,kg/ms></Laminar_Viscosity_Temperature_Curve>
+</Laminar_Viscosity>
+<Conductivity>
+<Option>Constant</Option>
+<Value>0.0260305 W/(m K)</Value>
+<Conductivity_Temperature_Curve>0,0.0261, 200,0.0261 &lt;C,W/(m K)></Conductivity_Temperature_Curve>
+</Conductivity>
+<Specific_Heat>
+<Option>Constant</Option>
+<Value>1003.62 J/(kg K)</Value>
+<Specific_Heat_Temperature_Curve>0,1005, 200,1005 &lt;C,J/(kg K)></Specific_Heat_Temperature_Curve>
+</Specific_Heat>
+<Expansivity>
+<Value>0.0033333 1/C</Value>
+</Expansivity>
+<Molecular_Weight>
+<Value>28.9664 kg/kmol</Value>
+</Molecular_Weight>
+<Reference_Pressure>
+<Value>101325 Pa</Value>
+</Reference_Pressure>
+</Fluid>
+</Project_Fluid>
+<Environments>
+<Environment id="57849-47857">
+<Identification>
+<Name>Default Environment</Name>
+</Identification>
+<Temperature>
+<Time_Dependent_Specification>No</Time_Dependent_Specification>
+<Option>Constant</Option>
+<Temperature>75 C</Temperature>
+<Temperature_Curve>0,20, 100,20 &lt;s,C></Temperature_Curve>
+<Heat_Load_Value>0 W/m^2</Heat_Load_Value>
+<Heat_Load_Curve>0,0, 100,0 &lt;s,W/m^2></Heat_Load_Curve>
+<Total_Heat_Load_Value>0 W</Total_Heat_Load_Value>
+<Total_Heat_Load_Curve>0,0, 100,0 &lt;s,W></Total_Heat_Load_Curve>
+<External_Heat_Transfer>
+<Option>From Environment</Option>
+<Heat_Transfer_Coefficient>10 W/(m^2K)</Heat_Transfer_Coefficient>
+<HTC_Curve>0,10, 100,10 &lt;s,W/(m^2K)></HTC_Curve>
+<Heat_Radiation>
+<Active>Yes</Active>
+<Radiant_Temperature_Option>Use Temperature Value</Radiant_Temperature_Option>
+<Radiant_Temperature>20 C</Radiant_Temperature>
+<Radiant_Temperature_Curve>0,20, 100,20 &lt;s,C></Radiant_Temperature_Curve>
+<Emissivity>1</Emissivity>
+</Heat_Radiation>
+<Solar_Radiation>
+<Active>Yes</Active>
+</Solar_Radiation>
+</External_Heat_Transfer>
+</Temperature>
+<Velocity>
+<Velocity_Specification>Uniform</Velocity_Specification>
+<X_Velocity>
+<X_Velocity>0 m/s</X_Velocity>
+</X_Velocity>
+<Y_Velocity>
+<Y_Velocity>0 m/s</Y_Velocity>
+</Y_Velocity>
+<Z_Velocity>
+<Z_Velocity>0 m/s</Z_Velocity>
+</Z_Velocity>
+<Wind_Profile>
+<Direction>S</Direction>
+<Azimuth>0 degrees</Azimuth>
+<Height_Variation>None</Height_Variation>
+<Wind_Speed>1 m/s</Wind_Speed>
+<Reference_Height>10 m</Reference_Height>
+<Roughness_Length>0.1 m</Roughness_Length>
+<Wind_Profile>0,0, 0.1,0.131, 0.2,0.262, 0.5,0.435, 1,0.565, 2,0.696, 5,0.869, 10,1, 20,1.131, 35,1.236, 50,1.304 &lt;m,m/s></Wind_Profile>
+</Wind_Profile>
+</Velocity>
+<Pressure>
+<Pressure>0 Pa</Pressure>
+</Pressure>
+<Relative_Humidity>
+<Relative_Humidity>0 %</Relative_Humidity>
+</Relative_Humidity>
+<Contaminants>
+<Environmental_Contaminants/>
+<Concentrations> : </Concentrations>
+</Contaminants>
+<Generic_Scalars>
+<Environmental_Generic_Scalars/>
+<Constant_Values> : </Constant_Values>
+</Generic_Scalars>
+</Environment>
+</Environments>
+<SolutionControlLink>
+<Solution_Control id="57849-47858">
+<Solution_Directory>\\sh-nas\KHKIM\Works_2020\Mobis\Test_Model_v4\Test_Model_v4/Baseline</Solution_Directory>
+<Solution_Scheme>
+<Solution_Type>Flow and Temperature</Solution_Type>
+<Freeze_Flow>No</Freeze_Flow>
+<Use_Mixed_Precision>No</Use_Mixed_Precision>
+<Main_Matrix_Precision>Double</Main_Matrix_Precision>
+</Solution_Scheme>
+<Initialisation_Control>
+<Regenerate_Grid_and_Regions>Auto</Regenerate_Grid_and_Regions>
+<Reuse_Radiation_Data_On_Restart>Yes</Reuse_Radiation_Data_On_Restart>
+</Initialisation_Control>
+<Transient>
+<Time_Varying>No</Time_Varying>
+<Definition>
+<Time_Grid_Type>Uniform</Time_Grid_Type>
+<Total_Simulation_Time>1 s</Total_Simulation_Time>
+<Time_Step>1 s</Time_Step>
+<Time_Grid>0 &lt;s></Time_Grid>
+<Variable_Time_Grid>
+<Time_Grid_Ranges/>
+</Variable_Time_Grid>
+<Transient_Termination_Criterion>
+<Stop_At_Defined_Temperature>No</Stop_At_Defined_Temperature>
+<Sensor_Or_Component/>
+<Transient_Stop_Temperature>40 C</Transient_Stop_Temperature>
+</Transient_Termination_Criterion>
+<Time_Step_Number_of_Iterations>100</Time_Step_Number_of_Iterations>
+<Time_Step_Monitor_Interval>10</Time_Step_Monitor_Interval>
+<Flow_Field_Output_Specification>Interval</Flow_Field_Output_Specification>
+<Flow_Field_Output_Interval>1 s</Flow_Field_Output_Interval>
+<Flow_Field_Output_Times>0 &lt;s></Flow_Field_Output_Times>
+<Object_Results_Output_Specification>Same As Flow Field</Object_Results_Output_Specification>
+<Object_Results_Output_Interval>1 s</Object_Results_Output_Interval>
+<Object_Results_Output_Times>0 &lt;s></Object_Results_Output_Times>
+<Surface_Heat_Transfer>No</Surface_Heat_Transfer>
+<Equipment_Thermal_Inertia>No</Equipment_Thermal_Inertia>
+<ACU_Response_Time>60 s</ACU_Response_Time>
+<Initialise_Variables_From>Constant Fields</Initialise_Variables_From>
+</Definition>
+</Transient>
+<Iterations>
+<Number_of_Iterations>200</Number_of_Iterations>
+<Monitor_Interval>1</Monitor_Interval>
+</Iterations>
+<Turbulence>
+<Model>Standard KE</Model>
+<Value>0.01 kg/ms</Value>
+<LVEL_Wall_Function>Standard</LVEL_Wall_Function>
+<KE_Wall_Function>Standard</KE_Wall_Function>
+<Inlet_Turbulence>Yes</Inlet_Turbulence>
+<Specification_Type>Auto</Specification_Type>
+<Inlet_Energy_Intensity>5 %</Inlet_Energy_Intensity>
+<Inlet_Turbulent_Viscosity>0.01 kg/ms</Inlet_Turbulent_Viscosity>
+<Inlet_Length_Scale_Coefficient>0.1</Inlet_Length_Scale_Coefficient>
+<Face_Resistance_Turbulence>No</Face_Resistance_Turbulence>
+<Set_Face_Resistance_Flow_To_Laminar>No</Set_Face_Resistance_Flow_To_Laminar>
+<Volume_Resistance_Turbulence>No</Volume_Resistance_Turbulence>
+<Set_Volume_Resistance_Flow_To_Laminar>No</Set_Volume_Resistance_Flow_To_Laminar>
+<Turbulent_Viscosity_Upper_Bound>10000000000 kg/ms</Turbulent_Viscosity_Upper_Bound>
+<Allow_Turbulence_Generation_By_Buoyancy>No</Allow_Turbulence_Generation_By_Buoyancy>
+<C3EP>1</C3EP>
+<Store_Turbulent_Viscosity>No</Store_Turbulent_Viscosity>
+<Store_Turbulence_Generation>No</Store_Turbulence_Generation>
+<Store_Y_Plus>No</Store_Y_Plus>
+</Turbulence>
+<Gravity>
+<Active>Yes</Active>
+<Definition>
+<Gx>0 m/s^2</Gx>
+<Gy>-9.81 m/s^2</Gy>
+<Gz>0 m/s^2</Gz>
+<Reference_Temperature_Option>Auto</Reference_Temperature_Option>
+<Reference_Temperature>20 C</Reference_Temperature>
+<Boundary_Modification>No</Boundary_Modification>
+</Definition>
+</Gravity>
+<Fluid_Treatment>
+<Allow_Ideal_Gases>Yes</Allow_Ideal_Gases>
+</Fluid_Treatment>
+<Flow_Objects>
+<Allowed_Blockage>50 %</Allowed_Blockage>
+<Maximum_Temperature_Threshold>100 %</Maximum_Temperature_Threshold>
+<Flows_Overwrite_Blanking_Plates>Yes</Flows_Overwrite_Blanking_Plates>
+<Use_Accelerated_Velocity>Yes</Use_Accelerated_Velocity>
+<Use_Consistent_Momentum>No</Use_Consistent_Momentum>
+<Use_Fix_Resistance_Coefficient>No</Use_Fix_Resistance_Coefficient>
+<Allow_Momentum_Diffusion_across_Resistance>Yes</Allow_Momentum_Diffusion_across_Resistance>
+<Allow_Pressure_Driven_Excess_Flow>Yes</Allow_Pressure_Driven_Excess_Flow>
+<Excess_Flow_Correlation>0,0, 1000,0.44 &lt;1/m^2,></Excess_Flow_Correlation>
+<Off_Equipment_Excess_Flow_Factor>1.25</Off_Equipment_Excess_Flow_Factor>
+<Adjust_Coefficients_For_Pressure>Yes</Adjust_Coefficients_For_Pressure>
+<Fan_Curve_Reference_Density>1.19 kg/m^3</Fan_Curve_Reference_Density>
+<Fan_Inlet_Pressure_Type>Total Pressure</Fan_Inlet_Pressure_Type>
+<Axial_Fan_Outlet_Pressure_Treatment>Maximum</Axial_Fan_Outlet_Pressure_Treatment>
+<Fan_Outlet_Maximum_Pressure_Threshold>90 %</Fan_Outlet_Maximum_Pressure_Threshold>
+<Adjust_Coefficients_For_Calibration>No</Adjust_Coefficients_For_Calibration>
+<Straighten_Reversed_Grille_Flows>Yes</Straighten_Reversed_Grille_Flows>
+<Flow_Network_Relaxation>0.5</Flow_Network_Relaxation>
+<Flow_Network_Resistance_Relaxation>0.5</Flow_Network_Resistance_Relaxation>
+</Flow_Objects>
+<Solid_Objects>
+<Record_Thermal_Data>Yes</Record_Thermal_Data>
+<Allow_User_Defined_Heat_Transfer>No</Allow_User_Defined_Heat_Transfer>
+<Allow_Temperature_Dependent_Power>No</Allow_Temperature_Dependent_Power>
+<Use_Thin_Solid_Heat_Flux_Relaxation>No</Use_Thin_Solid_Heat_Flux_Relaxation>
+<Thin_Solid_Heat_Flux_Relaxation>0.1</Thin_Solid_Heat_Flux_Relaxation>
+<Allow_Surface_Roughness>No</Allow_Surface_Roughness>
+<Allow_Wall_Function_Specification>No</Allow_Wall_Function_Specification>
+<Allow_Surface_Area_Adjustment>No</Allow_Surface_Area_Adjustment>
+<Allow_Object_Based_Boundary_Cell_Reconstruction>No</Allow_Object_Based_Boundary_Cell_Reconstruction>
+<Allow_Motion>No</Allow_Motion>
+<Anisotropic_Correction>
+<Apply_Anisotropic_Correction>Detailed</Apply_Anisotropic_Correction>
+<Use_Anisotropic_Correction_Relaxation>No</Use_Anisotropic_Correction_Relaxation>
+<Anisotropic_Correction_Relaxation>0.1</Anisotropic_Correction_Relaxation>
+</Anisotropic_Correction>
+<Convective_HTC>
+<Output_convective_HTC>No</Output_convective_HTC>
+<Free_Stream_Temperature>Auto</Free_Stream_Temperature>
+<Free_Stream_Temperature_Value>20 C</Free_Stream_Temperature_Value>
+</Convective_HTC>
+</Solid_Objects>
+<Hybrid_Cells>
+<Allow>No</Allow>
+<Ignore_Hybrid_Cells>No</Ignore_Hybrid_Cells>
+<Split_Face_Generation_Option>Split Any Faces</Split_Face_Generation_Option>
+<Maximum_Open_Area_Fraction>2</Maximum_Open_Area_Fraction>
+<Maximum_Cell_Expansion_Ratio>5</Maximum_Cell_Expansion_Ratio>
+<Use_Hybrid_Cell_Regions>Yes</Use_Hybrid_Cell_Regions>
+<Eliminate_Tiny_Gaps>No</Eliminate_Tiny_Gaps>
+<Adjust_Flow_Boundaries>No</Adjust_Flow_Boundaries>
+<Adjust_Resistance_Boundaries>Yes</Adjust_Resistance_Boundaries>
+<Adjust_Friction>Yes</Adjust_Friction>
+<Validate_Cells>Yes</Validate_Cells>
+<Minimum_Open_Area_Fraction>0.0001</Minimum_Open_Area_Fraction>
+<Cell_Tolerance>0.0005</Cell_Tolerance>
+<Wall_Distance_Tolerance>0.01</Wall_Distance_Tolerance>
+<Minimum_Wall_Distance_Fraction>0.1</Minimum_Wall_Distance_Fraction>
+<Smooth_Wall_Distance>Yes</Smooth_Wall_Distance>
+<Use_Average_Mass_Flux>No</Use_Average_Mass_Flux>
+<Merge_Tiny_Cells>No</Merge_Tiny_Cells>
+<Merging_Criterion>0.1</Merging_Criterion>
+</Hybrid_Cells>
+<Solar_Radiation>
+<Active>No</Active>
+<Use_Calculator>No</Use_Calculator>
+<Intensity>200 W/m^2</Intensity>
+<Direction>
+<Ix>0</Ix>
+<Iy>-1</Iy>
+<Iz>0</Iz>
+</Direction>
+<Ignore_Reflected_Radiation>Yes</Ignore_Reflected_Radiation>
+<Sky_Radiation>
+<Allow_Sky_Radiation>No</Allow_Sky_Radiation>
+<Sky_Temperature>20 C</Sky_Temperature>
+</Sky_Radiation>
+<Face_Subdivision>16</Face_Subdivision>
+<Max_Number_of_Iterations>50</Max_Number_of_Iterations>
+<Simulation_Results>
+<Heat_Dissipated>0 W</Heat_Dissipated>
+</Simulation_Results>
+<Detailed_Solar_Intensity>
+<Start_Date>01/01/2010</Start_Date>
+<End_Date>31/12/2010</End_Date>
+<Start_Time>09:00:00</Start_Time>
+<End_Time>09:00:00</End_Time>
+<Interval>60 min</Interval>
+<Cloudiness>0</Cloudiness>
+<Moisture>0.0045 kg/kg</Moisture>
+<Visibility>50 km</Visibility>
+<Chosen_Index></Chosen_Index>
+</Detailed_Solar_Intensity>
+</Solar_Radiation>
+<Heat_Radiation>
+<Active>Yes</Active>
+<Modelling_Level>Full</Modelling_Level>
+<Heat_Radiation_Method>Hemisphere</Heat_Radiation_Method>
+<View_Factor>
+<Object_Polygon_Subdivision>6</Object_Polygon_Subdivision>
+<Hemisphere_Base_Size>100</Hemisphere_Base_Size>
+<Surface_Refinement_Level>2</Surface_Refinement_Level>
+<Outline_Mismatch_Threshold>25 %</Outline_Mismatch_Threshold>
+<Use_View_Factor_Adjustment>No</Use_View_Factor_Adjustment>
+<Minimum_Area_Threshold>0.1 %</Minimum_Area_Threshold>
+<Number_Of_Rays_Per_Triangle>51200</Number_Of_Rays_Per_Triangle>
+<Use_GPU>No</Use_GPU>
+<Use_Geometrical_Outlines>No</Use_Geometrical_Outlines>
+</View_Factor>
+<Allow_Surface_Subdivision>Yes</Allow_Surface_Subdivision>
+<Store_Surface_Radiation>Yes</Store_Surface_Radiation>
+</Heat_Radiation>
+<Joule_Heating>
+<Active>No</Active>
+<Solve_For_Electric_Potential>Yes</Solve_For_Electric_Potential>
+<Use_Gradient_Reconstruction>Yes</Use_Gradient_Reconstruction>
+<Allow_Solution_To_Continue>Yes</Allow_Solution_To_Continue>
+<Use_Region_Solution>Yes</Use_Region_Solution>
+<Use_MPI>Yes</Use_MPI>
+<Linear_Solver>CR</Linear_Solver>
+<Iteration_Control>
+<Solution_Interval>1</Solution_Interval>
+<Termination_Criterion>0.0001</Termination_Criterion>
+<Number_Of_Iterations>1000</Number_Of_Iterations>
+<Inner_Iteration_Control>
+<Termination_Criterion>0.001</Termination_Criterion>
+<Number_Of_Iterations>1000</Number_Of_Iterations>
+</Inner_Iteration_Control>
+</Iteration_Control>
+<Save_Solution_Region_Geometries>No</Save_Solution_Region_Geometries>
+</Joule_Heating>
+<Contamination_Control>
+<Active>No</Active>
+</Contamination_Control>
+<Development_Control>
+<Active>No</Active>
+<Write_Variable_Min_Max_Values>No</Write_Variable_Min_Max_Values>
+<Calculate_Wall_Distance_Field>No</Calculate_Wall_Distance_Field>
+<Parallel_Solver_Emulator>No</Parallel_Solver_Emulator>
+<Precision>Single</Precision>
+<Number_Of_Partitions>1</Number_Of_Partitions>
+<AMG_Coupling_Level>0</AMG_Coupling_Level>
+<Save_Solution_Geometries>No</Save_Solution_Geometries>
+<Heat_Radiation_Auxiliary_Options>
+<Allow_Surface_Outline_Display>No</Allow_Surface_Outline_Display>
+</Heat_Radiation_Auxiliary_Options>
+</Development_Control>
+<Generic_Scalar_Control>
+<Active>No</Active>
+</Generic_Scalar_Control>
+<Mass_Balance>
+<Check>Yes</Check>
+<Allow_Imbalance_For_Time_Dependent_Flows>Yes</Allow_Imbalance_For_Time_Dependent_Flows>
+<Global_Criterion>0.0001</Global_Criterion>
+<Local_Criterion>0.00001</Local_Criterion>
+</Mass_Balance>
+<Device_Relaxation>
+<Pressure_Relaxation>
+<Adjust>Yes</Adjust>
+<Mode>Automatic</Mode>
+<Linear_Relaxation>1</Linear_Relaxation>
+</Pressure_Relaxation>
+<Flow_Rate_Relaxation>
+<Adjust_Flow_Rate_Relaxation>No</Adjust_Flow_Rate_Relaxation>
+<Flow_Rate_Linear_Relaxation>0.1</Flow_Rate_Linear_Relaxation>
+</Flow_Rate_Relaxation>
+</Device_Relaxation>
+<Additional_Analysis>
+<Run_Additional_Analysis_On_Cancel>No</Run_Additional_Analysis_On_Cancel>
+<Effectiveness_Indices>
+<Active>No</Active>
+<Iteration_Control>
+<Termination_Criterion>0.0001</Termination_Criterion>
+<Number_Of_Iterations>10</Number_Of_Iterations>
+<Inner_Iteration_Control>
+<Termination_Criterion>0.01</Termination_Criterion>
+<Number_Of_Iterations>100</Number_Of_Iterations>
+</Inner_Iteration_Control>
+</Iteration_Control>
+</Effectiveness_Indices>
+<ACU_Zones_of_Influence>
+<Active>No</Active>
+</ACU_Zones_of_Influence>
+<Thermal_Comfort>
+<Active>No</Active>
+<Show_Auxiliary_Variables>No</Show_Auxiliary_Variables>
+<Calculation_Parameters>
+<Metabolic_Rate>58.15 W/m^2</Metabolic_Rate>
+<External_Work>0 W/m^2</External_Work>
+<Clothing_Thermal_Resistance>1 Clo</Clothing_Thermal_Resistance>
+<Water_Vapour_Pressure>1400 Pa</Water_Vapour_Pressure>
+<Above_Floor_Level>1.8 m</Above_Floor_Level>
+</Calculation_Parameters>
+<Simulation_Results>
+<ADPI>0 %</ADPI>
+</Simulation_Results>
+</Thermal_Comfort>
+<Humidity_Calculation>
+<Active>No</Active>
+<Iteration_Control>
+<Termination_Criterion>0.00001</Termination_Criterion>
+<Number_Of_Iterations>100</Number_Of_Iterations>
+<Inner_Iteration_Control>
+<Termination_Criterion>0.01</Termination_Criterion>
+<Number_Of_Iterations>10</Number_Of_Iterations>
+</Inner_Iteration_Control>
+</Iteration_Control>
+</Humidity_Calculation>
+<Exergy_Loss>
+<Active>No</Active>
+<Exergy_Reference_Temperature>20 C</Exergy_Reference_Temperature>
+<Exergy_Reference_Pressure>101330 Pa</Exergy_Reference_Pressure>
+</Exergy_Loss>
+</Additional_Analysis>
+<Multiple_Solution_Regions>
+<Remove_Passive_Regions>No</Remove_Passive_Regions>
+<Use_Multiple_Reference_Temperatures>No</Use_Multiple_Reference_Temperatures>
+<Stagnant_Cell_Adjustment>No</Stagnant_Cell_Adjustment>
+<Store_Region_Geometry>No</Store_Region_Geometry>
+<Write_Region_Summary>No</Write_Region_Summary>
+</Multiple_Solution_Regions>
+<Error_Fields>
+<Store_Error_Fields>No</Store_Error_Fields>
+</Error_Fields>
+<Boundary_Attributes>
+<Check_Boundary_Attributes>No</Check_Boundary_Attributes>
+</Boundary_Attributes>
+<Termination_Control>
+<Termination_Strategy>Residuals Only</Termination_Strategy>
+<Residual_Termination_Criteria>
+<Termination_Factor>
+<Value>1</Value>
+<Use_Reference_Values>Yes</Use_Reference_Values>
+<Use_Solid_Cell_Correction>No</Use_Solid_Cell_Correction>
+<Use_Cell_Flux>Yes</Use_Cell_Flux>
+</Termination_Factor>
+<Ignored_Variables>
+<Ignore_Temperature>No</Ignore_Temperature>
+<Ignore_X_Velocity>No</Ignore_X_Velocity>
+<Ignore_Y_Velocity>No</Ignore_Y_Velocity>
+<Ignore_Z_Velocity>No</Ignore_Z_Velocity>
+<Ignore_Pressure>No</Ignore_Pressure>
+<Ignore_KE>No</Ignore_KE>
+<Ignore_EP>No</Ignore_EP>
+</Ignored_Variables>
+</Residual_Termination_Criteria>
+<Monitor_Termination_Criteria>
+<Use_Sensors>Yes</Use_Sensors>
+<Select_Additional_Monitors>By Object Type</Select_Additional_Monitors>
+<Monitor_Objects>
+<Use_Vent_Openings>Yes</Use_Vent_Openings>
+<Use_Fans>Yes</Use_Fans>
+<Use_ACUs>Yes</Use_ACUs>
+<Use_Rows>Yes</Use_Rows>
+<Use_Pumped_Returns>Yes</Use_Pumped_Returns>
+<Use_Components>Yes</Use_Components>
+<Use_IT_Equipment>Yes</Use_IT_Equipment>
+<Use_Card_Enclosures>Yes</Use_Card_Enclosures>
+</Monitor_Objects>
+<Monitor_Data_Type>
+<Use_Flow_Rates>Yes</Use_Flow_Rates>
+<Use_Temperatures>Yes</Use_Temperatures>
+</Monitor_Data_Type>
+<Termination_Parameters>
+<Number_of_Iterations_Analysed>20</Number_of_Iterations_Analysed>
+<Gradient_Tolerance>0.003</Gradient_Tolerance>
+<Maximum_RMS>0.00005</Maximum_RMS>
+<Termination_Factor_Threshold>10</Termination_Factor_Threshold>
+</Termination_Parameters>
+</Monitor_Termination_Criteria>
+</Termination_Control>
+<Grid>
+<Grid_Type>Unstructured</Grid_Type>
+<Unstructured_Grid_Control>
+<Level_Generation>Refine From Max Size</Level_Generation>
+<Use_First_Level_2x2x2>Yes</Use_First_Level_2x2x2>
+<First_Level_Coarsening_Limit>5 %</First_Level_Coarsening_Limit>
+<Two_Dimensional_Grid>No</Two_Dimensional_Grid>
+<Two_Dimensional_Grid_Direction>X-Y</Two_Dimensional_Grid_Direction>
+<Single_Level_Grid>No</Single_Level_Grid>
+<Limit_Refinement_Ratio>Yes</Limit_Refinement_Ratio>
+<Refinement_Ratio_Limit>1</Refinement_Ratio_Limit>
+<Use_Extrusion>Yes</Use_Extrusion>
+<Eliminate_Dummy_Cells>Yes</Eliminate_Dummy_Cells>
+<Gap_Refinement>Yes</Gap_Refinement>
+<Push_Cells_To_Lower_Levels>No</Push_Cells_To_Lower_Levels>
+<Store_Grid_Connectivity>Yes</Store_Grid_Connectivity>
+<Grid_Plane_Display>
+<X_Location>500 mm</X_Location>
+<Y_Location>500 mm</Y_Location>
+<Z_Location>500 mm</Z_Location>
+<Height_Off_Floor>0 m</Height_Off_Floor>
+<Grid_Level>Multilevel</Grid_Level>
+</Grid_Plane_Display>
+</Unstructured_Grid_Control>
+<Cell_size_definition>Limited</Cell_size_definition>
+<Grid_Rules_Definition_File>ET/Small Models.csv</Grid_Rules_Definition_File>
+<Number_in_X>5</Number_in_X>
+<Number_in_Y>5</Number_in_Y>
+<Number_in_Z>5</Number_in_Z>
+<Uniform>No</Uniform>
+<Limit_Maximum_Cell_Size>Yes</Limit_Maximum_Cell_Size>
+<Ignore_Top_Level_Grid_Rule>Yes</Ignore_Top_Level_Grid_Rule>
+<Max_size_in_X>20 mm</Max_size_in_X>
+<Max_size_in_Y>20 mm</Max_size_in_Y>
+<Max_size_in_Z>20 mm</Max_size_in_Z>
+<Cell_Count_Target>1000000000</Cell_Count_Target>
+<X-Z_Cell_Size>0.1 m</X-Z_Cell_Size>
+<Y_Cell_Size>0.1 m</Y_Cell_Size>
+<Minimum_Gap_Size>0.01 mm</Minimum_Gap_Size>
+<Enable_Heat_Conduction_Gridding>Yes</Enable_Heat_Conduction_Gridding>
+<Use_Advanced_Grid_Controls>Yes</Use_Advanced_Grid_Controls>
+<Use_Inflation>Yes</Use_Inflation>
+<Apply_Smoothing>No</Apply_Smoothing>
+<Aspect_Ratio_Limit>5</Aspect_Ratio_Limit>
+<Expansion_Ratio_Limit>2</Expansion_Ratio_Limit>
+<Mounting_Rail_Simplification>No</Mounting_Rail_Simplification>
+<Grid_Summary>
+<Grid_Cell_Count>743 741 (Finest grid 153 x 145 x 151)</Grid_Cell_Count>
+<Grid_Cell_Count_Simple>743 741</Grid_Cell_Count_Simple>
+<Auto_.40.Unlimited.41._Cell_Count>743 741</Auto_.40.Unlimited.41._Cell_Count>
+<Cells_Added_In_Gaps>0</Cells_Added_In_Gaps>
+<Dummy_Cells_Eliminated>0</Dummy_Cells_Eliminated>
+<Available_Grid_Levels>Multilevel,Level 0,Level 1,Level 2,Level 3,Level 4,Level 5,Level 6,Level 7</Available_Grid_Levels>
+<Percentage_Of_Unlimited>100.00 %</Percentage_Of_Unlimited>
+<Number_Of_Levels>8
+<Cells_At_Level_0>9514</Cells_At_Level_0>
+<Cells_At_Level_1>64265</Cells_At_Level_1>
+<Cells_At_Level_2>118183</Cells_At_Level_2>
+<Cells_At_Level_3>58076</Cells_At_Level_3>
+<Cells_At_Level_4>50321</Cells_At_Level_4>
+<Cells_At_Level_5>288987</Cells_At_Level_5>
+<Cells_At_Level_6>7362</Cells_At_Level_6>
+<Cells_At_Level_7>147033</Cells_At_Level_7>
+</Number_Of_Levels>
+<Grid_Size_in_X>0</Grid_Size_in_X>
+<Grid_Size_in_Y>0</Grid_Size_in_Y>
+<Grid_Size_in_Z>0</Grid_Size_in_Z>
+<Largest_Cells>
+<Largest_X>0.02 @ 0.468, 0, 0 m</Largest_X>
+<Largest_Y>0.0198667 @ 0, 0.488133, 0 m</Largest_Y>
+<Largest_Z>0.019619 @ 0, 0, 0.35 m</Largest_Z>
+</Largest_Cells>
+<Smallest_Cells>
+<Smallest_X>0.0005 @ 0.4745, 0.498, 0.448095 m</Smallest_X>
+<Smallest_Y>3.5e-05 @ 0.4495, 0.51, 0.4545 m</Smallest_Y>
+<Smallest_Z>0.0005 @ 0.458, 0.35, 0.517 m</Smallest_Z>
+</Smallest_Cells>
+<Maximum_Aspect_Ratio>57.1429 (X/Y) @ 0.45, 0.51, 0.4545 m</Maximum_Aspect_Ratio>
+<Maximum_Expansion_Ratio>14.5714 (Y) @ 0.44975, 0.510035, 0.45475 m</Maximum_Expansion_Ratio>
+<Maximum_Refinement_Ratio>1 (X) @ 0.35, 0.354933, 0.340278 m</Maximum_Refinement_Ratio>
+</Grid_Summary>
+</Grid>
+<Miscellaneous>
+<Use_Potential_Flow_Solver>No</Use_Potential_Flow_Solver>
+<Use_Region_Solvers>No</Use_Region_Solvers>
+<Use_Double_Precision>No</Use_Double_Precision>
+<Linear_Solver>CR</Linear_Solver>
+<Reorder_Region_Cell_Indices>No</Reorder_Region_Cell_Indices>
+<Potential_Flow_Solver_Control>
+<Iteration_Control>
+<Termination_Criterion>0.001</Termination_Criterion>
+<Number_Of_Iterations>1000</Number_Of_Iterations>
+<Inner_Iteration_Control>
+<Termination_Criterion>0.01</Termination_Criterion>
+<Number_Of_Iterations>100</Number_Of_Iterations>
+</Inner_Iteration_Control>
+</Iteration_Control>
+</Potential_Flow_Solver_Control>
+<Use_Double_Precision_Thermal_Solver>Yes</Use_Double_Precision_Thermal_Solver>
+<Use_Face_Velocity_Solver>No</Use_Face_Velocity_Solver>
+<Use_Cell_Momentum_Convection>Yes</Use_Cell_Momentum_Convection>
+<Use_Gradient_Reconstruction_Scheme>No</Use_Gradient_Reconstruction_Scheme>
+<Pressure_Correction_Coefficients>Convection Only</Pressure_Correction_Coefficients>
+<Store_Computational_Geometry>Yes</Store_Computational_Geometry>
+<Combine_Cell_Computational_Geometry>Yes</Combine_Cell_Computational_Geometry>
+<Simplify_Computational_Geometry>Yes</Simplify_Computational_Geometry>
+<Multilevel_Computational_Geometry>Yes</Multilevel_Computational_Geometry>
+<Delete_Temporary_Solver_Files>Yes</Delete_Temporary_Solver_Files>
+<Binary_Output>Yes</Binary_Output>
+<Save_Profiling_Info>No</Save_Profiling_Info>
+<Ignore_Top_AMG_Coarse_Level>Yes</Ignore_Top_AMG_Coarse_Level>
+<Use_Edge_Blocking_Info>No</Use_Edge_Blocking_Info>
+<Exclude_Blocked_Momentum_Cells>No</Exclude_Blocked_Momentum_Cells>
+<Store_Cell_Momentum_Fields>Yes</Store_Cell_Momentum_Fields>
+</Miscellaneous>
+<Parallel_Control>
+<Delete_Distributed_Data>Yes</Delete_Distributed_Data>
+<Apply_AMG_Extension>Yes</Apply_AMG_Extension>
+<Coupling_Level>0</Coupling_Level>
+<Domain_Decomposition>
+<Direction>Auto</Direction>
+<Area_to_Load_Balance_Weighting>1</Area_to_Load_Balance_Weighting>
+<Use_Edge_Weighted_Partitioning>No</Use_Edge_Weighted_Partitioning>
+<Use_Coarse_Graph_For_Partitioning>Yes</Use_Coarse_Graph_For_Partitioning>
+<Extend_Communication_Buffers>Yes</Extend_Communication_Buffers>
+</Domain_Decomposition>
+</Parallel_Control>
+<Thermal_Resistor_Network>
+<Use_Network_For_2R_Components>Yes</Use_Network_For_2R_Components>
+<Limit_External_Resistance>No</Limit_External_Resistance>
+<External_Resistance_Limiting_Factor>0.01</External_Resistance_Limiting_Factor>
+<Use_Single_Limiting_Value>No</Use_Single_Limiting_Value>
+<Use_False_Time_Relaxation>No</Use_False_Time_Relaxation>
+<Link_To_Linear_Solver>No</Link_To_Linear_Solver>
+<Maximum_Number_Of_Local_Iterations>10</Maximum_Number_Of_Local_Iterations>
+<Local_Residual_Reduction_Factor>0.5</Local_Residual_Reduction_Factor>
+<Compact_Component_Generator>
+<Solver_Type>GDHN</Solver_Type>
+<Weight_Factor>0.5</Weight_Factor>
+<Resistor_Initial_Value>10</Resistor_Initial_Value>
+<Maximum_Resistor_Bound>100000</Maximum_Resistor_Bound>
+<Minimum_Resistor_Bound>0.00001</Minimum_Resistor_Bound>
+<Resistor_Perturbation_Factor>0.0001</Resistor_Perturbation_Factor>
+<Convergence_Criterion>1e-07</Convergence_Criterion>
+<Maximum_Number_Of_Iterations>1000</Maximum_Number_Of_Iterations>
+<Output_interval>1</Output_interval>
+</Compact_Component_Generator>
+</Thermal_Resistor_Network>
+<Variables>
+<Initial_Values_From_Open_Boundaries>Yes</Initial_Values_From_Open_Boundaries>
+<Temperature>
+<Variable_Name>Temperature</Variable_Name>
+<Initial_Value_Option>Auto</Initial_Value_Option>
+<Initial_Value>20 C</Initial_Value>
+<Stop_Residual_Sum>0.0004</Stop_Residual_Sum>
+<False_Time_Step>10000</False_Time_Step>
+<Outer_Linear_Relaxation>1</Outer_Linear_Relaxation>
+<Maximum_Bound>10000000000</Maximum_Bound>
+<Minimum_Bound>-10000000000</Minimum_Bound>
+<Maximum_Inner_Iterations>50</Maximum_Inner_Iterations>
+<Structured_Linear_Solver>AMG</Structured_Linear_Solver>
+<Unstructured_Linear_Solver>AMG</Unstructured_Linear_Solver>
+<Structured_AMG_Control>
+<AMG_Type>Flexible V Cycle</AMG_Type>
+<Maximum_Number_of_Levels>10</Maximum_Number_of_Levels>
+<Maximum_Number_of_Relaxations>5</Maximum_Number_of_Relaxations>
+<Maximum_Number_of_Iterations>1000</Maximum_Number_of_Iterations>
+<Agglomeration_Type>Level Grid</Agglomeration_Type>
+<Prolongation_Relaxation_Type>Linear</Prolongation_Relaxation_Type>
+<Inertia_Relaxation>0.1</Inertia_Relaxation>
+<Prolongation_Relaxation>0.8</Prolongation_Relaxation>
+<Residual_Reduction>0.15</Residual_Reduction>
+</Structured_AMG_Control>
+<Unstructured_AMG_Control>
+<AMG_Type>Flexible V Cycle</AMG_Type>
+<Maximum_Number_of_Levels>10</Maximum_Number_of_Levels>
+<Maximum_Number_of_Relaxations>5</Maximum_Number_of_Relaxations>
+<Maximum_Number_of_Iterations>1000</Maximum_Number_of_Iterations>
+<Agglomeration_Type>Level Grid</Agglomeration_Type>
+<Prolongation_Relaxation_Type>Linear</Prolongation_Relaxation_Type>
+<Inertia_Relaxation>0.1</Inertia_Relaxation>
+<Prolongation_Relaxation>0.9</Prolongation_Relaxation>
+<Residual_Reduction>0.15</Residual_Reduction>
+<Exclude_Fix_Value_Cells>No</Exclude_Fix_Value_Cells>
+</Unstructured_AMG_Control>
+<Use_Gradient_Reconstruction>No</Use_Gradient_Reconstruction>
+<Convection_Scheme>FOU</Convection_Scheme>
+<Field_Precision>Double</Field_Precision>
+<Use_Initial_Relaxation_Control>No</Use_Initial_Relaxation_Control>
+<Number_Of_Initial_Iterations>10</Number_Of_Initial_Iterations>
+<Initial_False_Time_Step>10</Initial_False_Time_Step>
+</Temperature>
+<KE>
+<Variable_Name>KE</Variable_Name>
+<Initial_Value>0.001 m2/s2</Initial_Value>
+<Stop_Residual_Sum>0.001</Stop_Residual_Sum>
+<False_Time_Step>0.1</False_Time_Step>
+<Outer_Linear_Relaxation>1</Outer_Linear_Relaxation>
+<Maximum_Bound>10000000000</Maximum_Bound>
+<Minimum_Bound>1e-10</Minimum_Bound>
+<Maximum_Inner_Iterations>2</Maximum_Inner_Iterations>
+<Linear_Solver>CR</Linear_Solver>
+<AMG_Control>
+<AMG_Type>Flexible V Cycle</AMG_Type>
+<Maximum_Number_of_Levels>10</Maximum_Number_of_Levels>
+<Maximum_Number_of_Relaxations>5</Maximum_Number_of_Relaxations>
+<Maximum_Number_of_Iterations>1000</Maximum_Number_of_Iterations>
+<Prolongation_Relaxation>0.9</Prolongation_Relaxation>
+<Residual_Reduction>0.15</Residual_Reduction>
+</AMG_Control>
+<Use_Gradient_Reconstruction>No</Use_Gradient_Reconstruction>
+<Convection_Scheme>FOU</Convection_Scheme>
+</KE>
+<EP>
+<Variable_Name>EP</Variable_Name>
+<Initial_Value>0.01 m2/s3</Initial_Value>
+<Stop_Residual_Sum>0.001</Stop_Residual_Sum>
+<False_Time_Step>0.1</False_Time_Step>
+<Outer_Linear_Relaxation>1</Outer_Linear_Relaxation>
+<Maximum_Bound>10000000000</Maximum_Bound>
+<Minimum_Bound>1e-10</Minimum_Bound>
+<Maximum_Inner_Iterations>2</Maximum_Inner_Iterations>
+<Linear_Solver>CR</Linear_Solver>
+<AMG_Control>
+<AMG_Type>Flexible V Cycle</AMG_Type>
+<Maximum_Number_of_Levels>10</Maximum_Number_of_Levels>
+<Maximum_Number_of_Relaxations>5</Maximum_Number_of_Relaxations>
+<Maximum_Number_of_Iterations>1000</Maximum_Number_of_Iterations>
+<Prolongation_Relaxation>0.9</Prolongation_Relaxation>
+<Residual_Reduction>0.15</Residual_Reduction>
+</AMG_Control>
+<Use_Gradient_Reconstruction>No</Use_Gradient_Reconstruction>
+<Convection_Scheme>FOU</Convection_Scheme>
+</EP>
+<X_Velocity>
+<Variable_Name>X Velocity</Variable_Name>
+<Initial_Value>0 m/s</Initial_Value>
+<Stop_Residual_Sum>0.001</Stop_Residual_Sum>
+<False_Time_Step>0.1</False_Time_Step>
+<Outer_Linear_Relaxation>1</Outer_Linear_Relaxation>
+<Maximum_Bound>50</Maximum_Bound>
+<Minimum_Bound>-50</Minimum_Bound>
+<Maximum_Inner_Iterations>2</Maximum_Inner_Iterations>
+<Linear_Solver>CR</Linear_Solver>
+<AMG_Control>
+<AMG_Type>Flexible V Cycle</AMG_Type>
+<Maximum_Number_of_Levels>10</Maximum_Number_of_Levels>
+<Maximum_Number_of_Relaxations>5</Maximum_Number_of_Relaxations>
+<Maximum_Number_of_Iterations>1000</Maximum_Number_of_Iterations>
+<Prolongation_Relaxation>0.9</Prolongation_Relaxation>
+<Residual_Reduction>0.15</Residual_Reduction>
+</AMG_Control>
+<Use_Gradient_Reconstruction>No</Use_Gradient_Reconstruction>
+<Convection_Scheme>FOU</Convection_Scheme>
+</X_Velocity>
+<Y_Velocity>
+<Variable_Name>Y Velocity</Variable_Name>
+<Initial_Value>0 m/s</Initial_Value>
+<Stop_Residual_Sum>0.001</Stop_Residual_Sum>
+<False_Time_Step>0.1</False_Time_Step>
+<Outer_Linear_Relaxation>1</Outer_Linear_Relaxation>
+<Maximum_Bound>50</Maximum_Bound>
+<Minimum_Bound>-50</Minimum_Bound>
+<Maximum_Inner_Iterations>2</Maximum_Inner_Iterations>
+<Linear_Solver>CR</Linear_Solver>
+<AMG_Control>
+<AMG_Type>Flexible V Cycle</AMG_Type>
+<Maximum_Number_of_Levels>10</Maximum_Number_of_Levels>
+<Maximum_Number_of_Relaxations>5</Maximum_Number_of_Relaxations>
+<Maximum_Number_of_Iterations>1000</Maximum_Number_of_Iterations>
+<Prolongation_Relaxation>0.9</Prolongation_Relaxation>
+<Residual_Reduction>0.15</Residual_Reduction>
+</AMG_Control>
+<Use_Gradient_Reconstruction>No</Use_Gradient_Reconstruction>
+<Convection_Scheme>FOU</Convection_Scheme>
+</Y_Velocity>
+<Z_Velocity>
+<Variable_Name>Z Velocity</Variable_Name>
+<Initial_Value>0 m/s</Initial_Value>
+<Stop_Residual_Sum>0.001</Stop_Residual_Sum>
+<False_Time_Step>0.1</False_Time_Step>
+<Outer_Linear_Relaxation>1</Outer_Linear_Relaxation>
+<Maximum_Bound>50</Maximum_Bound>
+<Minimum_Bound>-50</Minimum_Bound>
+<Maximum_Inner_Iterations>2</Maximum_Inner_Iterations>
+<Linear_Solver>CR</Linear_Solver>
+<AMG_Control>
+<AMG_Type>Flexible V Cycle</AMG_Type>
+<Maximum_Number_of_Levels>10</Maximum_Number_of_Levels>
+<Maximum_Number_of_Relaxations>5</Maximum_Number_of_Relaxations>
+<Maximum_Number_of_Iterations>1000</Maximum_Number_of_Iterations>
+<Prolongation_Relaxation>0.9</Prolongation_Relaxation>
+<Residual_Reduction>0.15</Residual_Reduction>
+</AMG_Control>
+<Use_Gradient_Reconstruction>No</Use_Gradient_Reconstruction>
+<Convection_Scheme>FOU</Convection_Scheme>
+</Z_Velocity>
+<Pressure>
+<Variable_Name>Pressure</Variable_Name>
+<Initial_Value>0 Pa</Initial_Value>
+<Stop_Residual_Sum>0.001</Stop_Residual_Sum>
+<False_Time_Step>10000000000</False_Time_Step>
+<Outer_Linear_Relaxation>0.75</Outer_Linear_Relaxation>
+<Maximum_Bound>10000000000</Maximum_Bound>
+<Minimum_Bound>-10000000000</Minimum_Bound>
+<Maximum_Inner_Iterations>50</Maximum_Inner_Iterations>
+<Linear_Solver>CR</Linear_Solver>
+<AMG_Control>
+<AMG_Type>Flexible V Cycle</AMG_Type>
+<Maximum_Number_of_Levels>10</Maximum_Number_of_Levels>
+<Maximum_Number_of_Relaxations>5</Maximum_Number_of_Relaxations>
+<Maximum_Number_of_Iterations>1000</Maximum_Number_of_Iterations>
+<Prolongation_Relaxation>0.9</Prolongation_Relaxation>
+<Residual_Reduction>0.15</Residual_Reduction>
+</AMG_Control>
+<Use_Gradient_Reconstruction>No</Use_Gradient_Reconstruction>
+<Field_Precision>Single</Field_Precision>
+</Pressure>
+<Humidity>
+<Variable_Name>Humidity</Variable_Name>
+<Initial_Value>0 kg/kg</Initial_Value>
+<Stop_Residual_Sum>0.001</Stop_Residual_Sum>
+<False_Time_Step>10</False_Time_Step>
+<Outer_Linear_Relaxation>1</Outer_Linear_Relaxation>
+<Maximum_Bound>10000000000</Maximum_Bound>
+<Minimum_Bound>0</Minimum_Bound>
+<Maximum_Inner_Iterations>10</Maximum_Inner_Iterations>
+<Linear_Solver>CR</Linear_Solver>
+<AMG_Control>
+<AMG_Type>Flexible V Cycle</AMG_Type>
+<Maximum_Number_of_Levels>10</Maximum_Number_of_Levels>
+<Maximum_Number_of_Relaxations>5</Maximum_Number_of_Relaxations>
+<Maximum_Number_of_Iterations>1000</Maximum_Number_of_Iterations>
+<Prolongation_Relaxation>0.9</Prolongation_Relaxation>
+<Residual_Reduction>0.15</Residual_Reduction>
+</AMG_Control>
+<Use_Gradient_Reconstruction>No</Use_Gradient_Reconstruction>
+<Convection_Scheme>FOU</Convection_Scheme>
+</Humidity>
+<Contamination>
+<Variable_Name>Contamination</Variable_Name>
+<Initial_Value>0 %</Initial_Value>
+<Stop_Residual_Sum>0.001</Stop_Residual_Sum>
+<False_Time_Step>10</False_Time_Step>
+<Outer_Linear_Relaxation>1</Outer_Linear_Relaxation>
+<Maximum_Bound>10000000000</Maximum_Bound>
+<Minimum_Bound>1e-10</Minimum_Bound>
+<Maximum_Inner_Iterations>10</Maximum_Inner_Iterations>
+<Linear_Solver>CR</Linear_Solver>
+<AMG_Control>
+<AMG_Type>Flexible V Cycle</AMG_Type>
+<Maximum_Number_of_Levels>10</Maximum_Number_of_Levels>
+<Maximum_Number_of_Relaxations>5</Maximum_Number_of_Relaxations>
+<Maximum_Number_of_Iterations>1000</Maximum_Number_of_Iterations>
+<Prolongation_Relaxation>0.9</Prolongation_Relaxation>
+<Residual_Reduction>0.15</Residual_Reduction>
+</AMG_Control>
+<Use_Gradient_Reconstruction>No</Use_Gradient_Reconstruction>
+<Convection_Scheme>FOU</Convection_Scheme>
+</Contamination>
+<Generic_Scalar>
+<Variable_Name>Generic Scalar</Variable_Name>
+<Initial_Value>0</Initial_Value>
+<Stop_Residual_Sum>0.001</Stop_Residual_Sum>
+<False_Time_Step>10</False_Time_Step>
+<Outer_Linear_Relaxation>1</Outer_Linear_Relaxation>
+<Maximum_Bound>10000000000</Maximum_Bound>
+<Minimum_Bound>0</Minimum_Bound>
+<Maximum_Inner_Iterations>10</Maximum_Inner_Iterations>
+<Linear_Solver>CR</Linear_Solver>
+<AMG_Control>
+<AMG_Type>Flexible V Cycle</AMG_Type>
+<Maximum_Number_of_Levels>10</Maximum_Number_of_Levels>
+<Maximum_Number_of_Relaxations>5</Maximum_Number_of_Relaxations>
+<Maximum_Number_of_Iterations>1000</Maximum_Number_of_Iterations>
+<Prolongation_Relaxation>0.9</Prolongation_Relaxation>
+<Residual_Reduction>0.15</Residual_Reduction>
+</AMG_Control>
+<Use_Gradient_Reconstruction>No</Use_Gradient_Reconstruction>
+<Convection_Scheme>FOU</Convection_Scheme>
+</Generic_Scalar>
+</Variables>
+<Generic_Scalars>
+<Settings>
+<Number_Of_Generic_Scalars>0
+</Number_Of_Generic_Scalars>
+</Settings>
+</Generic_Scalars>
+<Auxiliary_Variables>
+<Store_Total_Pressure>No</Store_Total_Pressure>
+<Store_Density>No</Store_Density>
+<Store_Heat_Fluxes>Yes</Store_Heat_Fluxes>
+<Store_Laminar_Viscosity>No</Store_Laminar_Viscosity>
+<Store_Conductivity>No</Store_Conductivity>
+<Store_Specific_Heat>No</Store_Specific_Heat>
+</Auxiliary_Variables>
+<Zoom_In_Volume>
+<X_Location>0</X_Location>
+<Y_Location>0</Y_Location>
+<Z_Location>0</Z_Location>
+<X_Size>0</X_Size>
+<Y_Size>0</Y_Size>
+<Z_Size>0</Z_Size>
+<Zoom_In_Control>
+<Modelling_Detail>Room Level</Modelling_Detail>
+<Apply_Cell_Count_Target_to>Whole Room</Apply_Cell_Count_Target_to>
+</Zoom_In_Control>
+</Zoom_In_Volume>
+<Stored_Simulation_Results>
+<Store_for_Inflows>No</Store_for_Inflows>
+<Store_for_Outflows>No</Store_for_Outflows>
+<Store_for_Holes>No</Store_for_Holes>
+<Solution_Summary>No</Solution_Summary>
+</Stored_Simulation_Results>
+<External_Format_Output>
+<VTK>No</VTK>
+<VTM>No</VTM>
+<Include_All_Data>No</Include_All_Data>
+</External_Format_Output>
+<Reference_Data>
+<Velocity>1 m/s</Velocity>
+<Density>1 kg/m^3</Density>
+<Pressure>0 Pa</Pressure>
+</Reference_Data>
+<Simulation_Results>
+<Model_Status>-1</Model_Status>
+<Steady_State_Solution_Available>No</Steady_State_Solution_Available>
+<Transient_Results>No</Transient_Results>
+<Transient_Simulation_Results>No</Transient_Simulation_Results>
+<Available_Variables>Temperature,Velocity,X Velocity,Y Velocity,Z Velocity,Pressure,KE,EP</Available_Variables>
+<Available_Vector_Variables>Velocity</Available_Vector_Variables>
+<Available_Flow_Solution_Regions>1</Available_Flow_Solution_Regions>
+<HasSolvedContaminants>No</HasSolvedContaminants>
+<Parallel_Solution>No</Parallel_Solution>
+<Grid_Generation_Time>0 s</Grid_Generation_Time>
+<Overall_CFD_Generation_Time>0 s</Overall_CFD_Generation_Time>
+<Radiation_View_Factor_Time>0 s</Radiation_View_Factor_Time>
+<Radiation_Absorption_Factor_Time>0 s</Radiation_Absorption_Factor_Time>
+<Joule_Heating_Time>0 s</Joule_Heating_Time>
+<Last_Solver_Run_Time>0 s</Last_Solver_Run_Time>
+<Cumulative_Solver_Time>0 s</Cumulative_Solver_Time>
+<Last_Solver_Run_Number_Of_Iterations></Last_Solver_Run_Number_Of_Iterations>
+<Cumulative_Number_Of_Iterations></Cumulative_Number_Of_Iterations>
+<Last_Solver_Run_Number_Of_Time_Steps></Last_Solver_Run_Number_Of_Time_Steps>
+<Cumulative_Number_Of_Time_Steps></Cumulative_Number_Of_Time_Steps>
+<Number_Of_Processes></Number_Of_Processes>
+<Parallel_Data_Decomposition_Time>0 s</Parallel_Data_Decomposition_Time>
+<Parallel_Data_Reassembly_Time>0 s</Parallel_Data_Reassembly_Time>
+<Update_From_CFD_Solution_Time>0 s</Update_From_CFD_Solution_Time>
+</Simulation_Results>
+<Run_Configurations/>
+<Zones_Of_Influence>
+<Type>Air Cooling Unit</Type>
+<Source_ACUs/>
+<Sink_Cabinets/>
+</Zones_Of_Influence>
+<SolverExchange_Control>
+<Active>No</Active>
+<Extend_Results>No</Extend_Results>
+<Advanced_Controls>No</Advanced_Controls>
+<Mode>FileParser</Mode>
+<FileParser_Properties>
+<Exchange_Format>CSV</Exchange_Format>
+<File_Mode>Default</File_Mode>
+<Sync_Mode>Each Iteration</Sync_Mode>
+<Limit_input_file_try_attempts>Yes</Limit_input_file_try_attempts>
+<Input_file_try_attempts>1000</Input_file_try_attempts>
+</FileParser_Properties>
+<User-Defined_DLL_Properties>
+<Linux_Support>No</Linux_Support>
+<Event_Handler/>
+</User-Defined_DLL_Properties>
+</SolverExchange_Control>
+</Solution_Control>
+</SolutionControlLink>
+<StreamlineOptionsLink>
+<Streamline_Options id="57849-47859">
+<Construction>
+<Number_of_Frames>24</Number_of_Frames>
+<Particle_Synchronisation>0.3</Particle_Synchronisation>
+<Reset_Particles>No</Reset_Particles>
+<Apply_Smoothing>Yes</Apply_Smoothing>
+</Construction>
+<Geometry>
+<Ribbon_Width>0.5</Ribbon_Width>
+<Texture_Length>0.5</Texture_Length>
+<Texture_Spacing>0.5</Texture_Spacing>
+</Geometry>
+<Display_Options>
+<Ribbon_Transparency>0</Ribbon_Transparency>
+</Display_Options>
+</Streamline_Options>
+</StreamlineOptionsLink>
+<ResultPlaneOptionsLink>
+<Result_Plane_Options id="57849-47860">
+<Animation_Options>
+<Number_of_Frames>24</Number_of_Frames>
+</Animation_Options>
+<Standard_Plots>
+<Update_All>Yes</Update_All>
+<Show_Grid>No</Show_Grid>
+<Plot_Type>Variation Plot Smooth</Plot_Type>
+</Standard_Plots>
+</Result_Plane_Options>
+</ResultPlaneOptionsLink>
+<TransientOptionsLink>
+<Transient_Options id="57849-47861">
+<Time_step_dependent>No</Time_step_dependent>
+<Frames_per_output>5</Frames_per_output>
+<Frames_per_second>5</Frames_per_second>
+</Transient_Options>
+</TransientOptionsLink>
+<GIFOptionsLink>
+<GIF_Options id="57849-47862">
+<Frames_per_second>10</Frames_per_second>
+<Dither>No</Dither>
+</GIF_Options>
+</GIFOptionsLink>
+<SpinOptionsLink>
+<Spin_Options id="57849-47863">
+<Spin_Model>No</Spin_Model>
+<Spin_Direction>Clockwise</Spin_Direction>
+<Frames_per_Revolution>360</Frames_per_Revolution>
+</Spin_Options>
+</SpinOptionsLink>
+<MovieOptionsLink>
+<Movie_Options id="57849-47864">
+<Frames_per_second>30</Frames_per_second>
+<Quality>90</Quality>
+</Movie_Options>
+</MovieOptionsLink>
+<ImageOptionsLink/>
+<GeneralAnimationOptionsLink>
+<General_Animation_Options id="57849-47865">
+<Maximum_Animation_Speed_.40.FPS.41.>100</Maximum_Animation_Speed_.40.FPS.41.>
+</General_Animation_Options>
+</GeneralAnimationOptionsLink>
+<Result_Planes/>
+<Profile_Plots/>
+<Profile_Plot_Collections/>
+<Result_Volumes/>
+<Push_Pins/>
+<MaxMins/>
+<Flow_Solution_Regions/>
+<Fogs/>
+<Cameras/>
+<Walkthroughs/>
+<Solids/>
+<PressureDatumLink/>
+<UserDefinedDLLList/>
+<LatticeBoltzmannControlLink>
+<Lattice_Boltzmann_Control id="57849-47866">
+<Number_Of_Iterations>1000</Number_Of_Iterations>
+<Flow_Field_Output_Interval>10</Flow_Field_Output_Interval>
+<Relaxation_Time>1</Relaxation_Time>
+<Lattice_Spacing>1 mm</Lattice_Spacing>
+</Lattice_Boltzmann_Control>
+</LatticeBoltzmannControlLink>
+<CAD_Planes/>
+<Exchange_Sets/>
+<ControllerViews/>
+</ET_Project>
+</DataDefinition>
+

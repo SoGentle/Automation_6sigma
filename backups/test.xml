@@ -1,0 +1,743 @@
+<Conductor_Layers>
+                                <Conductor_Layer id="45995-47675"><Installed>Yes</Installed><Identification><Name>Conductor Layer 1</Name></Identification><Placement><Y_Location>0 mm</Y_Location></Placement><Construction><Conductor_Thickness>0.035 mm</Conductor_Thickness><Modelling_Level>Uniform Conductivity</Modelling_Level><Conductor_Content_from_Image>No</Conductor_Content_from_Image><Conductor_Planar_Percentage>80 %</Conductor_Planar_Percentage><Layer_Image><MaterialTolerance>5 %</MaterialTolerance><BackgroundTolerance>5 %</BackgroundTolerance><MaterialRed>0</MaterialRed><MaterialGreen>0</MaterialGreen><MaterialBlue>0</MaterialBlue><MaterialIsConductor>Yes</MaterialIsConductor><BackgroundRed>255</BackgroundRed><BackgroundGreen>255</BackgroundGreen><BackgroundBlue>255</BackgroundBlue><BackgroundIsIgnored>No</BackgroundIsIgnored><Clockwise_Rotation_Angle>No Rotation</Clockwise_Rotation_Angle><Flip_Image_About_Vertical>No</Flip_Image_About_Vertical><ImageWidth>0</ImageWidth><ImageHeight>0</ImageHeight></Layer_Image><Map_Image_To_Grid>No</Map_Image_To_Grid><Conductor_Percentage_From_Image>0 %</Conductor_Percentage_From_Image><Different_Conductor_Material>No</Different_Conductor_Material><MaterialLink /><Material_Alignment>XYZ</Material_Alignment><Material_Normal>X</Material_Normal><Different_Dielectric_Material>No</Different_Dielectric_Material><DielectricMaterialLink /></Construction><Display_Options><Colour>39,180,44</Colour><Secondary_Colour>180,180,180</Secondary_Colour><Basic_Render_Style>Solid,Wireframe,Solid Outlined,Textured,Transparent,Invisible</Basic_Render_Style><Render_Style>Wireframe</Render_Style><Transparency>70 %</Transparency><Variable>Temperature</Variable><Show_Computational_Shape>Yes</Show_Computational_Shape><Data_Type>Geometry</Data_Type><Plot_Type>Variation Plot Smooth</Plot_Type><Show_Grid>No</Show_Grid><Target_Variable>Temperature</Target_Variable><Hidden>No</Hidden></Display_Options><Traces /><Pads /><Conductors /><Nets /><Substrate_Conductors /><Substrate_Pads /><Substrate_Traces /><Substrate_Nets /><Simulation_Results><Heat_Fluxes><ShowPolygonSides>No</ShowPolygonSides><ShowCuboidSides>No</ShowCuboidSides></Heat_Fluxes><Solar_Heating>0 W</Solar_Heating></Simulation_Results><Object_Shape_Definition><Shape_Type>Cuboid</Shape_Type><Thin_Shape>No</Thin_Shape><With_Holes>No</With_Holes></Object_Shape_Definition><Push_Pins /></Conductor_Layer><Conductor_Layer id="45995-47675">
+                                    <Installed>Yes</Installed>
+                                    <Identification>
+                                        <Name>Conductor Layer 1</Name>
+                                    </Identification>
+                                    <Placement>
+                                        <Y_Location>1.565000000000001 mm</Y_Location>
+                                    </Placement>
+                                    <Construction>
+                                        <Conductor_Thickness>0.035 mm</Conductor_Thickness>
+                                        <Modelling_Level>Uniform Conductivity</Modelling_Level>
+                                        <Conductor_Content_from_Image>No</Conductor_Content_from_Image>
+                                        <Conductor_Planar_Percentage>80 %</Conductor_Planar_Percentage>
+                                        <Layer_Image>
+                                            <MaterialTolerance>5 %</MaterialTolerance>
+                                            <BackgroundTolerance>5 %</BackgroundTolerance>
+                                            <MaterialRed>0</MaterialRed>
+                                            <MaterialGreen>0</MaterialGreen>
+                                            <MaterialBlue>0</MaterialBlue>
+                                            <MaterialIsConductor>Yes</MaterialIsConductor>
+                                            <BackgroundRed>255</BackgroundRed>
+                                            <BackgroundGreen>255</BackgroundGreen>
+                                            <BackgroundBlue>255</BackgroundBlue>
+                                            <BackgroundIsIgnored>No</BackgroundIsIgnored>
+                                            <Clockwise_Rotation_Angle>No Rotation</Clockwise_Rotation_Angle>
+                                            <Flip_Image_About_Vertical>No</Flip_Image_About_Vertical>
+                                            <ImageWidth>0</ImageWidth>
+                                            <ImageHeight>0</ImageHeight>
+                                        </Layer_Image>
+                                        <Map_Image_To_Grid>No</Map_Image_To_Grid>
+                                        <Conductor_Percentage_From_Image>0 %</Conductor_Percentage_From_Image>
+                                        <Different_Conductor_Material>No</Different_Conductor_Material>
+                                        <MaterialLink />
+                                        <Material_Alignment>XYZ</Material_Alignment>
+                                        <Material_Normal>X</Material_Normal>
+                                        <Different_Dielectric_Material>No</Different_Dielectric_Material>
+                                        <DielectricMaterialLink />
+                                    </Construction>
+                                    <Display_Options>
+                                        <Colour>39,180,44</Colour>
+                                        <Secondary_Colour>180,180,180</Secondary_Colour>
+                                        <Basic_Render_Style>Solid,Wireframe,Solid Outlined,Textured,Transparent,Invisible</Basic_Render_Style>
+                                        <Render_Style>Wireframe</Render_Style>
+                                        <Transparency>70 %</Transparency>
+                                        <Variable>Temperature</Variable>
+                                        <Show_Computational_Shape>Yes</Show_Computational_Shape>
+                                        <Data_Type>Geometry</Data_Type>
+                                        <Plot_Type>Variation Plot Smooth</Plot_Type>
+                                        <Show_Grid>No</Show_Grid>
+                                        <Target_Variable>Temperature</Target_Variable>
+                                        <Hidden>No</Hidden>
+                                    </Display_Options>
+                                    <Traces />
+                                    <Pads />
+                                    <Conductors />
+                                    <Nets />
+                                    <Substrate_Conductors />
+                                    <Substrate_Pads />
+                                    <Substrate_Traces />
+                                    <Substrate_Nets />
+                                    <Simulation_Results>
+                                        <Heat_Fluxes>
+                                            <ShowPolygonSides>No</ShowPolygonSides>
+                                            <ShowCuboidSides>No</ShowCuboidSides>
+                                        </Heat_Fluxes>
+                                        <Solar_Heating>0 W</Solar_Heating>
+                                    </Simulation_Results>
+                                    <Object_Shape_Definition>
+                                        <Shape_Type>Cuboid</Shape_Type>
+                                        <Thin_Shape>No</Thin_Shape>
+                                        <With_Holes>No</With_Holes>
+                                    </Object_Shape_Definition>
+                                    <Push_Pins />
+                                </Conductor_Layer>
+                                <Conductor_Layer id="45995-47676">
+                                    <Installed>Yes</Installed>
+                                    <Identification>
+                                        <Name>Conductor Layer 2</Name>
+                                    </Identification>
+                                    <Placement>
+                                        <Y_Location>0 mm</Y_Location>
+                                    </Placement>
+                                    <Construction>
+                                        <Conductor_Thickness>0.035 mm</Conductor_Thickness>
+                                        <Modelling_Level>Uniform Conductivity</Modelling_Level>
+                                        <Conductor_Content_from_Image>No</Conductor_Content_from_Image>
+                                        <Conductor_Planar_Percentage>80 %</Conductor_Planar_Percentage>
+                                        <Layer_Image>
+                                            <MaterialTolerance>5 %</MaterialTolerance>
+                                            <BackgroundTolerance>5 %</BackgroundTolerance>
+                                            <MaterialRed>0</MaterialRed>
+                                            <MaterialGreen>0</MaterialGreen>
+                                            <MaterialBlue>0</MaterialBlue>
+                                            <MaterialIsConductor>Yes</MaterialIsConductor>
+                                            <BackgroundRed>255</BackgroundRed>
+                                            <BackgroundGreen>255</BackgroundGreen>
+                                            <BackgroundBlue>255</BackgroundBlue>
+                                            <BackgroundIsIgnored>No</BackgroundIsIgnored>
+                                            <Clockwise_Rotation_Angle>No Rotation</Clockwise_Rotation_Angle>
+                                            <Flip_Image_About_Vertical>No</Flip_Image_About_Vertical>
+                                            <ImageWidth>0</ImageWidth>
+                                            <ImageHeight>0</ImageHeight>
+                                        </Layer_Image>
+                                        <Map_Image_To_Grid>No</Map_Image_To_Grid>
+                                        <Conductor_Percentage_From_Image>0 %</Conductor_Percentage_From_Image>
+                                        <Different_Conductor_Material>No</Different_Conductor_Material>
+                                        <MaterialLink />
+                                        <Material_Alignment>XYZ</Material_Alignment>
+                                        <Material_Normal>X</Material_Normal>
+                                        <Different_Dielectric_Material>No</Different_Dielectric_Material>
+                                        <DielectricMaterialLink />
+                                    </Construction>
+                                    <Display_Options>
+                                        <Colour>39,180,44</Colour>
+                                        <Secondary_Colour>180,180,180</Secondary_Colour>
+                                        <Basic_Render_Style>Solid,Wireframe,Solid Outlined,Textured,Transparent,Invisible</Basic_Render_Style>
+                                        <Render_Style>Wireframe</Render_Style>
+                                        <Transparency>70 %</Transparency>
+                                        <Variable>Temperature</Variable>
+                                        <Show_Computational_Shape>Yes</Show_Computational_Shape>
+                                        <Data_Type>Geometry</Data_Type>
+                                        <Plot_Type>Variation Plot Smooth</Plot_Type>
+                                        <Show_Grid>No</Show_Grid>
+                                        <Target_Variable>Temperature</Target_Variable>
+                                        <Hidden>No</Hidden>
+                                    </Display_Options>
+                                    <Traces />
+                                    <Pads />
+                                    <Conductors />
+                                    <Nets />
+                                    <Substrate_Conductors />
+                                    <Substrate_Pads />
+                                    <Substrate_Traces />
+                                    <Substrate_Nets />
+                                    <Simulation_Results>
+                                        <Heat_Fluxes>
+                                            <ShowPolygonSides>No</ShowPolygonSides>
+                                            <ShowCuboidSides>No</ShowCuboidSides>
+                                        </Heat_Fluxes>
+                                        <Solar_Heating>0 W</Solar_Heating>
+                                    </Simulation_Results>
+                                    <Object_Shape_Definition>
+                                        <Shape_Type>Cuboid</Shape_Type>
+                                        <Thin_Shape>No</Thin_Shape>
+                                        <With_Holes>No</With_Holes>
+                                    </Object_Shape_Definition>
+                                    <Push_Pins />
+                                </Conductor_Layer>
+                                <Conductor_Layer id="45995-47677">
+                                    <Installed>Yes</Installed>
+                                    <Identification>
+                                        <Name>Conductor Layer 3</Name>
+                                    </Identification>
+                                    <Placement>
+                                        <Y_Location>0 mm</Y_Location>
+                                    </Placement>
+                                    <Construction>
+                                        <Conductor_Thickness>0.035 mm</Conductor_Thickness>
+                                        <Modelling_Level>Uniform Conductivity</Modelling_Level>
+                                        <Conductor_Content_from_Image>No</Conductor_Content_from_Image>
+                                        <Conductor_Planar_Percentage>80 %</Conductor_Planar_Percentage>
+                                        <Layer_Image>
+                                            <MaterialTolerance>5 %</MaterialTolerance>
+                                            <BackgroundTolerance>5 %</BackgroundTolerance>
+                                            <MaterialRed>0</MaterialRed>
+                                            <MaterialGreen>0</MaterialGreen>
+                                            <MaterialBlue>0</MaterialBlue>
+                                            <MaterialIsConductor>Yes</MaterialIsConductor>
+                                            <BackgroundRed>255</BackgroundRed>
+                                            <BackgroundGreen>255</BackgroundGreen>
+                                            <BackgroundBlue>255</BackgroundBlue>
+                                            <BackgroundIsIgnored>No</BackgroundIsIgnored>
+                                            <Clockwise_Rotation_Angle>No Rotation</Clockwise_Rotation_Angle>
+                                            <Flip_Image_About_Vertical>No</Flip_Image_About_Vertical>
+                                            <ImageWidth>0</ImageWidth>
+                                            <ImageHeight>0</ImageHeight>
+                                        </Layer_Image>
+                                        <Map_Image_To_Grid>No</Map_Image_To_Grid>
+                                        <Conductor_Percentage_From_Image>0 %</Conductor_Percentage_From_Image>
+                                        <Different_Conductor_Material>No</Different_Conductor_Material>
+                                        <MaterialLink />
+                                        <Material_Alignment>XYZ</Material_Alignment>
+                                        <Material_Normal>X</Material_Normal>
+                                        <Different_Dielectric_Material>No</Different_Dielectric_Material>
+                                        <DielectricMaterialLink />
+                                    </Construction>
+                                    <Display_Options>
+                                        <Colour>39,180,44</Colour>
+                                        <Secondary_Colour>180,180,180</Secondary_Colour>
+                                        <Basic_Render_Style>Solid,Wireframe,Solid Outlined,Textured,Transparent,Invisible</Basic_Render_Style>
+                                        <Render_Style>Wireframe</Render_Style>
+                                        <Transparency>70 %</Transparency>
+                                        <Variable>Temperature</Variable>
+                                        <Show_Computational_Shape>Yes</Show_Computational_Shape>
+                                        <Data_Type>Geometry</Data_Type>
+                                        <Plot_Type>Variation Plot Smooth</Plot_Type>
+                                        <Show_Grid>No</Show_Grid>
+                                        <Target_Variable>Temperature</Target_Variable>
+                                        <Hidden>No</Hidden>
+                                    </Display_Options>
+                                    <Traces />
+                                    <Pads />
+                                    <Conductors />
+                                    <Nets />
+                                    <Substrate_Conductors />
+                                    <Substrate_Pads />
+                                    <Substrate_Traces />
+                                    <Substrate_Nets />
+                                    <Simulation_Results>
+                                        <Heat_Fluxes>
+                                            <ShowPolygonSides>No</ShowPolygonSides>
+                                            <ShowCuboidSides>No</ShowCuboidSides>
+                                        </Heat_Fluxes>
+                                        <Solar_Heating>0 W</Solar_Heating>
+                                    </Simulation_Results>
+                                    <Object_Shape_Definition>
+                                        <Shape_Type>Cuboid</Shape_Type>
+                                        <Thin_Shape>No</Thin_Shape>
+                                        <With_Holes>No</With_Holes>
+                                    </Object_Shape_Definition>
+                                    <Push_Pins />
+                                </Conductor_Layer>
+                                <Conductor_Layer id="45995-47678">
+                                    <Installed>Yes</Installed>
+                                    <Identification>
+                                        <Name>Conductor Layer 4</Name>
+                                    </Identification>
+                                    <Placement>
+                                        <Y_Location>0 mm</Y_Location>
+                                    </Placement>
+                                    <Construction>
+                                        <Conductor_Thickness>0.035 mm</Conductor_Thickness>
+                                        <Modelling_Level>Uniform Conductivity</Modelling_Level>
+                                        <Conductor_Content_from_Image>No</Conductor_Content_from_Image>
+                                        <Conductor_Planar_Percentage>80 %</Conductor_Planar_Percentage>
+                                        <Layer_Image>
+                                            <MaterialTolerance>5 %</MaterialTolerance>
+                                            <BackgroundTolerance>5 %</BackgroundTolerance>
+                                            <MaterialRed>0</MaterialRed>
+                                            <MaterialGreen>0</MaterialGreen>
+                                            <MaterialBlue>0</MaterialBlue>
+                                            <MaterialIsConductor>Yes</MaterialIsConductor>
+                                            <BackgroundRed>255</BackgroundRed>
+                                            <BackgroundGreen>255</BackgroundGreen>
+                                            <BackgroundBlue>255</BackgroundBlue>
+                                            <BackgroundIsIgnored>No</BackgroundIsIgnored>
+                                            <Clockwise_Rotation_Angle>No Rotation</Clockwise_Rotation_Angle>
+                                            <Flip_Image_About_Vertical>No</Flip_Image_About_Vertical>
+                                            <ImageWidth>0</ImageWidth>
+                                            <ImageHeight>0</ImageHeight>
+                                        </Layer_Image>
+                                        <Map_Image_To_Grid>No</Map_Image_To_Grid>
+                                        <Conductor_Percentage_From_Image>0 %</Conductor_Percentage_From_Image>
+                                        <Different_Conductor_Material>No</Different_Conductor_Material>
+                                        <MaterialLink />
+                                        <Material_Alignment>XYZ</Material_Alignment>
+                                        <Material_Normal>X</Material_Normal>
+                                        <Different_Dielectric_Material>No</Different_Dielectric_Material>
+                                        <DielectricMaterialLink />
+                                    </Construction>
+                                    <Display_Options>
+                                        <Colour>39,180,44</Colour>
+                                        <Secondary_Colour>180,180,180</Secondary_Colour>
+                                        <Basic_Render_Style>Solid,Wireframe,Solid Outlined,Textured,Transparent,Invisible</Basic_Render_Style>
+                                        <Render_Style>Wireframe</Render_Style>
+                                        <Transparency>70 %</Transparency>
+                                        <Variable>Temperature</Variable>
+                                        <Show_Computational_Shape>Yes</Show_Computational_Shape>
+                                        <Data_Type>Geometry</Data_Type>
+                                        <Plot_Type>Variation Plot Smooth</Plot_Type>
+                                        <Show_Grid>No</Show_Grid>
+                                        <Target_Variable>Temperature</Target_Variable>
+                                        <Hidden>No</Hidden>
+                                    </Display_Options>
+                                    <Traces />
+                                    <Pads />
+                                    <Conductors />
+                                    <Nets />
+                                    <Substrate_Conductors />
+                                    <Substrate_Pads />
+                                    <Substrate_Traces />
+                                    <Substrate_Nets />
+                                    <Simulation_Results>
+                                        <Heat_Fluxes>
+                                            <ShowPolygonSides>No</ShowPolygonSides>
+                                            <ShowCuboidSides>No</ShowCuboidSides>
+                                        </Heat_Fluxes>
+                                        <Solar_Heating>0 W</Solar_Heating>
+                                    </Simulation_Results>
+                                    <Object_Shape_Definition>
+                                        <Shape_Type>Cuboid</Shape_Type>
+                                        <Thin_Shape>No</Thin_Shape>
+                                        <With_Holes>No</With_Holes>
+                                    </Object_Shape_Definition>
+                                    <Push_Pins />
+                                </Conductor_Layer>
+                                <Conductor_Layer id="45995-47679">
+                                    <Installed>Yes</Installed>
+                                    <Identification>
+                                        <Name>Conductor Layer 5</Name>
+                                    </Identification>
+                                    <Placement>
+                                        <Y_Location>0 mm</Y_Location>
+                                    </Placement>
+                                    <Construction>
+                                        <Conductor_Thickness>0.035 mm</Conductor_Thickness>
+                                        <Modelling_Level>Uniform Conductivity</Modelling_Level>
+                                        <Conductor_Content_from_Image>No</Conductor_Content_from_Image>
+                                        <Conductor_Planar_Percentage>80 %</Conductor_Planar_Percentage>
+                                        <Layer_Image>
+                                            <MaterialTolerance>5 %</MaterialTolerance>
+                                            <BackgroundTolerance>5 %</BackgroundTolerance>
+                                            <MaterialRed>0</MaterialRed>
+                                            <MaterialGreen>0</MaterialGreen>
+                                            <MaterialBlue>0</MaterialBlue>
+                                            <MaterialIsConductor>Yes</MaterialIsConductor>
+                                            <BackgroundRed>255</BackgroundRed>
+                                            <BackgroundGreen>255</BackgroundGreen>
+                                            <BackgroundBlue>255</BackgroundBlue>
+                                            <BackgroundIsIgnored>No</BackgroundIsIgnored>
+                                            <Clockwise_Rotation_Angle>No Rotation</Clockwise_Rotation_Angle>
+                                            <Flip_Image_About_Vertical>No</Flip_Image_About_Vertical>
+                                            <ImageWidth>0</ImageWidth>
+                                            <ImageHeight>0</ImageHeight>
+                                        </Layer_Image>
+                                        <Map_Image_To_Grid>No</Map_Image_To_Grid>
+                                        <Conductor_Percentage_From_Image>0 %</Conductor_Percentage_From_Image>
+                                        <Different_Conductor_Material>No</Different_Conductor_Material>
+                                        <MaterialLink />
+                                        <Material_Alignment>XYZ</Material_Alignment>
+                                        <Material_Normal>X</Material_Normal>
+                                        <Different_Dielectric_Material>No</Different_Dielectric_Material>
+                                        <DielectricMaterialLink />
+                                    </Construction>
+                                    <Display_Options>
+                                        <Colour>39,180,44</Colour>
+                                        <Secondary_Colour>180,180,180</Secondary_Colour>
+                                        <Basic_Render_Style>Solid,Wireframe,Solid Outlined,Textured,Transparent,Invisible</Basic_Render_Style>
+                                        <Render_Style>Wireframe</Render_Style>
+                                        <Transparency>70 %</Transparency>
+                                        <Variable>Temperature</Variable>
+                                        <Show_Computational_Shape>Yes</Show_Computational_Shape>
+                                        <Data_Type>Geometry</Data_Type>
+                                        <Plot_Type>Variation Plot Smooth</Plot_Type>
+                                        <Show_Grid>No</Show_Grid>
+                                        <Target_Variable>Temperature</Target_Variable>
+                                        <Hidden>No</Hidden>
+                                    </Display_Options>
+                                    <Traces />
+                                    <Pads />
+                                    <Conductors />
+                                    <Nets />
+                                    <Substrate_Conductors />
+                                    <Substrate_Pads />
+                                    <Substrate_Traces />
+                                    <Substrate_Nets />
+                                    <Simulation_Results>
+                                        <Heat_Fluxes>
+                                            <ShowPolygonSides>No</ShowPolygonSides>
+                                            <ShowCuboidSides>No</ShowCuboidSides>
+                                        </Heat_Fluxes>
+                                        <Solar_Heating>0 W</Solar_Heating>
+                                    </Simulation_Results>
+                                    <Object_Shape_Definition>
+                                        <Shape_Type>Cuboid</Shape_Type>
+                                        <Thin_Shape>No</Thin_Shape>
+                                        <With_Holes>No</With_Holes>
+                                    </Object_Shape_Definition>
+                                    <Push_Pins />
+                                </Conductor_Layer>
+                                <Conductor_Layer id="45995-47680">
+                                    <Installed>Yes</Installed>
+                                    <Identification>
+                                        <Name>Conductor Layer 6</Name>
+                                    </Identification>
+                                    <Placement>
+                                        <Y_Location>0 mm</Y_Location>
+                                    </Placement>
+                                    <Construction>
+                                        <Conductor_Thickness>0.035 mm</Conductor_Thickness>
+                                        <Modelling_Level>Uniform Conductivity</Modelling_Level>
+                                        <Conductor_Content_from_Image>No</Conductor_Content_from_Image>
+                                        <Conductor_Planar_Percentage>80 %</Conductor_Planar_Percentage>
+                                        <Layer_Image>
+                                            <MaterialTolerance>5 %</MaterialTolerance>
+                                            <BackgroundTolerance>5 %</BackgroundTolerance>
+                                            <MaterialRed>0</MaterialRed>
+                                            <MaterialGreen>0</MaterialGreen>
+                                            <MaterialBlue>0</MaterialBlue>
+                                            <MaterialIsConductor>Yes</MaterialIsConductor>
+                                            <BackgroundRed>255</BackgroundRed>
+                                            <BackgroundGreen>255</BackgroundGreen>
+                                            <BackgroundBlue>255</BackgroundBlue>
+                                            <BackgroundIsIgnored>No</BackgroundIsIgnored>
+                                            <Clockwise_Rotation_Angle>No Rotation</Clockwise_Rotation_Angle>
+                                            <Flip_Image_About_Vertical>No</Flip_Image_About_Vertical>
+                                            <ImageWidth>0</ImageWidth>
+                                            <ImageHeight>0</ImageHeight>
+                                        </Layer_Image>
+                                        <Map_Image_To_Grid>No</Map_Image_To_Grid>
+                                        <Conductor_Percentage_From_Image>0 %</Conductor_Percentage_From_Image>
+                                        <Different_Conductor_Material>No</Different_Conductor_Material>
+                                        <MaterialLink />
+                                        <Material_Alignment>XYZ</Material_Alignment>
+                                        <Material_Normal>X</Material_Normal>
+                                        <Different_Dielectric_Material>No</Different_Dielectric_Material>
+                                        <DielectricMaterialLink />
+                                    </Construction>
+                                    <Display_Options>
+                                        <Colour>39,180,44</Colour>
+                                        <Secondary_Colour>180,180,180</Secondary_Colour>
+                                        <Basic_Render_Style>Solid,Wireframe,Solid Outlined,Textured,Transparent,Invisible</Basic_Render_Style>
+                                        <Render_Style>Wireframe</Render_Style>
+                                        <Transparency>70 %</Transparency>
+                                        <Variable>Temperature</Variable>
+                                        <Show_Computational_Shape>Yes</Show_Computational_Shape>
+                                        <Data_Type>Geometry</Data_Type>
+                                        <Plot_Type>Variation Plot Smooth</Plot_Type>
+                                        <Show_Grid>No</Show_Grid>
+                                        <Target_Variable>Temperature</Target_Variable>
+                                        <Hidden>No</Hidden>
+                                    </Display_Options>
+                                    <Traces />
+                                    <Pads />
+                                    <Conductors />
+                                    <Nets />
+                                    <Substrate_Conductors />
+                                    <Substrate_Pads />
+                                    <Substrate_Traces />
+                                    <Substrate_Nets />
+                                    <Simulation_Results>
+                                        <Heat_Fluxes>
+                                            <ShowPolygonSides>No</ShowPolygonSides>
+                                            <ShowCuboidSides>No</ShowCuboidSides>
+                                        </Heat_Fluxes>
+                                        <Solar_Heating>0 W</Solar_Heating>
+                                    </Simulation_Results>
+                                    <Object_Shape_Definition>
+                                        <Shape_Type>Cuboid</Shape_Type>
+                                        <Thin_Shape>No</Thin_Shape>
+                                        <With_Holes>No</With_Holes>
+                                    </Object_Shape_Definition>
+                                    <Push_Pins />
+                                </Conductor_Layer>
+                                <Conductor_Layer id="45995-47681">
+                                    <Installed>Yes</Installed>
+                                    <Identification>
+                                        <Name>Conductor Layer 7</Name>
+                                    </Identification>
+                                    <Placement>
+                                        <Y_Location>0 mm</Y_Location>
+                                    </Placement>
+                                    <Construction>
+                                        <Conductor_Thickness>0.035 mm</Conductor_Thickness>
+                                        <Modelling_Level>Uniform Conductivity</Modelling_Level>
+                                        <Conductor_Content_from_Image>No</Conductor_Content_from_Image>
+                                        <Conductor_Planar_Percentage>80 %</Conductor_Planar_Percentage>
+                                        <Layer_Image>
+                                            <MaterialTolerance>5 %</MaterialTolerance>
+                                            <BackgroundTolerance>5 %</BackgroundTolerance>
+                                            <MaterialRed>0</MaterialRed>
+                                            <MaterialGreen>0</MaterialGreen>
+                                            <MaterialBlue>0</MaterialBlue>
+                                            <MaterialIsConductor>Yes</MaterialIsConductor>
+                                            <BackgroundRed>255</BackgroundRed>
+                                            <BackgroundGreen>255</BackgroundGreen>
+                                            <BackgroundBlue>255</BackgroundBlue>
+                                            <BackgroundIsIgnored>No</BackgroundIsIgnored>
+                                            <Clockwise_Rotation_Angle>No Rotation</Clockwise_Rotation_Angle>
+                                            <Flip_Image_About_Vertical>No</Flip_Image_About_Vertical>
+                                            <ImageWidth>0</ImageWidth>
+                                            <ImageHeight>0</ImageHeight>
+                                        </Layer_Image>
+                                        <Map_Image_To_Grid>No</Map_Image_To_Grid>
+                                        <Conductor_Percentage_From_Image>0 %</Conductor_Percentage_From_Image>
+                                        <Different_Conductor_Material>No</Different_Conductor_Material>
+                                        <MaterialLink />
+                                        <Material_Alignment>XYZ</Material_Alignment>
+                                        <Material_Normal>X</Material_Normal>
+                                        <Different_Dielectric_Material>No</Different_Dielectric_Material>
+                                        <DielectricMaterialLink />
+                                    </Construction>
+                                    <Display_Options>
+                                        <Colour>39,180,44</Colour>
+                                        <Secondary_Colour>180,180,180</Secondary_Colour>
+                                        <Basic_Render_Style>Solid,Wireframe,Solid Outlined,Textured,Transparent,Invisible</Basic_Render_Style>
+                                        <Render_Style>Wireframe</Render_Style>
+                                        <Transparency>70 %</Transparency>
+                                        <Variable>Temperature</Variable>
+                                        <Show_Computational_Shape>Yes</Show_Computational_Shape>
+                                        <Data_Type>Geometry</Data_Type>
+                                        <Plot_Type>Variation Plot Smooth</Plot_Type>
+                                        <Show_Grid>No</Show_Grid>
+                                        <Target_Variable>Temperature</Target_Variable>
+                                        <Hidden>No</Hidden>
+                                    </Display_Options>
+                                    <Traces />
+                                    <Pads />
+                                    <Conductors />
+                                    <Nets />
+                                    <Substrate_Conductors />
+                                    <Substrate_Pads />
+                                    <Substrate_Traces />
+                                    <Substrate_Nets />
+                                    <Simulation_Results>
+                                        <Heat_Fluxes>
+                                            <ShowPolygonSides>No</ShowPolygonSides>
+                                            <ShowCuboidSides>No</ShowCuboidSides>
+                                        </Heat_Fluxes>
+                                        <Solar_Heating>0 W</Solar_Heating>
+                                    </Simulation_Results>
+                                    <Object_Shape_Definition>
+                                        <Shape_Type>Cuboid</Shape_Type>
+                                        <Thin_Shape>No</Thin_Shape>
+                                        <With_Holes>No</With_Holes>
+                                    </Object_Shape_Definition>
+                                    <Push_Pins />
+                                </Conductor_Layer>
+                                <Conductor_Layer id="45995-47682">
+                                    <Installed>Yes</Installed>
+                                    <Identification>
+                                        <Name>Conductor Layer 8</Name>
+                                    </Identification>
+                                    <Placement>
+                                        <Y_Location>0 mm</Y_Location>
+                                    </Placement>
+                                    <Construction>
+                                        <Conductor_Thickness>0.035 mm</Conductor_Thickness>
+                                        <Modelling_Level>Uniform Conductivity</Modelling_Level>
+                                        <Conductor_Content_from_Image>No</Conductor_Content_from_Image>
+                                        <Conductor_Planar_Percentage>80 %</Conductor_Planar_Percentage>
+                                        <Layer_Image>
+                                            <MaterialTolerance>5 %</MaterialTolerance>
+                                            <BackgroundTolerance>5 %</BackgroundTolerance>
+                                            <MaterialRed>0</MaterialRed>
+                                            <MaterialGreen>0</MaterialGreen>
+                                            <MaterialBlue>0</MaterialBlue>
+                                            <MaterialIsConductor>Yes</MaterialIsConductor>
+                                            <BackgroundRed>255</BackgroundRed>
+                                            <BackgroundGreen>255</BackgroundGreen>
+                                            <BackgroundBlue>255</BackgroundBlue>
+                                            <BackgroundIsIgnored>No</BackgroundIsIgnored>
+                                            <Clockwise_Rotation_Angle>No Rotation</Clockwise_Rotation_Angle>
+                                            <Flip_Image_About_Vertical>No</Flip_Image_About_Vertical>
+                                            <ImageWidth>0</ImageWidth>
+                                            <ImageHeight>0</ImageHeight>
+                                        </Layer_Image>
+                                        <Map_Image_To_Grid>No</Map_Image_To_Grid>
+                                        <Conductor_Percentage_From_Image>0 %</Conductor_Percentage_From_Image>
+                                        <Different_Conductor_Material>No</Different_Conductor_Material>
+                                        <MaterialLink />
+                                        <Material_Alignment>XYZ</Material_Alignment>
+                                        <Material_Normal>X</Material_Normal>
+                                        <Different_Dielectric_Material>No</Different_Dielectric_Material>
+                                        <DielectricMaterialLink />
+                                    </Construction>
+                                    <Display_Options>
+                                        <Colour>39,180,44</Colour>
+                                        <Secondary_Colour>180,180,180</Secondary_Colour>
+                                        <Basic_Render_Style>Solid,Wireframe,Solid Outlined,Textured,Transparent,Invisible</Basic_Render_Style>
+                                        <Render_Style>Wireframe</Render_Style>
+                                        <Transparency>70 %</Transparency>
+                                        <Variable>Temperature</Variable>
+                                        <Show_Computational_Shape>Yes</Show_Computational_Shape>
+                                        <Data_Type>Geometry</Data_Type>
+                                        <Plot_Type>Variation Plot Smooth</Plot_Type>
+                                        <Show_Grid>No</Show_Grid>
+                                        <Target_Variable>Temperature</Target_Variable>
+                                        <Hidden>No</Hidden>
+                                    </Display_Options>
+                                    <Traces />
+                                    <Pads />
+                                    <Conductors />
+                                    <Nets />
+                                    <Substrate_Conductors />
+                                    <Substrate_Pads />
+                                    <Substrate_Traces />
+                                    <Substrate_Nets />
+                                    <Simulation_Results>
+                                        <Heat_Fluxes>
+                                            <ShowPolygonSides>No</ShowPolygonSides>
+                                            <ShowCuboidSides>No</ShowCuboidSides>
+                                        </Heat_Fluxes>
+                                        <Solar_Heating>0 W</Solar_Heating>
+                                    </Simulation_Results>
+                                    <Object_Shape_Definition>
+                                        <Shape_Type>Cuboid</Shape_Type>
+                                        <Thin_Shape>No</Thin_Shape>
+                                        <With_Holes>No</With_Holes>
+                                    </Object_Shape_Definition>
+                                    <Push_Pins />
+                                </Conductor_Layer>
+                                <Conductor_Layer id="45995-47683">
+                                    <Installed>Yes</Installed>
+                                    <Identification>
+                                        <Name>Conductor Layer 9</Name>
+                                    </Identification>
+                                    <Placement>
+                                        <Y_Location>0 mm</Y_Location>
+                                    </Placement>
+                                    <Construction>
+                                        <Conductor_Thickness>0.035 mm</Conductor_Thickness>
+                                        <Modelling_Level>Uniform Conductivity</Modelling_Level>
+                                        <Conductor_Content_from_Image>No</Conductor_Content_from_Image>
+                                        <Conductor_Planar_Percentage>80 %</Conductor_Planar_Percentage>
+                                        <Layer_Image>
+                                            <MaterialTolerance>5 %</MaterialTolerance>
+                                            <BackgroundTolerance>5 %</BackgroundTolerance>
+                                            <MaterialRed>0</MaterialRed>
+                                            <MaterialGreen>0</MaterialGreen>
+                                            <MaterialBlue>0</MaterialBlue>
+                                            <MaterialIsConductor>Yes</MaterialIsConductor>
+                                            <BackgroundRed>255</BackgroundRed>
+                                            <BackgroundGreen>255</BackgroundGreen>
+                                            <BackgroundBlue>255</BackgroundBlue>
+                                            <BackgroundIsIgnored>No</BackgroundIsIgnored>
+                                            <Clockwise_Rotation_Angle>No Rotation</Clockwise_Rotation_Angle>
+                                            <Flip_Image_About_Vertical>No</Flip_Image_About_Vertical>
+                                            <ImageWidth>0</ImageWidth>
+                                            <ImageHeight>0</ImageHeight>
+                                        </Layer_Image>
+                                        <Map_Image_To_Grid>No</Map_Image_To_Grid>
+                                        <Conductor_Percentage_From_Image>0 %</Conductor_Percentage_From_Image>
+                                        <Different_Conductor_Material>No</Different_Conductor_Material>
+                                        <MaterialLink />
+                                        <Material_Alignment>XYZ</Material_Alignment>
+                                        <Material_Normal>X</Material_Normal>
+                                        <Different_Dielectric_Material>No</Different_Dielectric_Material>
+                                        <DielectricMaterialLink />
+                                    </Construction>
+                                    <Display_Options>
+                                        <Colour>39,180,44</Colour>
+                                        <Secondary_Colour>180,180,180</Secondary_Colour>
+                                        <Basic_Render_Style>Solid,Wireframe,Solid Outlined,Textured,Transparent,Invisible</Basic_Render_Style>
+                                        <Render_Style>Wireframe</Render_Style>
+                                        <Transparency>70 %</Transparency>
+                                        <Variable>Temperature</Variable>
+                                        <Show_Computational_Shape>Yes</Show_Computational_Shape>
+                                        <Data_Type>Geometry</Data_Type>
+                                        <Plot_Type>Variation Plot Smooth</Plot_Type>
+                                        <Show_Grid>No</Show_Grid>
+                                        <Target_Variable>Temperature</Target_Variable>
+                                        <Hidden>No</Hidden>
+                                    </Display_Options>
+                                    <Traces />
+                                    <Pads />
+                                    <Conductors />
+                                    <Nets />
+                                    <Substrate_Conductors />
+                                    <Substrate_Pads />
+                                    <Substrate_Traces />
+                                    <Substrate_Nets />
+                                    <Simulation_Results>
+                                        <Heat_Fluxes>
+                                            <ShowPolygonSides>No</ShowPolygonSides>
+                                            <ShowCuboidSides>No</ShowCuboidSides>
+                                        </Heat_Fluxes>
+                                        <Solar_Heating>0 W</Solar_Heating>
+                                    </Simulation_Results>
+                                    <Object_Shape_Definition>
+                                        <Shape_Type>Cuboid</Shape_Type>
+                                        <Thin_Shape>No</Thin_Shape>
+                                        <With_Holes>No</With_Holes>
+                                    </Object_Shape_Definition>
+                                    <Push_Pins />
+                                </Conductor_Layer>
+                                <Conductor_Layer id="45995-47684">
+                                    <Installed>Yes</Installed>
+                                    <Identification>
+                                        <Name>Conductor Layer 10</Name>
+                                    </Identification>
+                                    <Placement>
+                                        <Y_Location>0 mm</Y_Location>
+                                    </Placement>
+                                    <Construction>
+                                        <Conductor_Thickness>0.035 mm</Conductor_Thickness>
+                                        <Modelling_Level>Uniform Conductivity</Modelling_Level>
+                                        <Conductor_Content_from_Image>No</Conductor_Content_from_Image>
+                                        <Conductor_Planar_Percentage>80 %</Conductor_Planar_Percentage>
+                                        <Layer_Image>
+                                            <MaterialTolerance>5 %</MaterialTolerance>
+                                            <BackgroundTolerance>5 %</BackgroundTolerance>
+                                            <MaterialRed>0</MaterialRed>
+                                            <MaterialGreen>0</MaterialGreen>
+                                            <MaterialBlue>0</MaterialBlue>
+                                            <MaterialIsConductor>Yes</MaterialIsConductor>
+                                            <BackgroundRed>255</BackgroundRed>
+                                            <BackgroundGreen>255</BackgroundGreen>
+                                            <BackgroundBlue>255</BackgroundBlue>
+                                            <BackgroundIsIgnored>No</BackgroundIsIgnored>
+                                            <Clockwise_Rotation_Angle>No Rotation</Clockwise_Rotation_Angle>
+                                            <Flip_Image_About_Vertical>No</Flip_Image_About_Vertical>
+                                            <ImageWidth>0</ImageWidth>
+                                            <ImageHeight>0</ImageHeight>
+                                        </Layer_Image>
+                                        <Map_Image_To_Grid>No</Map_Image_To_Grid>
+                                        <Conductor_Percentage_From_Image>0 %</Conductor_Percentage_From_Image>
+                                        <Different_Conductor_Material>No</Different_Conductor_Material>
+                                        <MaterialLink />
+                                        <Material_Alignment>XYZ</Material_Alignment>
+                                        <Material_Normal>X</Material_Normal>
+                                        <Different_Dielectric_Material>No</Different_Dielectric_Material>
+                                        <DielectricMaterialLink />
+                                    </Construction>
+                                    <Display_Options>
+                                        <Colour>39,180,44</Colour>
+                                        <Secondary_Colour>180,180,180</Secondary_Colour>
+                                        <Basic_Render_Style>Solid,Wireframe,Solid Outlined,Textured,Transparent,Invisible</Basic_Render_Style>
+                                        <Render_Style>Wireframe</Render_Style>
+                                        <Transparency>70 %</Transparency>
+                                        <Variable>Temperature</Variable>
+                                        <Show_Computational_Shape>Yes</Show_Computational_Shape>
+                                        <Data_Type>Geometry</Data_Type>
+                                        <Plot_Type>Variation Plot Smooth</Plot_Type>
+                                        <Show_Grid>No</Show_Grid>
+                                        <Target_Variable>Temperature</Target_Variable>
+                                        <Hidden>No</Hidden>
+                                    </Display_Options>
+                                    <Traces />
+                                    <Pads />
+                                    <Conductors />
+                                    <Nets />
+                                    <Substrate_Conductors />
+                                    <Substrate_Pads />
+                                    <Substrate_Traces />
+                                    <Substrate_Nets />
+                                    <Simulation_Results>
+                                        <Heat_Fluxes>
+                                            <ShowPolygonSides>No</ShowPolygonSides>
+                                            <ShowCuboidSides>No</ShowCuboidSides>
+                                        </Heat_Fluxes>
+                                        <Solar_Heating>0 W</Solar_Heating>
+                                    </Simulation_Results>
+                                    <Object_Shape_Definition>
+                                        <Shape_Type>Cuboid</Shape_Type>
+                                        <Thin_Shape>No</Thin_Shape>
+                                        <With_Holes>No</With_Holes>
+                                    </Object_Shape_Definition>
+                                    <Push_Pins />
+                                </Conductor_Layer>
+                            </Conductor_Layers>
+                            
