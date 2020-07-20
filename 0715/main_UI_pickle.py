@@ -24,7 +24,6 @@ import image_rc
 
 # from resource import image
 from Modeler import SimplePCB
-from ResultAnalzer import getResult
 
 # form_class = uic.loadUiType('./resource/main.ui')[0]
 
@@ -74,18 +73,20 @@ class TestForm(QMainWindow, Ui_MainWindow): # UI를 상속 받음
     #     print(app_msg)
 
     def SetOptions(self): # 초기값 
+        # pixmap1 = QPixmap("./resource/Tap2.png")
+        # self.Image_Geometry.setPixmap(pixmap1)
+        # Geometry 탭 초기값 
+        self.tableWidget_PcbCaseInfor.setItem(0,4, QTableWidgetItem("[고정값]Copper, FR4"))
         self.tableWidget_PcbCaseInfor.setItem(0,3, QTableWidgetItem("[X] Meaningless"))
         self.tableWidget_PcbCaseInfor.setItem(1,0, QTableWidgetItem("[고정값] PCB Width"))
         self.tableWidget_PcbCaseInfor.setItem(1,1, QTableWidgetItem("[고정값] PCB Depth"))
         self.tableWidget_PcbCaseInfor.setItem(2,0, QTableWidgetItem("[고정값] PCB Width"))
         self.tableWidget_PcbCaseInfor.setItem(2,1, QTableWidgetItem("[고정값] PCB Depth"))
-
-        # Materials 
-        self.tableWidget_PcbCaseInfor.setItem(0,5, QTableWidgetItem("[고정값]Copper, FR4"))
+ 
         self.UpperCaseMaterial = QComboBox()
-        self.tableWidget_PcbCaseInfor.setCellWidget(1,5, self.UpperCaseMaterial)
+        self.tableWidget_PcbCaseInfor.setCellWidget(1,4, self.UpperCaseMaterial)
         self.LowerCaseMaterial = QComboBox()
-        self.tableWidget_PcbCaseInfor.setCellWidget(2,5, self.LowerCaseMaterial)
+        self.tableWidget_PcbCaseInfor.setCellWidget(2,4, self.LowerCaseMaterial)
         
         self._setLayerInitValue() # PCB Layer 탭 초기값 
         self.setComponentOption() # 소자 부분 초기화, 길이에 따라 설정 개수가 많아짐 
@@ -184,6 +185,7 @@ class TestForm(QMainWindow, Ui_MainWindow): # UI를 상속 받음
             self.setComponentOption()
         else:
             print("Error in IC Number")
+ 
 
 
     def _setTableVertical(self, lineEdit, tableName, name): # Layer, Component Apply 버튼을 위한 내장 함수 
@@ -205,29 +207,31 @@ class TestForm(QMainWindow, Ui_MainWindow): # UI를 상속 받음
         # AllItems = [self.comboBox_Boards.itemText(i) for i in range(self.comboBox_Boards.count())]
         # print(AllItems)
         print(self.comboBox_Boards.currentText())
-
+    
     def LoadModel(self):
         pass
 
     def DeleteModel(self):
         pass
-
+    
     def CheckModel(self):
-        pass
-        # RedPalette = QPalette()
-        # RedPalette.setColor(QPalette.HighlightedText, Qt.red)
-        # for i in range(int(self.lineEdit_ComponentsNumber.text())):
-        #     if float(self.tableWidget_SimulationResults.item(i, 6).text()) > float(self.tableWidget_SimulationResults.item(i, 5).text()):
-        #         self.tableWidget_SimulationResults.item(i, 6).setBackground(QColor(255,69,0))
-        #     #if float(self.tableWidget_SimulationResults.item(i, 7).text()) > float(self.tableWidget_SimulationResults.item(i, 5).text()):
-        #     #    self.tableWidget_SimulationResults.item(i, 7).setBackground(QColor(255,69,0))
-        #     #if float(self.tableWidget_SimulationResults.item(i, 8).text()) > float(self.tableWidget_SimulationResults.item(i, 5).text()):
-        #     #    self.tableWidget_SimulationResults.item(i, 8).setBackground(QColor(255,69,0))
+        RedPalette = QPalette()
+        RedPalette.setColor(QPalette.HighlightedText, Qt.red)
+        for i in range(int(self.lineEdit_ComponentsNumber.text())):
+            if float(self.tableWidget_SimulationResults.item(i, 6).text()) > float(self.tableWidget_SimulationResults.item(i, 5).text()):
+                self.tableWidget_SimulationResults.item(i, 6).setBackground(QColor(255,69,0))
+            if float(self.tableWidget_SimulationResults.item(i, 7).text()) > float(self.tableWidget_SimulationResults.item(i, 5).text()):
+                self.tableWidget_SimulationResults.item(i, 7).setBackground(QColor(255,69,0))
+            if float(self.tableWidget_SimulationResults.item(i, 8).text()) > float(self.tableWidget_SimulationResults.item(i, 5).text()):
+                self.tableWidget_SimulationResults.item(i, 8).setBackground(QColor(255,69,0))
+            
 
 
     def InitModel(self, ModelName="SimplePCB"):
         self.Board = SimplePCB()
+        
         # self.Board._setResultPath()
+
         # Get Material Lists
         self.MaterialDict = self.Board.getMaterialList() 
 
@@ -238,11 +242,13 @@ class TestForm(QMainWindow, Ui_MainWindow): # UI를 상속 받음
         self.LowerCaseMaterial.addItems(self.MaterialDict.keys())
 
 
+
+        
     def _getGeometry(self):
         self.Board.Name = self.lineEdit_ModelName.text()
         self.Board.setAmbientTemp(temperature = self.lineEdit_AmbientTemp.text())
         self.Board.setPcbInfo(Thickness=float(self.tableWidget_PcbCaseInfor.item(0, 2).text()), Width=float(self.tableWidget_PcbCaseInfor.item(0, 0).text()), Depth=float(self.tableWidget_PcbCaseInfor.item(0, 1).text()))
-        self.Board.setCase(Upper_Height=float(self.tableWidget_PcbCaseInfor.item(1, 2).text()), Upper_Thickness=float(self.tableWidget_PcbCaseInfor.item(1, 3).text()), Upper_Material=str(self.tableWidget_PcbCaseInfor.cellWidget(1, 5).currentText()), Lower_Height=float(self.tableWidget_PcbCaseInfor.item(2, 2).text()), Lower_Thickness=float(self.tableWidget_PcbCaseInfor.item(2, 3).text()), Lower_Material=str(self.tableWidget_PcbCaseInfor.cellWidget(2, 5).currentText()))
+        self.Board.setCase(Upper_Height=float(self.tableWidget_PcbCaseInfor.item(1, 2).text()), Upper_Thickness=float(self.tableWidget_PcbCaseInfor.item(1, 3).text()), Upper_Material=str(self.tableWidget_PcbCaseInfor.cellWidget(1, 4).currentText()), Lower_Height=float(self.tableWidget_PcbCaseInfor.item(2, 2).text()), Lower_Thickness=float(self.tableWidget_PcbCaseInfor.item(2, 3).text()), Lower_Material=str(self.tableWidget_PcbCaseInfor.cellWidget(2, 4).currentText()))
         # print(str(self.tableWidget_PcbCaseInfor.cellWidget(1, 4).currentText()), str(self.tableWidget_PcbCaseInfor.cellWidget(2, 4).currentText()))
     
     def _getLayers(self):
@@ -253,14 +259,15 @@ class TestForm(QMainWindow, Ui_MainWindow): # UI를 상속 받음
             Layers_Percentage.append(float(self.tableWidget_PcbLayers.item(i,1).text())) # Copper Percentage
 
         self.Board.setLayersInfo(Layers=int(self.lineEdit_PcbLayerNumber.text()), Thickness=Layers_Thickness, Percentage=Layers_Percentage)
-        print(int(self.lineEdit_PcbLayerNumber.text()), Layers_Thickness, Layers_Percentage)
+        # print(Layers_Thickness, Layers_Percentage)
 
     def _getComponents(self):
         for i in range(int(self.lineEdit_ComponentsNumber.text())):
             if str(self.tableWidget_Components.cellWidget(i, 8).currentText()) == 'Simplified':
-                self.Board.addComponent(name=str(self.tableWidget_Components.item(i, 0).text()), X=float(self.tableWidget_Components.item(i, 2).text()), Z=float(self.tableWidget_Components.item(i, 3).text()), side=str(self.tableWidget_Components.cellWidget(i, 1).currentText()), width=float(self.tableWidget_Components.item(i, 4).text()), depth=float(self.tableWidget_Components.item(i, 5).text()), height=float(self.tableWidget_Components.item(i, 6).text()), material='Si(Silicon)', TIM=str(self.tableWidget_Components.cellWidget(i, 7).currentText()), powerType='Simplified', power=float(self.tableWidget_Components.item(i, 11).text()), maxAvailableTemp=float(self.tableWidget_Components.item(i, 12).text()))
+                self.Board.addComponent(name=str(self.tableWidget_Components.item(i, 0).text()), X=float(self.tableWidget_Components.item(i, 2).text()), Z=float(self.tableWidget_Components.item(i, 3).text()), side=str(self.tableWidget_Components.cellWidget(i, 1).currentText()), width=float(self.tableWidget_Components.item(i, 4).text()), depth=float(self.tableWidget_Components.item(i, 5).text()), height=float(self.tableWidget_Components.item(i, 6).text()), material='Si(Silicon)', TIM=str(self.tableWidget_Components.cellWidget(i, 7).currentText()), powerType='Simplified', power=float(self.tableWidget_Components.item(i, 12).text()))
+
             elif str(self.tableWidget_Components.cellWidget(i, 8).currentText()) == '2R':
-                self.Board.addComponent(name=str(self.tableWidget_Components.item(i, 0).text()), X=float(self.tableWidget_Components.item(i, 2).text()), Z=float(self.tableWidget_Components.item(i, 3).text()), side=str(self.tableWidget_Components.cellWidget(i, 1).currentText()), width=float(self.tableWidget_Components.item(i, 4).text()), depth=float(self.tableWidget_Components.item(i, 5).text()), height=float(self.tableWidget_Components.item(i, 6).text()), material='Si(Silicon)', TIM=str(self.tableWidget_Components.cellWidget(i, 7).currentText()), powerType='2R', power=float(self.tableWidget_Components.item(i, 11).text()), junction2Case = float(self.tableWidget_Components.item(i, 9).text()), junction2Board=float(self.tableWidget_Components.item(i, 10).text()), maxAvailableTemp=float(self.tableWidget_Components.item(i, 12).text()))
+                self.Board.addComponent(name=str(self.tableWidget_Components.item(i, 0).text()), X=float(self.tableWidget_Components.item(i, 2).text()), Z=float(self.tableWidget_Components.item(i, 3).text()), side=str(self.tableWidget_Components.cellWidget(i, 1).currentText()), width=float(self.tableWidget_Components.item(i, 4).text()), depth=float(self.tableWidget_Components.item(i, 5).text()), height=float(self.tableWidget_Components.item(i, 6).text()), material='Si(Silicon)', TIM=str(self.tableWidget_Components.cellWidget(i, 7).currentText()), powerType='2R', power=float(self.tableWidget_Components.item(i, 12).text()), junction2Case = float(self.tableWidget_Components.item(i, 9).text()), junction2Board=float(self.tableWidget_Components.item(i, 10).text()))
             else:
                 print("Exceptions in _getComponents")
 
@@ -273,55 +280,29 @@ class TestForm(QMainWindow, Ui_MainWindow): # UI를 상속 받음
         pass
     
     def _saveXML(self):
-        ########################################################이 부분을 시뮬레이션 부분으로 옮겨야 함
         folderName = 'temp'
-        folderFullPath=os.path.join(CurrentFolder, folderName)
-        self.resultFileName = self.lineEdit_ModelName.text() +'.xml'
-        self.resultFileFullPath = os.path.join(folderFullPath, self.resultFileName)
+
         self._getGeometry()
         self._getLayers()
         self._getComponents()
 
-        self.Board._setPcbInfo()
-        self.Board._setLayersInfo()
-        self.Board._setPcbComponents()
-        self.Board._setCase()
-    
         try:
             if not(os.path.isdir(folderName)):
                 os.makedirs(os.path.join(folderName))
         except Exception as err:
             print("Failed to create temp directory", err)
         else:
-            #self.ResultRelativePath= './'+ folderName +'/'+ self.lineEdit_ModelName.text() +'.xml'
-            self.Board.saveXML(fileName=self.resultFileFullPath)
+            self.ResultRelativePath= './'+ folderName +'/'+ self.lineEdit_ModelName.text() +'.xml'
+            self.Board.saveXML(fileName=self.ResultRelativePath)
 
     def _setSimulationResult(self):
-        self.Board.Components = getResult(SimulationFile=self.resultFileFullPath, Components=self.Board.Components)
-        # RedPalette = QPalette()
-        # RedPalette.setColor(QPalette.HighlightedText, Qt.red)
         for i in range(int(self.lineEdit_ComponentsNumber.text())):
-            # self.tableWidget_SimulationResults.setItem(i,0, QTableWidgetItem(str(self.tableWidget_Components.item(i, 0).text())))
-            # self.tableWidget_SimulationResults.setItem(i,1, QTableWidgetItem(str(self.tableWidget_Components.cellWidget(i, 1).currentText()))) 
-            # self.tableWidget_SimulationResults.setItem(i,2, QTableWidgetItem(str(self.tableWidget_Components.cellWidget(i, 7).currentText()))) 
-            # self.tableWidget_SimulationResults.setItem(i,3, QTableWidgetItem(str(self.tableWidget_Components.cellWidget(i, 8).currentText())))
-            # self.tableWidget_SimulationResults.setItem(i,4, QTableWidgetItem(str(self.tableWidget_Components.item(i, 11).text()))) 
-            # self.tableWidget_SimulationResults.setItem(i,5, QTableWidgetItem(str(self.tableWidget_Components.item(i, 12).text()))) 
-            self.tableWidget_SimulationResults.setItem(i,0, QTableWidgetItem(str(self.Board.Components[i]['Reference_Designator'])))
-            self.tableWidget_SimulationResults.setItem(i,1, QTableWidgetItem(str(self.Board.Components[i]['Board_Side']))) 
-            self.tableWidget_SimulationResults.setItem(i,2, QTableWidgetItem(str(self.Board.Components[i]['TIM']))) 
-            self.tableWidget_SimulationResults.setItem(i,3, QTableWidgetItem(str(self.Board.Components[i]['Modelling_Level'])))
-            self.tableWidget_SimulationResults.setItem(i,4, QTableWidgetItem(str(self.Board.Components[i]['Thermal_Design_Power']))) 
-            self.tableWidget_SimulationResults.setItem(i,5, QTableWidgetItem(str(self.Board.Components[i]['MaxAvailableTemp'])))
-            self.tableWidget_SimulationResults.setItem(i,6, QTableWidgetItem(str(self.Board.Components[i]['JunctionTemp']))) 
-            if self.Board.Components[i]['Modelling_Level'] == "2R":
-                self.tableWidget_SimulationResults.setItem(i,7, QTableWidgetItem(str(self.Board.Components[i]['TopTemp']))) 
-                self.tableWidget_SimulationResults.setItem(i,8, QTableWidgetItem(str(self.Board.Components[i]['BottomTemp'])))
-            # else:
-                # self.tableWidget_SimulationResults.setItem(i,7, QTableWidgetItem('0')) 
-                # self.tableWidget_SimulationResults.setItem(i,8, QTableWidgetItem('0'))
-            if float(self.tableWidget_SimulationResults.item(i, 6).text()) > float(self.tableWidget_SimulationResults.item(i, 5).text()):
-                self.tableWidget_SimulationResults.item(i, 6).setBackground(QColor(255,69,0))
+            self.tableWidget_SimulationResults.setItem(i,0, QTableWidgetItem(str(self.tableWidget_Components.item(i, 0).text())))
+            self.tableWidget_SimulationResults.setItem(i,1, QTableWidgetItem(str(self.tableWidget_Components.cellWidget(i, 1).currentText()))) 
+            self.tableWidget_SimulationResults.setItem(i,2, QTableWidgetItem(str(self.tableWidget_Components.cellWidget(i, 7).currentText()))) 
+            self.tableWidget_SimulationResults.setItem(i,3, QTableWidgetItem(str(self.tableWidget_Components.cellWidget(i, 8).currentText())))
+            self.tableWidget_SimulationResults.setItem(i,4, QTableWidgetItem(str(self.tableWidget_Components.item(i, 11).text()))) 
+            self.tableWidget_SimulationResults.setItem(i,5, QTableWidgetItem(str(self.tableWidget_Components.item(i, 12).text()))) 
 
     def NewModel(self):
         self.InitActive()
@@ -329,14 +310,17 @@ class TestForm(QMainWindow, Ui_MainWindow): # UI를 상속 받음
 
     def SaveModel(self):
         print("Save Model")
-        #Pcikle로 Class instance 저장, 새로운 Method 만들어서, 중간중간 결과 반영할 수 있게.
-
-    def RunSimulation(self):
-        print("Making XML File")
         self._saveXML()
-        print(self.resultFileFullPath)
-        print("Doing Simulation")
-        self.Board.runSim(fileFullPath=self.resultFileFullPath) # 파일 경로가 /인데 
+
+        #현재 상태를 현재 인스턴스에 반영 후, 새로운 인스턴스 생성 
+
+    
+    def RunSimulation(self):
+        
+        self.ResultFullPath=os.path.join(CurrentFolder, self.ResultRelativePath[2:])
+        print(self.ResultFullPath)
+        print("Run Simulation")
+        self.Board.runSim(fileFullPath=self.ResultFullPath) # 파일 경로가 /인데 
         #인스턴스 목록을 받아서 실행 
         #현재 상태를 현재 인스턴스에 반영 후, 실행 
         self._setSimulationResult()

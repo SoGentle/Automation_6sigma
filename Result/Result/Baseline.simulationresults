@@ -1,0 +1,2662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataDefinition label="ET Constructor" version="14.34">
+<ExtendEntity id="45995-47668">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature>75.0090026855469 C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature>75.0084991455078 C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature>75.0094985961914 C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature>0 C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature>0 C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature>0 C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides>Yes</ShowPolygonSides>
+<ShowCuboidSides>No</ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In>0.003166789887473 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+<Polygon_Faces>
+<Top>
+<Heat_Conduction_In>0.003166789887473 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Top>
+<Bottom>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Bottom>
+<Sides>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Sides>
+</Polygon_Faces>
+</Heat_Fluxes>
+<Temperature_In>
+<Min_Temperature_In> C</Min_Temperature_In>
+<Mean_Temperature_In> C</Mean_Temperature_In>
+<Max_Temperature_In> C</Max_Temperature_In>
+<Min_Temperature_In_Curve> &lt;s,C></Min_Temperature_In_Curve>
+<Mean_Temperature_In_Curve> &lt;s,C></Mean_Temperature_In_Curve>
+<Max_Temperature_In_Curve> &lt;s,C></Max_Temperature_In_Curve>
+</Temperature_In>
+<Temperature_Out>
+<Min_Temperature_Out> C</Min_Temperature_Out>
+<Mean_Temperature_Out> C</Mean_Temperature_Out>
+<Max_Temperature_Out> C</Max_Temperature_Out>
+<Min_Temperature_Out_Curve> &lt;s,C></Min_Temperature_Out_Curve>
+<Mean_Temperature_Out_Curve> &lt;s,C></Mean_Temperature_Out_Curve>
+<Max_Temperature_Out_Curve> &lt;s,C></Max_Temperature_Out_Curve>
+</Temperature_Out>
+<In_Flow>
+<Flow_In>0 m^3/s</Flow_In>
+<Flow_In_Curve> &lt;s,m^3/s></Flow_In_Curve>
+</In_Flow>
+<Out_Flow>
+<Flow_Out>0 m^3/s</Flow_Out>
+<Flow_Out_Curve> &lt;s,m^3/s></Flow_Out_Curve>
+</Out_Flow>
+<Heat_Flow>
+<Heat_Flow_In> W</Heat_Flow_In>
+<Heat_Flow_In_Curve> &lt;s,W></Heat_Flow_In_Curve>
+<Heat_Flow_Out> W</Heat_Flow_Out>
+<Heat_Flow_Out_Curve> &lt;s,W></Heat_Flow_Out_Curve>
+</Heat_Flow>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-47669">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature>75.008903503418 C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature>75.0083999633789 C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature>75.0093994140625 C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature>0 C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature>0 C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature>0 C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides>Yes</ShowPolygonSides>
+<ShowCuboidSides>No</ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In>0.003137370105833 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+<Polygon_Faces>
+<Top>
+<Heat_Conduction_In>0.003137370105833 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Top>
+<Bottom>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Bottom>
+<Sides>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Sides>
+</Polygon_Faces>
+</Heat_Fluxes>
+<Temperature_In>
+<Min_Temperature_In> C</Min_Temperature_In>
+<Mean_Temperature_In> C</Mean_Temperature_In>
+<Max_Temperature_In> C</Max_Temperature_In>
+<Min_Temperature_In_Curve> &lt;s,C></Min_Temperature_In_Curve>
+<Mean_Temperature_In_Curve> &lt;s,C></Mean_Temperature_In_Curve>
+<Max_Temperature_In_Curve> &lt;s,C></Max_Temperature_In_Curve>
+</Temperature_In>
+<Temperature_Out>
+<Min_Temperature_Out> C</Min_Temperature_Out>
+<Mean_Temperature_Out> C</Mean_Temperature_Out>
+<Max_Temperature_Out> C</Max_Temperature_Out>
+<Min_Temperature_Out_Curve> &lt;s,C></Min_Temperature_Out_Curve>
+<Mean_Temperature_Out_Curve> &lt;s,C></Mean_Temperature_Out_Curve>
+<Max_Temperature_Out_Curve> &lt;s,C></Max_Temperature_Out_Curve>
+</Temperature_Out>
+<In_Flow>
+<Flow_In>0 m^3/s</Flow_In>
+<Flow_In_Curve> &lt;s,m^3/s></Flow_In_Curve>
+</In_Flow>
+<Out_Flow>
+<Flow_Out>0 m^3/s</Flow_Out>
+<Flow_Out_Curve> &lt;s,m^3/s></Flow_Out_Curve>
+</Out_Flow>
+<Heat_Flow>
+<Heat_Flow_In> W</Heat_Flow_In>
+<Heat_Flow_In_Curve> &lt;s,W></Heat_Flow_In_Curve>
+<Heat_Flow_Out> W</Heat_Flow_Out>
+<Heat_Flow_Out_Curve> &lt;s,W></Heat_Flow_Out_Curve>
+</Heat_Flow>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-47670">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature>75.0090026855469 C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature>75.0083999633789 C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature>75.0092010498047 C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature>0 C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature>0 C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature>0 C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides>Yes</ShowPolygonSides>
+<ShowCuboidSides>No</ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In>0.003142439993098 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+<Polygon_Faces>
+<Top>
+<Heat_Conduction_In>0.003142439993098 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Top>
+<Bottom>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Bottom>
+<Sides>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Sides>
+</Polygon_Faces>
+</Heat_Fluxes>
+<Temperature_In>
+<Min_Temperature_In> C</Min_Temperature_In>
+<Mean_Temperature_In> C</Mean_Temperature_In>
+<Max_Temperature_In> C</Max_Temperature_In>
+<Min_Temperature_In_Curve> &lt;s,C></Min_Temperature_In_Curve>
+<Mean_Temperature_In_Curve> &lt;s,C></Mean_Temperature_In_Curve>
+<Max_Temperature_In_Curve> &lt;s,C></Max_Temperature_In_Curve>
+</Temperature_In>
+<Temperature_Out>
+<Min_Temperature_Out> C</Min_Temperature_Out>
+<Mean_Temperature_Out> C</Mean_Temperature_Out>
+<Max_Temperature_Out> C</Max_Temperature_Out>
+<Min_Temperature_Out_Curve> &lt;s,C></Min_Temperature_Out_Curve>
+<Mean_Temperature_Out_Curve> &lt;s,C></Mean_Temperature_Out_Curve>
+<Max_Temperature_Out_Curve> &lt;s,C></Max_Temperature_Out_Curve>
+</Temperature_Out>
+<In_Flow>
+<Flow_In>0 m^3/s</Flow_In>
+<Flow_In_Curve> &lt;s,m^3/s></Flow_In_Curve>
+</In_Flow>
+<Out_Flow>
+<Flow_Out>0 m^3/s</Flow_Out>
+<Flow_Out_Curve> &lt;s,m^3/s></Flow_Out_Curve>
+</Out_Flow>
+<Heat_Flow>
+<Heat_Flow_In> W</Heat_Flow_In>
+<Heat_Flow_In_Curve> &lt;s,W></Heat_Flow_In_Curve>
+<Heat_Flow_Out> W</Heat_Flow_Out>
+<Heat_Flow_Out_Curve> &lt;s,W></Heat_Flow_Out_Curve>
+</Heat_Flow>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-47671">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature>75.0090026855469 C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature>75.0083999633789 C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature>75.0092010498047 C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature>0 C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature>0 C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature>0 C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides>Yes</ShowPolygonSides>
+<ShowCuboidSides>No</ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In>0.003137459978461 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+<Polygon_Faces>
+<Top>
+<Heat_Conduction_In>0.003137459978461 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Top>
+<Bottom>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Bottom>
+<Sides>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Sides>
+</Polygon_Faces>
+</Heat_Fluxes>
+<Temperature_In>
+<Min_Temperature_In> C</Min_Temperature_In>
+<Mean_Temperature_In> C</Mean_Temperature_In>
+<Max_Temperature_In> C</Max_Temperature_In>
+<Min_Temperature_In_Curve> &lt;s,C></Min_Temperature_In_Curve>
+<Mean_Temperature_In_Curve> &lt;s,C></Mean_Temperature_In_Curve>
+<Max_Temperature_In_Curve> &lt;s,C></Max_Temperature_In_Curve>
+</Temperature_In>
+<Temperature_Out>
+<Min_Temperature_Out> C</Min_Temperature_Out>
+<Mean_Temperature_Out> C</Mean_Temperature_Out>
+<Max_Temperature_Out> C</Max_Temperature_Out>
+<Min_Temperature_Out_Curve> &lt;s,C></Min_Temperature_Out_Curve>
+<Mean_Temperature_Out_Curve> &lt;s,C></Mean_Temperature_Out_Curve>
+<Max_Temperature_Out_Curve> &lt;s,C></Max_Temperature_Out_Curve>
+</Temperature_Out>
+<In_Flow>
+<Flow_In>0 m^3/s</Flow_In>
+<Flow_In_Curve> &lt;s,m^3/s></Flow_In_Curve>
+</In_Flow>
+<Out_Flow>
+<Flow_Out>0 m^3/s</Flow_Out>
+<Flow_Out_Curve> &lt;s,m^3/s></Flow_Out_Curve>
+</Out_Flow>
+<Heat_Flow>
+<Heat_Flow_In> W</Heat_Flow_In>
+<Heat_Flow_In_Curve> &lt;s,W></Heat_Flow_In_Curve>
+<Heat_Flow_Out> W</Heat_Flow_Out>
+<Heat_Flow_Out_Curve> &lt;s,W></Heat_Flow_Out_Curve>
+</Heat_Flow>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-47672">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature> C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature> C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature> C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature> C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature> C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature> C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides></ShowPolygonSides>
+<ShowCuboidSides></ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In> W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out> W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In> W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out> W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In> W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out> W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+</Heat_Fluxes>
+<Temperature_In>
+<Min_Temperature_In> C</Min_Temperature_In>
+<Mean_Temperature_In> C</Mean_Temperature_In>
+<Max_Temperature_In> C</Max_Temperature_In>
+<Min_Temperature_In_Curve> &lt;s,C></Min_Temperature_In_Curve>
+<Mean_Temperature_In_Curve> &lt;s,C></Mean_Temperature_In_Curve>
+<Max_Temperature_In_Curve> &lt;s,C></Max_Temperature_In_Curve>
+</Temperature_In>
+<Temperature_Out>
+<Min_Temperature_Out>75.0005035400391 C</Min_Temperature_Out>
+<Mean_Temperature_Out>75.4404983520508 C</Mean_Temperature_Out>
+<Max_Temperature_Out>79.9654006958008 C</Max_Temperature_Out>
+<Min_Temperature_Out_Curve> &lt;s,C></Min_Temperature_Out_Curve>
+<Mean_Temperature_Out_Curve> &lt;s,C></Mean_Temperature_Out_Curve>
+<Max_Temperature_Out_Curve> &lt;s,C></Max_Temperature_Out_Curve>
+</Temperature_Out>
+<In_Flow>
+<Flow_In>0 m^3/s</Flow_In>
+<Flow_In_Curve> &lt;s,m^3/s></Flow_In_Curve>
+</In_Flow>
+<Out_Flow>
+<Flow_Out>0.005779440049082 m^3/s</Flow_Out>
+<Flow_Out_Curve> &lt;s,m^3/s></Flow_Out_Curve>
+</Out_Flow>
+<Heat_Flow>
+<Heat_Flow_In> W</Heat_Flow_In>
+<Heat_Flow_In_Curve> &lt;s,W></Heat_Flow_In_Curve>
+<Heat_Flow_Out>2.58740250784803 W</Heat_Flow_Out>
+<Heat_Flow_Out_Curve> &lt;s,W></Heat_Flow_Out_Curve>
+</Heat_Flow>
+<Solar_Heating> W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-47673">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature> C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature> C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature> C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature> C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature> C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature> C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides></ShowPolygonSides>
+<ShowCuboidSides></ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In> W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out> W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In> W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out> W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In> W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out> W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+</Heat_Fluxes>
+<Temperature_In>
+<Min_Temperature_In>75 C</Min_Temperature_In>
+<Mean_Temperature_In>75 C</Mean_Temperature_In>
+<Max_Temperature_In>75 C</Max_Temperature_In>
+<Min_Temperature_In_Curve> &lt;s,C></Min_Temperature_In_Curve>
+<Mean_Temperature_In_Curve> &lt;s,C></Mean_Temperature_In_Curve>
+<Max_Temperature_In_Curve> &lt;s,C></Max_Temperature_In_Curve>
+</Temperature_In>
+<Temperature_Out>
+<Min_Temperature_Out> C</Min_Temperature_Out>
+<Mean_Temperature_Out> C</Mean_Temperature_Out>
+<Max_Temperature_Out> C</Max_Temperature_Out>
+<Min_Temperature_Out_Curve> &lt;s,C></Min_Temperature_Out_Curve>
+<Mean_Temperature_Out_Curve> &lt;s,C></Mean_Temperature_Out_Curve>
+<Max_Temperature_Out_Curve> &lt;s,C></Max_Temperature_Out_Curve>
+</Temperature_Out>
+<In_Flow>
+<Flow_In>0.005774150136858 m^3/s</Flow_In>
+<Flow_In_Curve> &lt;s,m^3/s></Flow_In_Curve>
+</In_Flow>
+<Out_Flow>
+<Flow_Out>0 m^3/s</Flow_Out>
+<Flow_Out_Curve> &lt;s,m^3/s></Flow_Out_Curve>
+</Out_Flow>
+<Heat_Flow>
+<Heat_Flow_In>0 W</Heat_Flow_In>
+<Heat_Flow_In_Curve> &lt;s,W></Heat_Flow_In_Curve>
+<Heat_Flow_Out> W</Heat_Flow_Out>
+<Heat_Flow_Out_Curve> &lt;s,W></Heat_Flow_Out_Curve>
+</Heat_Flow>
+<Solar_Heating> W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-31000">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature>114.5 C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature>95.4587020874023 C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature>97.3977966308594 C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature>114.500999450684 C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature>95.4605026245117 C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature>97.4005966186523 C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides>No</ShowPolygonSides>
+<ShowCuboidSides>Yes</ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In>1.575026869773865 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>13.7315301895142 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0.002859649946913 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.049933854490519 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0.006450159940869 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.021005099639297 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+<Cuboid_Faces>
+<Top>
+<Heat_Conduction_In>1.553390026092529 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>11.3591003417969 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0.002859649946913 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.047907099127769 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0.006450159940869 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.021005099639297 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Top>
+<Bottom>
+<Heat_Conduction_In>0.021636800840497 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>2.372430086135864 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Bottom>
+<Left>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000459894014057 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Left>
+<Right>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000497183995321 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Right>
+<Front>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.00054097402608 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Front>
+<Back>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000528701988515 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Back>
+</Cuboid_Faces>
+</Heat_Fluxes>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-31001">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature> C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature> C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature> C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature> C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature> C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature> C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides></ShowPolygonSides>
+<ShowCuboidSides></ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In> W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out> W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In> W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out> W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In> W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out> W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+</Heat_Fluxes>
+<Solar_Heating> W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-31002">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature> C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature> C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature> C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature> C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature> C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature> C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides></ShowPolygonSides>
+<ShowCuboidSides></ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In> W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out> W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In> W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out> W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In> W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out> W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+</Heat_Fluxes>
+<Solar_Heating> W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-31003">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature>99.7431030273438 C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature>93.5297012329102 C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature>96.2025985717773 C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature>99.7431030273438 C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature>93.5319976806641 C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature>96.2061004638672 C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides>No</ShowPolygonSides>
+<ShowCuboidSides>Yes</ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In>2.181390047073364 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>2.019579887390137 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.067094087600708 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.094653196632862 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+<Cuboid_Faces>
+<Top>
+<Heat_Conduction_In>2.181390047073364 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Top>
+<Bottom>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>2.019579887390137 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.0661695972085 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.094653196632862 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Bottom>
+<Left>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000217941997107 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Left>
+<Right>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000214808998862 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Right>
+<Front>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000245964998612 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Front>
+<Back>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000245773000643 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Back>
+</Cuboid_Faces>
+</Heat_Fluxes>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-47685">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature> C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature> C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature> C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature> C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature> C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature> C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides>No</ShowPolygonSides>
+<ShowCuboidSides>No</ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In> W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out> W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In> W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out> W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In> W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out> W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+</Heat_Fluxes>
+<Solar_Heating> W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-33000">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature> C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature> C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature> C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature> C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature> C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature> C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides></ShowPolygonSides>
+<ShowCuboidSides></ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In> W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out> W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In> W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out> W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In> W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out> W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+</Heat_Fluxes>
+<Joule_Heating> W</Joule_Heating>
+<Joule_Heating_Curve> &lt;s,W></Joule_Heating_Curve>
+<Solar_Heating> W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-32000">
+<Simulation_Results>
+<Junction_Temperature> C</Junction_Temperature>
+<Junction_Temperature_Curve> &lt;s,C></Junction_Temperature_Curve>
+<Case_Temperature> C</Case_Temperature>
+<Case_Temperature_Curve> &lt;s,C></Case_Temperature_Curve>
+<Board_Temperature> C</Board_Temperature>
+<Board_Temperature_Curve> &lt;s,C></Board_Temperature_Curve>
+<Overheat>
+<Overheat>No</Overheat>
+</Overheat>
+<Die_Temperature>
+<Number_of_Die></Number_of_Die>
+<Maximum_Junction_Temperature> C</Maximum_Junction_Temperature>
+<Maximum_Junction_Temperature_Curve> &lt;s,C></Maximum_Junction_Temperature_Curve>
+<Minimum_Junction_Temperature> C</Minimum_Junction_Temperature>
+<Minimum_Junction_Temperature_Curve> &lt;s,C></Minimum_Junction_Temperature_Curve>
+<Mean_Junction_Temperature> C</Mean_Junction_Temperature>
+<Mean_Junction_Temperature_Curve> &lt;s,C></Mean_Junction_Temperature_Curve>
+</Die_Temperature>
+<Surface_Temperature>
+<Maximum_Surface_Temperature>114.958000183105 C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature>114.283996582031 C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature>114.707000732422 C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature>114.959999084473 C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature>114.330001831055 C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature>114.76000213623 C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Controlled_Component>
+<Operating_Power> W</Operating_Power>
+<Operating_Power_Curve> &lt;s,W></Operating_Power_Curve>
+<Controller_Output> %</Controller_Output>
+<Controller_Output_Curve> &lt;s,%></Controller_Output_Curve>
+</Controlled_Component>
+<Heat_Fluxes>
+<ShowPolygonSides>No</ShowPolygonSides>
+<ShowCuboidSides>Yes</ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0.971072018146515 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.016857279464602 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.012336529791355 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+<Cuboid_Faces>
+<Top>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.006299910135567 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.003112569916993 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Top>
+<Bottom>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0.971072018146515 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Bottom>
+<Left>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.00301645998843 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.002550350036472 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Left>
+<Right>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.002832480007783 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.002569270087406 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Right>
+<Front>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.002346920082346 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.002069259993732 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Front>
+<Back>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.002361509948969 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.002035079989582 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Back>
+</Cuboid_Faces>
+</Heat_Fluxes>
+<Solar_Heating>0 W</Solar_Heating>
+<Derated_Power_Temperature_Curve> &lt;C,W></Derated_Power_Temperature_Curve>
+<Temperature_Dependent_Heating> W</Temperature_Dependent_Heating>
+<Temperature_Dependent_Heating_Curve> &lt;s,W></Temperature_Dependent_Heating_Curve>
+<Controlling_Temperature> C</Controlling_Temperature>
+<Joule_Heating>0 W</Joule_Heating>
+<Joule_Heating_Curve> &lt;s,W></Joule_Heating_Curve>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-33001">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature>98.9671020507813 C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature>97.8426971435547 C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature>98.41259765625 C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature>98.8589019775391 C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature>97.9851989746094 C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature>98.4149017333984 C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides>No</ShowPolygonSides>
+<ShowCuboidSides>Yes</ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In>1.005800008773804 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>1.00531005859375 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000576585996896 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.000088931497885 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+<Cuboid_Faces>
+<Top>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>1.00531005859375 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Top>
+<Bottom>
+<Heat_Conduction_In>1.005800008773804 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Bottom>
+<Left>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000159918999998 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.000022969899874 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Left>
+<Right>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000151836997247 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.000021619800464 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Right>
+<Front>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000131292006699 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.000022359399736 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Front>
+<Back>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000133537992951 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.00002198239963 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Back>
+</Cuboid_Faces>
+</Heat_Fluxes>
+<Joule_Heating>0 W</Joule_Heating>
+<Joule_Heating_Curve> &lt;s,W></Joule_Heating_Curve>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-32001">
+<Simulation_Results>
+<Junction_Temperature> C</Junction_Temperature>
+<Junction_Temperature_Curve> &lt;s,C></Junction_Temperature_Curve>
+<Case_Temperature> C</Case_Temperature>
+<Case_Temperature_Curve> &lt;s,C></Case_Temperature_Curve>
+<Board_Temperature> C</Board_Temperature>
+<Board_Temperature_Curve> &lt;s,C></Board_Temperature_Curve>
+<Overheat>
+<Overheat>No</Overheat>
+</Overheat>
+<Die_Temperature>
+<Number_of_Die></Number_of_Die>
+<Maximum_Junction_Temperature> C</Maximum_Junction_Temperature>
+<Maximum_Junction_Temperature_Curve> &lt;s,C></Maximum_Junction_Temperature_Curve>
+<Minimum_Junction_Temperature> C</Minimum_Junction_Temperature>
+<Minimum_Junction_Temperature_Curve> &lt;s,C></Minimum_Junction_Temperature_Curve>
+<Mean_Junction_Temperature> C</Mean_Junction_Temperature>
+<Mean_Junction_Temperature_Curve> &lt;s,C></Mean_Junction_Temperature_Curve>
+</Die_Temperature>
+<Surface_Temperature>
+<Maximum_Surface_Temperature>99.5792007446289 C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature>98.9576034545898 C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature>99.3300018310547 C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature>99.5786972045898 C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature>99.1617965698242 C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature>99.3780975341797 C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Controlled_Component>
+<Operating_Power> W</Operating_Power>
+<Operating_Power_Curve> &lt;s,W></Operating_Power_Curve>
+<Controller_Output> %</Controller_Output>
+<Controller_Output_Curve> &lt;s,%></Controller_Output_Curve>
+</Controlled_Component>
+<Heat_Fluxes>
+<ShowPolygonSides>No</ShowPolygonSides>
+<ShowCuboidSides>Yes</ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In>0.004880500026047 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>1.006332397460938 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0.000004628850093 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000432013417594 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.001039495924488 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+<Cuboid_Faces>
+<Top>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>1.005800008773804 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Top>
+<Bottom>
+<Heat_Conduction_In>0.004880500026047 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0.000532419013325 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Bottom>
+<Left>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0.000001261289981 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000108549000288 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.000253965990851 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Left>
+<Right>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0.000003367560112 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.00009589939873 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.000294069992378 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Right>
+<Front>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000117183000839 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.000246670999331 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Front>
+<Back>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000110382003186 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.000244789000135 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Back>
+</Cuboid_Faces>
+</Heat_Fluxes>
+<Solar_Heating>0 W</Solar_Heating>
+<Derated_Power_Temperature_Curve> &lt;C,W></Derated_Power_Temperature_Curve>
+<Temperature_Dependent_Heating> W</Temperature_Dependent_Heating>
+<Temperature_Dependent_Heating_Curve> &lt;s,W></Temperature_Dependent_Heating_Curve>
+<Controlling_Temperature> C</Controlling_Temperature>
+<Joule_Heating>0 W</Joule_Heating>
+<Joule_Heating_Curve> &lt;s,W></Joule_Heating_Curve>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-33002">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature> C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature> C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature> C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature> C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature> C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature> C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides></ShowPolygonSides>
+<ShowCuboidSides></ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In> W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out> W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In> W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out> W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In> W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out> W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+</Heat_Fluxes>
+<Joule_Heating> W</Joule_Heating>
+<Joule_Heating_Curve> &lt;s,W></Joule_Heating_Curve>
+<Solar_Heating> W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-32002">
+<Simulation_Results>
+<Junction_Temperature>115.057998657227 C</Junction_Temperature>
+<Junction_Temperature_Curve> &lt;s,C></Junction_Temperature_Curve>
+<Case_Temperature>115.046997070313 C</Case_Temperature>
+<Case_Temperature_Curve> &lt;s,C></Case_Temperature_Curve>
+<Board_Temperature>114.069000244141 C</Board_Temperature>
+<Board_Temperature_Curve> &lt;s,C></Board_Temperature_Curve>
+<Overheat>
+<Overheat></Overheat>
+</Overheat>
+<Die_Temperature>
+<Number_of_Die></Number_of_Die>
+<Maximum_Junction_Temperature> C</Maximum_Junction_Temperature>
+<Maximum_Junction_Temperature_Curve> &lt;s,C></Maximum_Junction_Temperature_Curve>
+<Minimum_Junction_Temperature> C</Minimum_Junction_Temperature>
+<Minimum_Junction_Temperature_Curve> &lt;s,C></Minimum_Junction_Temperature_Curve>
+<Mean_Junction_Temperature> C</Mean_Junction_Temperature>
+<Mean_Junction_Temperature_Curve> &lt;s,C></Mean_Junction_Temperature_Curve>
+</Die_Temperature>
+<Surface_Temperature>
+<Maximum_Surface_Temperature>115.046997070313 C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature>101.891998291016 C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature>108.448997497559 C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature>115.057998657227 C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature>115.057998657227 C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature>115.057998657227 C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Controlled_Component>
+<Operating_Power> W</Operating_Power>
+<Operating_Power_Curve> &lt;s,W></Operating_Power_Curve>
+<Controller_Output> %</Controller_Output>
+<Controller_Output_Curve> &lt;s,%></Controller_Output_Curve>
+</Controlled_Component>
+<Heat_Fluxes>
+<ShowPolygonSides>No</ShowPolygonSides>
+<ShowCuboidSides>Yes</ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In>7.270299911499023 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.007252150215209 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.003729240037501 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+<Cuboid_Faces>
+<Top>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.007252150215209 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.003729240037501 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Top>
+<Bottom>
+<Heat_Conduction_In>7.270299911499023 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Bottom>
+<Left>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Left>
+<Right>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Right>
+<Front>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Front>
+<Back>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Back>
+</Cuboid_Faces>
+</Heat_Fluxes>
+<Solar_Heating>0 W</Solar_Heating>
+<Derated_Power_Temperature_Curve> &lt;C,W></Derated_Power_Temperature_Curve>
+<Temperature_Dependent_Heating> W</Temperature_Dependent_Heating>
+<Temperature_Dependent_Heating_Curve> &lt;s,W></Temperature_Dependent_Heating_Curve>
+<Controlling_Temperature> C</Controlling_Temperature>
+<Joule_Heating>0 W</Joule_Heating>
+<Joule_Heating_Curve> &lt;s,W></Joule_Heating_Curve>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-33003">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature>98.5549011230469 C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature>97.6596984863281 C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature>98.1390991210938 C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature>98.5549011230469 C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature>97.786003112793 C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature>98.1660995483398 C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides>No</ShowPolygonSides>
+<ShowCuboidSides>Yes</ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In>0.868735015392303 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0.889820992946625 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000696784001775 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.000089241300884 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+<Cuboid_Faces>
+<Top>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0.889820992946625 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Top>
+<Bottom>
+<Heat_Conduction_In>0.868735015392303 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Bottom>
+<Left>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000159893999808 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.000023510499886 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Left>
+<Right>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000223989001825 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.000026623800295 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Right>
+<Front>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000154523993842 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.000019686000087 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Front>
+<Back>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000158377006301 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.000019421000616 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Back>
+</Cuboid_Faces>
+</Heat_Fluxes>
+<Joule_Heating>0 W</Joule_Heating>
+<Joule_Heating_Curve> &lt;s,W></Joule_Heating_Curve>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-32003">
+<Simulation_Results>
+<Junction_Temperature>99.5205001831055 C</Junction_Temperature>
+<Junction_Temperature_Curve> &lt;s,C></Junction_Temperature_Curve>
+<Case_Temperature>98.6473999023438 C</Case_Temperature>
+<Case_Temperature_Curve> &lt;s,C></Case_Temperature_Curve>
+<Board_Temperature>99.3936004638672 C</Board_Temperature>
+<Board_Temperature_Curve> &lt;s,C></Board_Temperature_Curve>
+<Overheat>
+<Overheat></Overheat>
+</Overheat>
+<Die_Temperature>
+<Number_of_Die></Number_of_Die>
+<Maximum_Junction_Temperature> C</Maximum_Junction_Temperature>
+<Maximum_Junction_Temperature_Curve> &lt;s,C></Maximum_Junction_Temperature_Curve>
+<Minimum_Junction_Temperature> C</Minimum_Junction_Temperature>
+<Minimum_Junction_Temperature_Curve> &lt;s,C></Minimum_Junction_Temperature_Curve>
+<Mean_Junction_Temperature> C</Mean_Junction_Temperature>
+<Mean_Junction_Temperature_Curve> &lt;s,C></Mean_Junction_Temperature_Curve>
+</Die_Temperature>
+<Surface_Temperature>
+<Maximum_Surface_Temperature>99.3936004638672 C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature>97.5904006958008 C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature>98.5024032592773 C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature>99.5205001831055 C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature>99.5205001831055 C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature>99.5205001831055 C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Controlled_Component>
+<Operating_Power> W</Operating_Power>
+<Operating_Power_Curve> &lt;s,W></Operating_Power_Curve>
+<Controller_Output> %</Controller_Output>
+<Controller_Output_Curve> &lt;s,%></Controller_Output_Curve>
+</Controlled_Component>
+<Heat_Fluxes>
+<ShowPolygonSides>No</ShowPolygonSides>
+<ShowCuboidSides>Yes</ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In>3.924129962921143 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0.868735015392303 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+<Cuboid_Faces>
+<Top>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0.868735015392303 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Top>
+<Bottom>
+<Heat_Conduction_In>3.924129962921143 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Bottom>
+<Left>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Left>
+<Right>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Right>
+<Front>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Front>
+<Back>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Back>
+</Cuboid_Faces>
+</Heat_Fluxes>
+<Solar_Heating>0 W</Solar_Heating>
+<Derated_Power_Temperature_Curve> &lt;C,W></Derated_Power_Temperature_Curve>
+<Temperature_Dependent_Heating> W</Temperature_Dependent_Heating>
+<Temperature_Dependent_Heating_Curve> &lt;s,W></Temperature_Dependent_Heating_Curve>
+<Controlling_Temperature> C</Controlling_Temperature>
+<Joule_Heating>0 W</Joule_Heating>
+<Joule_Heating_Curve> &lt;s,W></Joule_Heating_Curve>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-47674">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature>114.501998901367 C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature>93.5297012329102 C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature>96.746696472168 C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature>114.500999450684 C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature>93.5319976806641 C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature>96.7929992675781 C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides>No</ShowPolygonSides>
+<ShowCuboidSides>Yes</ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In>1.553394198417664 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>13.3787174224854 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0.002859649481252 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.189497381448746 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.101838782429695 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+<Cuboid_Faces>
+<Top>
+<Heat_Conduction_In>1.553394198417664 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>11.3591356277466 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0.002859649481252 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.047907140105963 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Top>
+<Bottom>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>2.019582033157349 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.066169567406178 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Bottom>
+<Left>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.017999170348048 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.024226250126958 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Left>
+<Right>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.017954029142857 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.024165259674191 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Right>
+<Front>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.020283779129386 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.027043860405684 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Front>
+<Back>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.019183699041605 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.026403410360217 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Back>
+</Cuboid_Faces>
+</Heat_Fluxes>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-47694">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature>93.7306976318359 C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature>93.2043991088867 C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature>93.4095001220703 C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature>93.7266006469727 C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature>93.2065963745117 C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature>93.4017028808594 C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides>No</ShowPolygonSides>
+<ShowCuboidSides>Yes</ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In>1.368459820747375 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0.050449501723051 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.938929498195648 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0.06480249017477 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.541238129138947 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+<Cuboid_Faces>
+<Top>
+<Heat_Conduction_In>1.368459820747375 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0.050449501723051 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0.06480249017477 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Top>
+<Bottom>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.75283271074295 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.479943573474884 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Bottom>
+<Left>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.044447790831327 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.014569469727576 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Left>
+<Right>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.043662179261446 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.014497090131044 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Right>
+<Front>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.049562610685825 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.016233149915934 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Front>
+<Back>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.04842422157526 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.015994830057025 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Back>
+</Cuboid_Faces>
+</Heat_Fluxes>
+<Joule_Heating>0 W</Joule_Heating>
+<Joule_Heating_Curve> &lt;s,W></Joule_Heating_Curve>
+<Derated_Power_Temperature_Curve> &lt;C,W></Derated_Power_Temperature_Curve>
+<Temperature_Dependent_Heating> W</Temperature_Dependent_Heating>
+<Temperature_Dependent_Heating_Curve> &lt;s,W></Temperature_Dependent_Heating_Curve>
+<Controlling_Temperature> C</Controlling_Temperature>
+<Controlling_Temperature_Curve> &lt;s,C></Controlling_Temperature_Curve>
+<Embedded_Heating>0 W</Embedded_Heating>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-47697">
+<Simulation_Results>
+<Temperature_In>
+<Min_Temperature_In> C</Min_Temperature_In>
+<Mean_Temperature_In> C</Mean_Temperature_In>
+<Max_Temperature_In> C</Max_Temperature_In>
+<Min_Temperature_In_Curve> &lt;s,C></Min_Temperature_In_Curve>
+<Mean_Temperature_In_Curve> &lt;s,C></Mean_Temperature_In_Curve>
+<Max_Temperature_In_Curve> &lt;s,C></Max_Temperature_In_Curve>
+</Temperature_In>
+<Temperature_Out>
+<Min_Temperature_Out> C</Min_Temperature_Out>
+<Mean_Temperature_Out> C</Mean_Temperature_Out>
+<Max_Temperature_Out> C</Max_Temperature_Out>
+<Min_Temperature_Out_Curve> &lt;s,C></Min_Temperature_Out_Curve>
+<Mean_Temperature_Out_Curve> &lt;s,C></Mean_Temperature_Out_Curve>
+<Max_Temperature_Out_Curve> &lt;s,C></Max_Temperature_Out_Curve>
+</Temperature_Out>
+<Through_Flow>
+<Positive_Flow>0 m^3/s</Positive_Flow>
+<Negative_Flow>0 m^3/s</Negative_Flow>
+<Net_Flow>0 m^3/s</Net_Flow>
+<Positive_Flow_Curve> &lt;s,m^3/s></Positive_Flow_Curve>
+<Negative_Flow_Curve> &lt;s,m^3/s></Negative_Flow_Curve>
+<Net_Flow_Curve> &lt;s,m^3/s></Net_Flow_Curve>
+</Through_Flow>
+<Heat_Flow>
+<Positive_Heat_Flow> W</Positive_Heat_Flow>
+<Positive_Heat_Flow_Curve> &lt;s,W></Positive_Heat_Flow_Curve>
+<Negative_Heat_Flow> W</Negative_Heat_Flow>
+<Negative_Heat_Flow_Curve> &lt;s,W></Negative_Heat_Flow_Curve>
+<Net_Heat_Flow> W</Net_Heat_Flow>
+<Net_Heat_Flow_Curve> &lt;s,W></Net_Heat_Flow_Curve>
+</Heat_Flow>
+<Contamination_In>
+<Solved_Contaminants>0
+</Solved_Contaminants>
+</Contamination_In>
+<Contamination_Out>
+<Solved_Contaminants>0
+</Solved_Contaminants>
+</Contamination_Out>
+<Open_Area>
+<Open_Area> %</Open_Area>
+<Open_Area_Curve> &lt;s,%></Open_Area_Curve>
+</Open_Area>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-47696">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature>94.2104034423828 C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature>93.3830032348633 C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature>93.7085037231445 C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature>94.2031021118164 C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature>93.3855972290039 C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature>93.7080993652344 C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides>Yes</ShowPolygonSides>
+<ShowCuboidSides>No</ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In>2.01958179473877 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>1.368460178375244 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0.016113419085741 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.440642058849335 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0.023174718022346 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.247429683804512 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+<Polygon_Faces>
+<Top>
+<Heat_Conduction_In>0.208646401762962 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Top>
+<Bottom>
+<Heat_Conduction_In>0.175616607069969 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Bottom>
+<Sides>
+<Heat_Conduction_In>1.635318785905838 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>1.368460185825825 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0.016113418387249 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.440642050918541 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0.023174717091024 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.247429687529802 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Sides>
+</Polygon_Faces>
+</Heat_Fluxes>
+<Joule_Heating>0 W</Joule_Heating>
+<Joule_Heating_Curve> &lt;s,W></Joule_Heating_Curve>
+<Derated_Power_Temperature_Curve> &lt;C,W></Derated_Power_Temperature_Curve>
+<Temperature_Dependent_Heating> W</Temperature_Dependent_Heating>
+<Temperature_Dependent_Heating_Curve> &lt;s,W></Temperature_Dependent_Heating_Curve>
+<Controlling_Temperature> C</Controlling_Temperature>
+<Controlling_Temperature_Curve> &lt;s,C></Controlling_Temperature_Curve>
+<Embedded_Heating>0 W</Embedded_Heating>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-47700">
+<Simulation_Results>
+<Temperature_In>
+<Min_Temperature_In> C</Min_Temperature_In>
+<Mean_Temperature_In> C</Mean_Temperature_In>
+<Max_Temperature_In> C</Max_Temperature_In>
+<Min_Temperature_In_Curve> &lt;s,C></Min_Temperature_In_Curve>
+<Mean_Temperature_In_Curve> &lt;s,C></Mean_Temperature_In_Curve>
+<Max_Temperature_In_Curve> &lt;s,C></Max_Temperature_In_Curve>
+</Temperature_In>
+<Temperature_Out>
+<Min_Temperature_Out> C</Min_Temperature_Out>
+<Mean_Temperature_Out> C</Mean_Temperature_Out>
+<Max_Temperature_Out> C</Max_Temperature_Out>
+<Min_Temperature_Out_Curve> &lt;s,C></Min_Temperature_Out_Curve>
+<Mean_Temperature_Out_Curve> &lt;s,C></Mean_Temperature_Out_Curve>
+<Max_Temperature_Out_Curve> &lt;s,C></Max_Temperature_Out_Curve>
+</Temperature_Out>
+<Through_Flow>
+<Positive_Flow>0 m^3/s</Positive_Flow>
+<Negative_Flow>0 m^3/s</Negative_Flow>
+<Net_Flow>0 m^3/s</Net_Flow>
+<Positive_Flow_Curve> &lt;s,m^3/s></Positive_Flow_Curve>
+<Negative_Flow_Curve> &lt;s,m^3/s></Negative_Flow_Curve>
+<Net_Flow_Curve> &lt;s,m^3/s></Net_Flow_Curve>
+</Through_Flow>
+<Heat_Flow>
+<Positive_Heat_Flow> W</Positive_Heat_Flow>
+<Positive_Heat_Flow_Curve> &lt;s,W></Positive_Heat_Flow_Curve>
+<Negative_Heat_Flow> W</Negative_Heat_Flow>
+<Negative_Heat_Flow_Curve> &lt;s,W></Negative_Heat_Flow_Curve>
+<Net_Heat_Flow> W</Net_Heat_Flow>
+<Net_Heat_Flow_Curve> &lt;s,W></Net_Heat_Flow_Curve>
+</Heat_Flow>
+<Contamination_In>
+<Solved_Contaminants>0
+</Solved_Contaminants>
+</Contamination_In>
+<Contamination_Out>
+<Solved_Contaminants>0
+</Solved_Contaminants>
+</Contamination_Out>
+<Open_Area>
+<Open_Area> %</Open_Area>
+<Open_Area_Curve> &lt;s,%></Open_Area_Curve>
+</Open_Area>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-47699">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature>96.4198989868164 C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature>95.5705032348633 C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature>95.9725036621094 C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature>96.4129028320313 C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature>95.5721969604492 C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature>95.9717025756836 C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides>Yes</ShowPolygonSides>
+<ShowCuboidSides>No</ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In>0.922402560710907 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0.621825337409973 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0.001672688638791 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.237128555774689 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0.003992985468358 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.075011104345322 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+<Polygon_Faces>
+<Top>
+<Heat_Conduction_In>0.055755980312824 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0.00020635999681 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Top>
+<Bottom>
+<Heat_Conduction_In>0.040534898638725 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Bottom>
+<Sides>
+<Heat_Conduction_In>0.826111670350656 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0.621618972392753 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0.001672688667895 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.237128551430942 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0.003992985293735 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.075011100620031 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Sides>
+</Polygon_Faces>
+</Heat_Fluxes>
+<Joule_Heating>0 W</Joule_Heating>
+<Joule_Heating_Curve> &lt;s,W></Joule_Heating_Curve>
+<Derated_Power_Temperature_Curve> &lt;C,W></Derated_Power_Temperature_Curve>
+<Temperature_Dependent_Heating> W</Temperature_Dependent_Heating>
+<Temperature_Dependent_Heating_Curve> &lt;s,W></Temperature_Dependent_Heating_Curve>
+<Controlling_Temperature> C</Controlling_Temperature>
+<Controlling_Temperature_Curve> &lt;s,C></Controlling_Temperature_Curve>
+<Embedded_Heating>0 W</Embedded_Heating>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-47702">
+<Simulation_Results>
+<Surface_Temperature>
+<Maximum_Surface_Temperature>97.9080963134766 C</Maximum_Surface_Temperature>
+<Maximum_Surface_Temperature_Curve> &lt;s,C></Maximum_Surface_Temperature_Curve>
+<Minimum_Surface_Temperature>95.5847015380859 C</Minimum_Surface_Temperature>
+<Minimum_Surface_Temperature_Curve> &lt;s,C></Minimum_Surface_Temperature_Curve>
+<Mean_Surface_Temperature>96.1606979370117 C</Mean_Surface_Temperature>
+<Mean_Surface_Temperature_Curve> &lt;s,C></Mean_Surface_Temperature_Curve>
+</Surface_Temperature>
+<Volume_Temperature>
+<Maximum_Volume_Temperature>97.6565017700195 C</Maximum_Volume_Temperature>
+<Maximum_Volume_Temperature_Curve> &lt;s,C></Maximum_Volume_Temperature_Curve>
+<Minimum_Volume_Temperature>95.5863037109375 C</Minimum_Volume_Temperature>
+<Minimum_Volume_Temperature_Curve> &lt;s,C></Minimum_Volume_Temperature_Curve>
+<Mean_Volume_Temperature>96.1781005859375 C</Mean_Volume_Temperature>
+<Mean_Volume_Temperature_Curve> &lt;s,C></Mean_Volume_Temperature_Curve>
+</Volume_Temperature>
+<Heat_Fluxes>
+<ShowPolygonSides>No</ShowPolygonSides>
+<ShowCuboidSides>Yes</ShowCuboidSides>
+<Summary>
+<Heat_Conduction_In>1.935132503509521 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0.762500941753387 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0.069707199931145 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.8918616771698 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0.020640211179852 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.434459090232849 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Summary>
+<Cuboid_Faces>
+<Top>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.57738846540451 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.35941144824028 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Top>
+<Bottom>
+<Heat_Conduction_In>1.935132503509521 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0.762500941753387 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0.069707199931145 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.000771962455474 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0.020640211179852 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Bottom>
+<Left>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.073892429471016 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.017715020105243 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Left>
+<Right>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.075825117528439 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.01790970005095 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Right>
+<Front>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.082425713539124 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.019922969862819 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Front>
+<Back>
+<Heat_Conduction_In>0 W</Heat_Conduction_In>
+<Heat_Conduction_In_Curve> &lt;s,W></Heat_Conduction_In_Curve>
+<Heat_Conduction_Out>0 W</Heat_Conduction_Out>
+<Heat_Conduction_Out_Curve> &lt;s,W></Heat_Conduction_Out_Curve>
+<Heat_Convection_In>0 W</Heat_Convection_In>
+<Heat_Convection_In_Curve> &lt;s,W></Heat_Convection_In_Curve>
+<Heat_Convection_Out>0.081557974219322 W</Heat_Convection_Out>
+<Heat_Convection_Out_Curve> &lt;s,W></Heat_Convection_Out_Curve>
+<Heat_Radiation_In>0 W</Heat_Radiation_In>
+<Heat_Radiation_In_Curve> &lt;s,W></Heat_Radiation_In_Curve>
+<Heat_Radiation_Out>0.019499940797687 W</Heat_Radiation_Out>
+<Heat_Radiation_Out_Curve> &lt;s,W></Heat_Radiation_Out_Curve>
+</Back>
+</Cuboid_Faces>
+</Heat_Fluxes>
+<Joule_Heating>0 W</Joule_Heating>
+<Joule_Heating_Curve> &lt;s,W></Joule_Heating_Curve>
+<Derated_Power_Temperature_Curve> &lt;C,W></Derated_Power_Temperature_Curve>
+<Temperature_Dependent_Heating> W</Temperature_Dependent_Heating>
+<Temperature_Dependent_Heating_Curve> &lt;s,W></Temperature_Dependent_Heating_Curve>
+<Controlling_Temperature> C</Controlling_Temperature>
+<Controlling_Temperature_Curve> &lt;s,C></Controlling_Temperature_Curve>
+<Embedded_Heating>0 W</Embedded_Heating>
+<Solar_Heating>0 W</Solar_Heating>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-47667">
+<Simulation_Results>
+<Temperature_In>
+<Min_Temperature_In>75 C</Min_Temperature_In>
+<Mean_Temperature_In>75 C</Mean_Temperature_In>
+<Max_Temperature_In>75 C</Max_Temperature_In>
+<Min_Temperature_In_Curve> &lt;s,C></Min_Temperature_In_Curve>
+<Mean_Temperature_In_Curve> &lt;s,C></Mean_Temperature_In_Curve>
+<Max_Temperature_In_Curve> &lt;s,C></Max_Temperature_In_Curve>
+</Temperature_In>
+<Temperature_Out>
+<Min_Temperature_Out>75.0005035400391 C</Min_Temperature_Out>
+<Mean_Temperature_Out>75.4404983520508 C</Mean_Temperature_Out>
+<Max_Temperature_Out>79.9654006958008 C</Max_Temperature_Out>
+<Min_Temperature_Out_Curve> &lt;s,C></Min_Temperature_Out_Curve>
+<Mean_Temperature_Out_Curve> &lt;s,C></Mean_Temperature_Out_Curve>
+<Max_Temperature_Out_Curve> &lt;s,C></Max_Temperature_Out_Curve>
+</Temperature_Out>
+<In_Flow>
+<Flow_In>0.005774150136858 m^3/s</Flow_In>
+<Flow_In_Curve> &lt;s,m^3/s></Flow_In_Curve>
+</In_Flow>
+<Out_Flow>
+<Flow_Out>0.005779440049082 m^3/s</Flow_Out>
+<Flow_Out_Curve> &lt;s,m^3/s></Flow_Out_Curve>
+</Out_Flow>
+<Heat_Flow>
+<Heat_Flow_In>0 W</Heat_Flow_In>
+<Heat_Flow_In_Curve> &lt;s,W></Heat_Flow_In_Curve>
+<Heat_Flow_Out>2.58740250784803 W</Heat_Flow_Out>
+<Heat_Flow_Out_Curve> &lt;s,W></Heat_Flow_Out_Curve>
+</Heat_Flow>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-47733">
+<Simulation_Results>
+<Heat_Dissipated> W</Heat_Dissipated>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-47733">
+<Simulation_Results>
+<ADPI> %</ADPI>
+</Simulation_Results>
+</ExtendEntity>
+<ExtendEntity id="45995-47733">
+<Simulation_Results>
+<Model_Status>10</Model_Status>
+<Steady_State_Solution_Available>Yes</Steady_State_Solution_Available>
+<Transient_Results>No</Transient_Results>
+<Transient_Simulation_Results>No</Transient_Simulation_Results>
+<OutputTimes> &lt;s></OutputTimes>
+<Available_Variables>Temperature,Velocity,X Velocity,Y Velocity,Z Velocity,Pressure,KE,EP,Heat Flux Magnitude,X Heat Flux,Y Heat Flux,Z Heat Flux</Available_Variables>
+<Available_Surface_Variables>Surface Heat Flux,Radiation Surface Heat Flux,Surface Radiation</Available_Surface_Variables>
+<Available_Vector_Variables>Velocity,Heat Flux</Available_Vector_Variables>
+<Available_Flow_Solution_Regions>1,2,3</Available_Flow_Solution_Regions>
+<HasSolvedContaminants>No</HasSolvedContaminants>
+<Parallel_Solution>Yes</Parallel_Solution>
+<Last_Solver_Run_Start>Wednesday 15 July 2020 [11:08:04]</Last_Solver_Run_Start>
+<Last_Solver_Run_End>Wednesday 15 July 2020 [11:12:07]</Last_Solver_Run_End>
+<Grid_Generation_Time>1.57119 s</Grid_Generation_Time>
+<Overall_CFD_Generation_Time>5.453201 s</Overall_CFD_Generation_Time>
+<Radiation_View_Factor_Time>0 s</Radiation_View_Factor_Time>
+<Radiation_Absorption_Factor_Time>0 s</Radiation_Absorption_Factor_Time>
+<Joule_Heating_Time>0 s</Joule_Heating_Time>
+<Last_Solver_Run_Time>213.054 s</Last_Solver_Run_Time>
+<Cumulative_Solver_Time>213.054 s</Cumulative_Solver_Time>
+<Last_Solver_Run_Number_Of_Iterations>200</Last_Solver_Run_Number_Of_Iterations>
+<Cumulative_Number_Of_Iterations>200</Cumulative_Number_Of_Iterations>
+<Last_Solver_Run_Number_Of_Time_Steps>0</Last_Solver_Run_Number_Of_Time_Steps>
+<Cumulative_Number_Of_Time_Steps>0</Cumulative_Number_Of_Time_Steps>
+<Number_Of_Processes>8</Number_Of_Processes>
+<Parallel_Data_Decomposition_Time>13.453 s</Parallel_Data_Decomposition_Time>
+<Parallel_Data_Reassembly_Time>7.94339 s</Parallel_Data_Reassembly_Time>
+<Update_From_CFD_Solution_Time>1.06073 s</Update_From_CFD_Solution_Time>
+</Simulation_Results>
+</ExtendEntity>
+</DataDefinition>
+

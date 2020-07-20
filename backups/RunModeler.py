@@ -2,7 +2,7 @@ import os
 import time
 import subprocess
 
-from Modeler import SimplePCB
+from lib.Modeler import SimplePCB
 
 # Making Instance
 Board1 = SimplePCB()

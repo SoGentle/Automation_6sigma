@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="image">
+    <file>Tab1-2.png</file>
+    <file>Tab1.png</file>
+    <file>Tab2.png</file>
+  </qresource>
+</RCC>

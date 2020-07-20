@@ -338,7 +338,7 @@ Layer_XML = """
 
 # %% Modifying PCB contents
 class SimplePCB():
-    def __init__(self, filePath='./resource/Default_XML.xml'):
+    def __init__(self, filePath='./Default_XML.xml'):
         """
         This class is for making simplifed PCB for 6sigma.
 
@@ -386,8 +386,8 @@ class SimplePCB():
     def _setResultPath(self, path=os.path.abspath(__file__)):
         self._ET_Project.find('SolutionControlLink/Solution_Control/Solution_Directory').text = path
     
-    def setAmbientTemp(self):
-        pass
+    def setAmbientTemp(self, temperature):
+        self._ET_Project.find('Environments/Environment/Temperature/Temperature').text = str(temperature) + ' C'
     
     def setPcbInfo(self, Thickness=1.6, Width=100, Depth=90):
         self.PcbInfo = {'Width':Width, 'Depth':Depth, 'Thickness': Thickness}
@@ -410,7 +410,7 @@ class SimplePCB():
         if Thickness == [] and Percentage == []:
             for numb in range(Layers):
                 self.LayersInfo[numb]={'Thickness':0.035, 'Percentage':80}
-        else:  
+        else:
             for numb in range(Layers):
                 self.LayersInfo[numb]={'Thickness':Thickness[numb], 'Percentage':Percentage[numb]}
 
@@ -430,11 +430,11 @@ class SimplePCB():
             self._TagConductor_Layers.insert(i, _TagConductor_Layer)
 
         
-    def addComponent(self, name, X=0, Z=0, side='Top', width=5, depth=5, height=2, material='Si(Silicon)', TIM='No', powerType='Simplified', power=1, junction2Case = 1, junction2Board=10):
+    def addComponent(self, name, X=0, Z=0, side='Top', width=5, depth=5, height=2, material='Si(Silicon)', TIM='No', powerType='Simplified', power=1, junction2Case = 1, junction2Board=10, maxAvailableTemp=100):
         if powerType == 'Simplified':
-            self.Components.append({'Reference_Designator':name, 'X_Location': X, 'Z_Location':Z, 'Board_Side':side, 'Width':width, 'Depth':depth, 'Height':height, 'MaterialLink':material, 'TIM':TIM, 'Modelling_Level':'Simplified', 'Thermal_Design_Power': power })
+            self.Components.append({'Reference_Designator':name, 'X_Location': X, 'Z_Location':Z, 'Board_Side':side, 'Width':width, 'Depth':depth, 'Height':height, 'MaterialLink':material, 'TIM':TIM, 'Modelling_Level':'Simplified', 'Thermal_Design_Power': power, 'MaxAvailableTemp':maxAvailableTemp })
         elif powerType == '2R':
-            self.Components.append({'Reference_Designator':name, 'X_Location': X, 'Z_Location':Z, 'Board_Side':side, 'Width':width, 'Depth':depth, 'Height':height, 'MaterialLink':material, 'TIM':TIM, 'Modelling_Level':'2R', 'Thermal_Design_Power':power, 'Junction-to-Case_Thermal_Resistance': junction2Case, 'Junction-to-Board_Thermal_Resistance': junction2Case })
+            self.Components.append({'Reference_Designator':name, 'X_Location': X, 'Z_Location':Z, 'Board_Side':side, 'Width':width, 'Depth':depth, 'Height':height, 'MaterialLink':material, 'TIM':TIM, 'Modelling_Level':'2R', 'Thermal_Design_Power':power, 'Junction-to-Case_Thermal_Resistance': junction2Case, 'Junction-to-Board_Thermal_Resistance': junction2Case, 'MaxAvailableTemp':maxAvailableTemp })
         else:
             print('Error: Undefined power type!')
             
@@ -444,16 +444,17 @@ class SimplePCB():
     def deleteComponent(self): 
         self.Components = []
         print('Every Components was deleted')
-        
+
     def _setPcbComponents(self):
         self._TagComponents = self._Chassis.find('PCBs/PCB/Components')
-        numb=0 
-        sumPower=0
-        for Component in self.Components:
+        # numb=0
+        # sumPower=0
+        for numb, Component in enumerate(self.Components):
             _TagComponent = ET.fromstring(Component_Simplified_XML)
             print(Component['Reference_Designator'] + " was added!")
             
-            _TagComponent.attrib['id'] = "45995-"+str(32000+numb) 
+            _TagComponent.attrib['id'] = "45995-"+str(32000+numb)
+            self.Components[numb]['id'] = _TagComponent.attrib['id']
             _TagComponent.find('Identification/Reference_Designator').text = Component['Reference_Designator']
             _TagComponent.find('Geometry/Height').text = str(Component['Height']) + ' mm'
             _TagComponent.find('Geometry/Width').text = str(Component['Width']) + ' mm'
@@ -472,10 +473,9 @@ class SimplePCB():
             elif Component['Board_Side'] == 'Bottom': 
                 _TagComponent.find('TIMs/TIM/Construction/MaterialLink').text = self.MaterialDict[self.CaseInfo['Lower_Material']]
                 _TagComponent.find('TIMs/TIM/Construction/Thickness').text = str(self.CaseInfo['Lower_Height'] - self.CaseInfo['Lower_Thickness'] - Component['Height']) + " mm"
-
             else:
                 print("Error in Component Information")
-            
+
             _ComponentConstruction = _TagComponent.find('Construction')
             if Component['Modelling_Level'] == '2R':
                 ET.SubElement(_ComponentConstruction, "Junction-to-Case_Thermal_Resistance")
@@ -490,8 +490,8 @@ class SimplePCB():
             _TagComponent.find('Power/Calculated_Power').text = str(Component['Thermal_Design_Power']) + " W"
 
             self._TagComponents.insert(numb, _TagComponent)
-            numb += 1
-            sumPower += Component['Thermal_Design_Power']
+            # numb += 1
+            # sumPower += Component['Thermal_Design_Power']
         
         # #토탈 파워
         # self._Chassis.find('PCBs/PCB/Power/Total_Power').text = str(sumPower) + " W"
@@ -544,17 +544,19 @@ class SimplePCB():
         self.ResultFile = fileName
         self._tree.write(fileName, encoding='UTF-8', xml_declaration=True)
 
-    def runSim(self):
-        print("Run Simulation : ", self.ResultFile)
+    def runSim(self, fileFullPath):
+        # print("Run Simulation : ", self.ResultFile)
         ETSolver='"C:\\Program Files\\6SigmaETRelease14\\6SigmaEmbeddedSolver.exe"'
-        BatchCommand = ETSolver + " -xmlmodel " + self.ResultFile + " -licenseserver 10.230.22.106 4242 -decodeSimulationResults"
-        # while True:
-        #     try:
-        #         returend_output = subprocess.check_output(BatchCommand)
-        #         print("DONE")
-        #         break
-        #     except:
-        #         time.sleep(10)
+        BatchCommand = ETSolver + " -xmlmodel " + fileFullPath + " -licenseserver 10.230.22.106 4242 -numproc 8 -numgenthreads 8 -restart -nozip -decodeSimulationResults"
+        print(BatchCommand)
+        # os.system(BatchCommand)
+        while True:
+            try:
+                returend_output = subprocess.check_output(BatchCommand)
+                print("DONE")
+                break
+            except:
+                time.sleep(10)
 
 # %% RUN
 if __name__ == "__main__":
@@ -571,10 +573,10 @@ if __name__ == "__main__":
     # Set Parameters    
     Board1.setPcbInfo(Thickness=1.6, Width=100, Depth=90)
     
-    Layers_Thickness=[0.035, 0.07, 0.035, 0.035, 0.03, 0.07, 0.07, 0.03, 0.035, 0.035, 0.07, 0.035]
-    Layers_Percentage=[85, 75, 80, 90, 95, 95, 95, 95, 90, 80, 75, 85]
+    Layers_Thickness=[0.035, 0.07, 0.035, 0.035]
+    Layers_Percentage=[85, 75, 80, 90]
     
-    Board1.setLayersInfo(Layers=12, Thickness=Layers_Thickness, Percentage=Layers_Percentage)
+    Board1.setLayersInfo(Layers=4, Thickness=Layers_Thickness, Percentage=Layers_Percentage)
     
     Board1.addComponent(name="U_T_Sim", X=20, Z=50, side='Top', width=4, depth=5, height=3, material='Si(Silicon)', TIM='No', powerType='Simplified', power=1)
     Board1.addComponent(name="U_T_Sim_TIM", X=40, Z=50, side='Top', width=4, depth=5, height=3, material='Si(Silicon)', TIM='Yes', powerType='Simplified', power=1)
@@ -587,5 +589,12 @@ if __name__ == "__main__":
     Board1._setLayersInfo()
     Board1._setPcbComponents()
     Board1._setCase()
+    ResultFile='Result.xml'
+    Board1.saveXML(fileName=ResultFile)
+    CurrentFolder=os.getcwd()
+    ResultFileFullPath=os.path.join(CurrentFolder, ResultFile)
+    print(ResultFileFullPath)
+    ETSolver='"C:\\Program Files\\6SigmaETRelease14\\6SigmaEmbeddedSolver.exe"'
+    BatchCommand = ETSolver + " -xmlmodel " + ResultFile + " -licenseserver 10.230.22.106 4242 -decodeSimulationResults"
     
-    Board1.saveXML()
+    Board1.runSim(fileFullPath=ResultFileFullPath)

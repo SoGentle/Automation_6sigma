@@ -338,7 +338,7 @@ Layer_XML = """
 
 # %% Modifying PCB contents
 class SimplePCB():
-    def __init__(self, filePath='./resource/Default_XML.xml'):
+    def __init__(self, filePath='./Default_XML.xml'):
         """
         This class is for making simplifed PCB for 6sigma.
 
@@ -386,8 +386,8 @@ class SimplePCB():
     def _setResultPath(self, path=os.path.abspath(__file__)):
         self._ET_Project.find('SolutionControlLink/Solution_Control/Solution_Directory').text = path
     
-    def setAmbientTemp(self):
-        pass
+    def setAmbientTemp(self, temperature):
+        self._ET_Project.find('Environments/Environment/Temperature/Temperature').text = str(temperature) + ' C'
     
     def setPcbInfo(self, Thickness=1.6, Width=100, Depth=90):
         self.PcbInfo = {'Width':Width, 'Depth':Depth, 'Thickness': Thickness}
@@ -544,10 +544,11 @@ class SimplePCB():
         self.ResultFile = fileName
         self._tree.write(fileName, encoding='UTF-8', xml_declaration=True)
 
-    def runSim(self):
-        print("Run Simulation : ", self.ResultFile)
+    def runSim(self, fileFullPath):
+        # print("Run Simulation : ", self.ResultFile)
         ETSolver='"C:\\Program Files\\6SigmaETRelease14\\6SigmaEmbeddedSolver.exe"'
-        BatchCommand = ETSolver + " -xmlmodel " + self.ResultFile + " -licenseserver 10.230.22.106 4242 -decodeSimulationResults"
+        BatchCommand = ETSolver + " -xmlmodel " + fileFullPath + " -licenseserver 10.230.22.106 4242 -numproc 8 -numgenthreads 8 -nozip -decodeSimulationResults"
+        print(BatchCommand)
         # while True:
         #     try:
         #         returend_output = subprocess.check_output(BatchCommand)
